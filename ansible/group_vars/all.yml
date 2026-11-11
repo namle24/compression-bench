@@ -1,0 +1,20 @@
+hadoop_version: "3.4.1"
+# Switch to hadoop-{{ hadoop_version }}.tar.gz if the lean archive is not available on the mirror.
+hadoop_url: "https://archive.apache.org/dist/hadoop/common/hadoop-{{ hadoop_version }}/hadoop-{{ hadoop_version }}-lean.tar.gz"
+hadoop_home: /opt/hadoop
+hadoop_data_dir: /data/hadoop
+java_home: /usr/lib/jvm/java-11-openjdk-amd64
+master_host: "{{ groups['master'][0] }}"
+
+hdfs_replication: 2
+hdfs_block_size: 134217728
+
+# Size these to the worker VMs (leave ~1.5 GB for the OS and the DataNode).
+nm_memory_mb: 6144
+nm_vcores: 4
+am_memory_mb: 1024
+map_memory_mb: 1024
+reduce_memory_mb: 2048
+sort_mb: 256
+
+zstd_level: 3

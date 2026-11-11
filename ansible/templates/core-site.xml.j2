@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<configuration>
+  <property>
+    <name>fs.defaultFS</name>
+    <value>hdfs://{{ master_host }}:9000</value>
+  </property>
+  <property>
+    <name>hadoop.tmp.dir</name>
+    <value>{{ hadoop_data_dir }}/tmp</value>
+  </property>
+  <property>
+    <name>io.compression.codec.zstd.level</name>
+    <value>{{ zstd_level }}</value>
+  </property>
+</configuration>

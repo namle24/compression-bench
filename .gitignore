@@ -1,0 +1,5 @@
+apps/build/
+apps/*.jar
+__pycache__/
+.DS_Store
+results-smoke/

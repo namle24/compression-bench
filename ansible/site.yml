@@ -1,0 +1,151 @@
+- name: Common node setup
+  hosts: cluster
+  become: true
+  tasks:
+    - name: Install packages
+      ansible.builtin.apt:
+        name:
+          - openjdk-11-jdk-headless
+          - rsync
+          - curl
+          - chrony
+          - libzstd1
+          - zlib1g
+          - libsnappy1v5
+          - python3
+        update_cache: true
+        cache_valid_time: 3600
+
+    - name: Install analysis packages on master
+      ansible.builtin.apt:
+        name: [python3-pandas, python3-matplotlib]
+      when: inventory_hostname in groups['master']
+
+    - name: Set hostname
+      ansible.builtin.hostname:
+        name: "{{ inventory_hostname }}"
+
+    - name: Drop the 127.0.1.1 hostname alias
+      ansible.builtin.lineinfile:
+        path: /etc/hosts
+        regexp: '^127\.0\.1\.1'
+        state: absent
+
+    - name: Add cluster nodes to /etc/hosts
+      ansible.builtin.lineinfile:
+        path: /etc/hosts
+        regexp: '\s{{ item }}$'
+        line: "{{ hostvars[item].ansible_host }} {{ item }}"
+      loop: "{{ groups['cluster'] }}"
+
+    - name: Allow cache drop and traffic shaping without password
+      ansible.builtin.copy:
+        dest: /etc/sudoers.d/bench
+        content: "{{ ansible_user }} ALL=(root) NOPASSWD: /usr/bin/tee /proc/sys/vm/drop_caches, /usr/sbin/tc\n"
+        mode: "0440"
+        validate: visudo -cf %s
+
+    - name: Download Hadoop
+      ansible.builtin.get_url:
+        url: "{{ hadoop_url }}"
+        dest: "/tmp/hadoop-{{ hadoop_version }}.tar.gz"
+        timeout: 600
+
+    - name: Unpack Hadoop
+      ansible.builtin.unarchive:
+        src: "/tmp/hadoop-{{ hadoop_version }}.tar.gz"
+        dest: /opt
+        remote_src: true
+        owner: "{{ ansible_user }}"
+        group: "{{ ansible_user }}"
+        creates: "/opt/hadoop-{{ hadoop_version }}"
+
+    - name: Link Hadoop home
+      ansible.builtin.file:
+        src: "/opt/hadoop-{{ hadoop_version }}"
+        dest: "{{ hadoop_home }}"
+        state: link
+
+    - name: Create data and tool directories
+      ansible.builtin.file:
+        path: "{{ item }}"
+        state: directory
+        owner: "{{ ansible_user }}"
+        group: "{{ ansible_user }}"
+      loop:
+        - "{{ hadoop_data_dir }}/nn"
+        - "{{ hadoop_data_dir }}/dn"
+        - "{{ hadoop_data_dir }}/tmp"
+        - /opt/bench
+
+    - name: Export Hadoop environment
+      ansible.builtin.copy:
+        dest: /etc/profile.d/hadoop.sh
+        content: |
+          export JAVA_HOME={{ java_home }}
+          export HADOOP_HOME={{ hadoop_home }}
+          export HADOOP_CONF_DIR={{ hadoop_home }}/etc/hadoop
+          export PATH=$HADOOP_HOME/bin:$HADOOP_HOME/sbin:$PATH
+
+    - name: Set JAVA_HOME for Hadoop daemons
+      ansible.builtin.lineinfile:
+        path: "{{ hadoop_home }}/etc/hadoop/hadoop-env.sh"
+        regexp: '^export JAVA_HOME='
+        line: "export JAVA_HOME={{ java_home }}"
+
+    - name: Write Hadoop configuration
+      ansible.builtin.template:
+        src: "templates/{{ item }}.j2"
+        dest: "{{ hadoop_home }}/etc/hadoop/{{ item }}"
+        owner: "{{ ansible_user }}"
+      loop:
+        - core-site.xml
+        - hdfs-site.xml
+        - mapred-site.xml
+        - yarn-site.xml
+        - workers
+
+    - name: Install bench helper scripts
+      ansible.builtin.copy:
+        src: "{{ playbook_dir }}/../scripts/{{ item }}"
+        dest: "/opt/bench/{{ item }}"
+        mode: "0755"
+        owner: "{{ ansible_user }}"
+      loop: [monitor.sh, cluster.sh]
+
+- name: Create master SSH key
+  hosts: master
+  tasks:
+    - name: Generate key
+      ansible.builtin.command: ssh-keygen -t ed25519 -N "" -f {{ ansible_env.HOME }}/.ssh/id_ed25519
+      args:
+        creates: "{{ ansible_env.HOME }}/.ssh/id_ed25519"
+
+    - name: Read public key
+      ansible.builtin.slurp:
+        src: "{{ ansible_env.HOME }}/.ssh/id_ed25519.pub"
+      register: master_pubkey
+
+- name: Authorize master on every node
+  hosts: cluster
+  tasks:
+    - name: Add master key
+      ansible.posix.authorized_key:
+        user: "{{ ansible_user }}"
+        key: "{{ hostvars[master_host].master_pubkey.content | b64decode }}"
+
+- name: Format and start Hadoop
+  hosts: master
+  environment:
+    JAVA_HOME: "{{ java_home }}"
+    HADOOP_HOME: "{{ hadoop_home }}"
+  tasks:
+    - name: Format HDFS
+      ansible.builtin.command: "{{ hadoop_home }}/bin/hdfs namenode -format -nonInteractive"
+      args:
+        creates: "{{ hadoop_data_dir }}/nn/current"
+
+    - name: Start daemons
+      ansible.builtin.command: /opt/bench/cluster.sh start
+      register: start
+      changed_when: "'already running' not in start.stdout"
