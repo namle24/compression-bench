@@ -266,6 +266,40 @@ The effect on the total execution time is smaller than on the shuffle. For Bigra
 
 Compression of the shuffle becomes counterproductive when its CPU cost is larger than the time saved on the transfer. This almost happens with Gzip on Sort, where the large CPU overhead eats most of the gain, and it would happen on a cluster with a fast network and busy CPUs. In the main campaign the PC workers exchange data through a virtual switch that is much faster than a real network, which hides part of the benefit of C2. To check this, we repeated the C2 experiments with the network limited to 100 Mbit/s (next subsection).
 
+\subsection{With a 100 Mbit/s network}
+For this experiment \path{scripts/netlimit.sh} puts a token bucket filter (\path{tc tbf}) of 100 Mbit/s on the outgoing interface of every node, so that worker1 and worker2 can no longer use the speed of the virtual switch. We ran C0 and C2 for Sort and BigramCount at 2 and 4 GB, three times each (60 runs). The baseline values in Figure~\ref{fig:netlim} come from the main campaign. The other settings were not changed. Table 5 summarizes the change of execution time.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=1\linewidth]{../results/figures/netlimit_c2.png}
+  \caption{C0 and C2 execution time with the normal network (grey) and with all nodes limited to 100 Mbit/s (red).}
+  \label{fig:netlim}
+\end{figure}
+
+\begin{table}[H]
+  \centering
+  \small
+  \caption{Change of the execution time of C2 relative to C0 on the same network.}
+  \begin{tabular}{llrr}
+  \toprule
+  \textbf{Workload} & \textbf{Codec} & \textbf{Full speed} & \textbf{100 Mbit/s} \\
+  \midrule
+  Sort 2 GB & Zstandard & -4.6\% & -13.4\% \\
+  Sort 2 GB & mean of 4 codecs & -4.0\% & -7.2\% \\
+  Sort 4 GB & Zstandard & -8.4\% & -14.3\% \\
+  Sort 4 GB & mean of 4 codecs & -7.9\% & -7.7\% \\
+  BigramCount 2 GB & Zstandard & -13.2\% & -14.7\% \\
+  BigramCount 2 GB & mean of 4 codecs & -9.5\% & -17.1\% \\
+  BigramCount 4 GB & Zstandard & -11.3\% & -19.5\% \\
+  BigramCount 4 GB & mean of 4 codecs & -7.5\% & -13.5\% \\
+  \bottomrule
+  \end{tabular}
+\end{table}
+
+The limit makes the uncompressed jobs slower: Sort takes 18\% (2 GB) and 22\% (4 GB) more time, and BigramCount 10\% and 13\% more. The compressed runs lose less, so the gain of C2 grows. With Zstandard it goes from -8\% to -14\% for Sort at 4 GB and from -11\% to -20\% for BigramCount at 4 GB. For BigramCount the gain grows with every codec. For Sort the picture is less clear: Zstandard and Gzip benefit, but Snappy and LZ4 do not. Sort moves its input and its replicated output over the network too, and C2 does not reduce these transfers, so with a slow network they take a larger share of the run. Gzip remains the worst codec for Sort and is even 2\% slower than C0 at 2 GB.
+
+The limited runs also have much smaller error bars. At full speed the standard deviation of Sort 4 GB without compression is 49 s, against 18 s with the limit. We think the variation in the main campaign comes from the virtual switch and the host, which the two PC workers share. With the limit, every node has the same bandwidth and the runs are more stable.
+
 \section{Combined compression (C3)}
 \begin{figure}[H]
   \centering
@@ -286,7 +320,7 @@ Combining both levels can still make things worse. The clearest case is Gzip on 
 \end{figure}
 
 \section{Impact of dataset size}
-Table 5 gives the change of execution time compared with C0 for every size, for the best codec of each application (Zstandard) and for the worst cases of HashScore. A negative value means that the job is faster.
+Table 6 gives the change of execution time compared with C0 for every size, for the best codec of each application (Zstandard) and for the worst cases of HashScore. A negative value means that the job is faster.
 
 \begin{table}[H]
   \centering
@@ -335,10 +369,10 @@ Almost, but not systematically. For Sort, all 32 combinations of codec, size and
 It does not help and it can slow them down. HashScore spends almost all of its CPU time computing hashes; it reads 8.4 GiB but shuffles almost nothing. Storage compression reduces the bytes read but this was not the bottleneck, so the execution time stays within the variation (between -1\% and +7\% at 8 GB). With Gzip or Zstandard in C3 it is 9 to 11\% slower, and at 1 GB up to 24\% slower. The extra CPU time is small (+4\% with Gzip) but every second of CPU taken by the codec is a second not used for hashing, because the CPUs are already saturated.
 
 \paragraph{4. How do the benefits evolve with increasing dataset sizes?}\mbox{}\\
-For the I/O-bound and balanced applications the relative gain is about constant between 1 and 8 GB, so the absolute time saved grows with the data (Table 5). For the CPU-bound application the overhead is largest at 1 GB and becomes small at 8 GB. Results at small sizes are also more variable (coefficients of variation up to 24\% at 1 to 2 GB). We could not check whether this stays true beyond 8 GB.
+For the I/O-bound and balanced applications the relative gain is about constant between 1 and 8 GB, so the absolute time saved grows with the data (Table 6). For the CPU-bound application the overhead is largest at 1 GB and becomes small at 8 GB. Results at small sizes are also more variable (coefficients of variation up to 24\% at 1 to 2 GB). We could not check whether this stays true beyond 8 GB.
 
 \paragraph{5. Is compression more beneficial for storage or for network communication?}\mbox{}\\
-On our cluster it depends on where the bytes are. For Sort, storage compression is clearly more useful (-42\% with Zstandard in C1 against -14\% in C2 at 8 GB), because the input and the replicated output are larger than the shuffle and the output replicas also travel over the network. For BigramCount, whose output is small, the two levels give similar gains (-10\% to -16\% for C1 and -10\% to -23\% for C2). With a slower network, the value of shuffle compression goes up (Figure ??).
+On our cluster it depends on where the bytes are. For Sort, storage compression is clearly more useful (-42\% with Zstandard in C1 against -14\% in C2 at 8 GB), because the input and the replicated output are larger than the shuffle and the output replicas also travel over the network. For BigramCount, whose output is small, the two levels give similar gains (-10\% to -16\% for C1 and -10\% to -23\% for C2). With a slower network, the value of shuffle compression goes up (Figure~\ref{fig:netlim}).
 
 \paragraph{6. Can combining storage and communication compression degrade performance?}\mbox{}\\
 Yes. C3 with Gzip is slower than C1 with Gzip for Sort (396 s against 370 s at 8 GB, also at 2 GB), and C3 is the slowest configuration of HashScore with Gzip and Zstandard. In both cases the extra compression of the shuffle adds CPU time that is not paid back. With fast codecs (Zstandard, Snappy, LZ4) on I/O-bound or balanced jobs, C3 was always the best configuration.
