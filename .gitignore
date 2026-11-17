@@ -3,3 +3,7 @@ apps/*.jar
 __pycache__/
 .DS_Store
 results-smoke/
+report/*.aux
+report/*.log
+report/*.toc
+report/*.out

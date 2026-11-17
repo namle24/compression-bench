@@ -101,7 +101,7 @@ def workload_bars(runs, size):
             m, s = rel.groupby(sel.app).mean(), rel.groupby(sel.app).std().fillna(0)
             vals.append([m.get(a, np.nan) for a in APPS])
             errs.append([s.get(a, 0) for a in APPS])
-        bars(ax, [APPS[a].split(" ")[1] for a in APPS], CODECS, vals, errs,
+        bars(ax, [APPS[a].replace(" (", "\n(") for a in APPS], CODECS, vals, errs,
              [COLORS[c] for c in CODECS])
         ax.axhline(1.0, color="black", lw=1, ls="--")
         ax.set_title(f"{cfg} relative to C0 ({size} GB)")
@@ -217,7 +217,7 @@ def main():
     if bench is not None:
         bench = bench_table(bench)
 
-    size = runs.size_gb.max()
+    size = runs.groupby("size_gb").app.nunique().loc[lambda n: n == runs.app.nunique()].index.max()
     vs_size(runs, "exec_s", "Execution time (s)", 1, "exec_vs_size")
     vs_size(runs, "CPU_MILLISECONDS", "Task CPU time (s)", 1000, "cpu_vs_size")
     vs_size(runs, "disk_bytes", "Disk I/O volume, all nodes (GB)", GB, "disk_vs_size")
