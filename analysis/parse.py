@@ -57,8 +57,8 @@ def read_job(path):
     return {
         "state": j["state"],
         "exec_s": (j["finishTime"] - j["startTime"]) / 1000,
-        "maps": j["totalMaps"],
-        "reduces": j["totalReduces"],
+        "maps": j["mapsTotal"],
+        "reduces": j["reducesTotal"],
         "map_s": j.get("avgMapTime", 0) / 1000,
         "shuffle_s": j.get("avgShuffleTime", 0) / 1000,
         "merge_s": j.get("avgMergeTime", 0) / 1000,

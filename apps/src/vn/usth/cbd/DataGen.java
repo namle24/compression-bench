@@ -11,7 +11,6 @@ import org.apache.hadoop.fs.FileSystem;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.NullWritable;
-import org.apache.hadoop.io.SequenceFile;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.Mapper;
@@ -60,7 +59,8 @@ public class DataGen extends Configured implements Tool {
         Path out = new Path(args[1]);
         Configuration conf = getConf();
 
-        Path ctl = new Path(out.getParent(), "_ctl_" + out.getName());
+        // no leading underscore: FileInputFormat would skip the file
+        Path ctl = new Path(out.getParent(), "ctl-" + out.getName());
         FileSystem fs = ctl.getFileSystem(conf);
         try (PrintWriter w = new PrintWriter(
                 new OutputStreamWriter(fs.create(ctl, true), StandardCharsets.UTF_8))) {
@@ -79,7 +79,6 @@ public class DataGen extends Configured implements Tool {
         NLineInputFormat.setNumLinesPerSplit(job, 1);
         NLineInputFormat.addInputPath(job, ctl);
         job.setOutputFormatClass(SequenceFileOutputFormat.class);
-        SequenceFileOutputFormat.setOutputCompressionType(job, SequenceFile.CompressionType.BLOCK);
         job.setOutputKeyClass(NullWritable.class);
         job.setOutputValueClass(Text.class);
         FileOutputFormat.setOutputPath(job, out);
