@@ -1,0 +1,82 @@
+Configured Capacity: 371480289280 (345.97 GB)
+Present Capacity: 336566699162 (313.45 GB)
+DFS Remaining: 227415441408 (211.80 GB)
+DFS Used: 109151257754 (101.66 GB)
+DFS Used%: 32.43%
+Replicated Blocks:
+	Under replicated blocks: 0
+	Blocks with corrupt replicas: 0
+	Missing blocks: 0
+	Missing blocks (with replication factor 1): 0
+	Low redundancy blocks with highest priority to recover: 0
+	Pending deletion blocks: 0
+Erasure Coded Block Groups: 
+	Low redundancy block groups: 0
+	Block groups with corrupt internal blocks: 0
+	Missing block groups: 0
+	Low redundancy blocks with highest priority to recover: 0
+	Pending deletion blocks: 0
+
+-------------------------------------------------
+Live datanodes (3):
+
+Name: 192.168.1.202:9866 (worker1)
+Hostname: worker1
+Decommission Status : Normal
+Configured Capacity: 123401031680 (114.93 GB)
+DFS Used: 39157497856 (36.47 GB)
+Non DFS Used: 10070568960 (9.38 GB)
+DFS Remaining: 68831326208 (64.10 GB)
+DFS Used%: 31.73%
+DFS Remaining%: 55.78%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 0
+Last contact: Tue Nov 17 03:16:27 UTC 2026
+Last Block Report: Tue Nov 17 02:09:59 UTC 2026
+Num of Blocks: 2317
+
+
+Name: 192.168.1.203:9866 (worker2)
+Hostname: worker2
+Decommission Status : Normal
+Configured Capacity: 123401031680 (114.93 GB)
+DFS Used: 38639713117 (35.99 GB)
+Non DFS Used: 10069374115 (9.38 GB)
+DFS Remaining: 69350305792 (64.59 GB)
+DFS Used%: 31.31%
+DFS Remaining%: 56.20%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 0
+Last contact: Tue Nov 17 03:16:27 UTC 2026
+Last Block Report: Tue Nov 17 00:21:18 UTC 2026
+Num of Blocks: 2370
+
+
+Name: 192.168.1.204:9866 (worker3)
+Hostname: worker3
+Decommission Status : Normal
+Configured Capacity: 124678225920 (116.12 GB)
+DFS Used: 31354046781 (29.20 GB)
+Non DFS Used: 4073592515 (3.79 GB)
+DFS Remaining: 89233809408 (83.11 GB)
+DFS Used%: 25.15%
+DFS Remaining%: 71.57%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 0
+Last contact: Tue Nov 17 03:16:28 UTC 2026
+Last Block Report: Mon Nov 16 21:58:25 UTC 2026
+Num of Blocks: 2183
+
+

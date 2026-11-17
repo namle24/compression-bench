@@ -1,0 +1,115 @@
+2026-11-15 17:10:06,613 INFO client.DefaultNoHARMFailoverProxyProvider: Connecting to ResourceManager at master/192.168.1.201:8032
+2026-11-15 17:10:06,951 INFO mapreduce.JobResourceUploader: Disabling Erasure Coding for path: /tmp/hadoop-yarn/staging/hadoop/.staging/job_1794749680865_0086
+2026-11-15 17:10:07,173 INFO input.FileInputFormat: Total input files to process : 21
+2026-11-15 17:10:07,233 INFO mapreduce.JobSubmitter: number of splits:21
+2026-11-15 17:10:07,379 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1794749680865_0086
+2026-11-15 17:10:07,380 INFO mapreduce.JobSubmitter: Executing with tokens: []
+2026-11-15 17:10:07,504 INFO conf.Configuration: resource-types.xml not found
+2026-11-15 17:10:07,504 INFO resource.ResourceUtils: Unable to find 'resource-types.xml'.
+2026-11-15 17:10:07,552 INFO impl.YarnClientImpl: Submitted application application_1794749680865_0086
+2026-11-15 17:10:07,573 INFO mapreduce.Job: The url to track the job: http://master:8088/proxy/application_1794749680865_0086/
+2026-11-15 17:10:07,573 INFO mapreduce.Job: Running job: job_1794749680865_0086
+2026-11-15 17:10:12,655 INFO mapreduce.Job: Job job_1794749680865_0086 running in uber mode : false
+2026-11-15 17:10:12,657 INFO mapreduce.Job:  map 0% reduce 0%
+2026-11-15 17:10:29,781 INFO mapreduce.Job:  map 7% reduce 0%
+2026-11-15 17:10:30,786 INFO mapreduce.Job:  map 12% reduce 0%
+2026-11-15 17:10:31,791 INFO mapreduce.Job:  map 22% reduce 0%
+2026-11-15 17:10:35,814 INFO mapreduce.Job:  map 24% reduce 0%
+2026-11-15 17:10:36,820 INFO mapreduce.Job:  map 26% reduce 0%
+2026-11-15 17:10:37,842 INFO mapreduce.Job:  map 33% reduce 0%
+2026-11-15 17:10:41,864 INFO mapreduce.Job:  map 40% reduce 0%
+2026-11-15 17:10:42,871 INFO mapreduce.Job:  map 43% reduce 0%
+2026-11-15 17:10:53,931 INFO mapreduce.Job:  map 50% reduce 0%
+2026-11-15 17:10:57,950 INFO mapreduce.Job:  map 53% reduce 0%
+2026-11-15 17:10:58,960 INFO mapreduce.Job:  map 62% reduce 0%
+2026-11-15 17:10:59,965 INFO mapreduce.Job:  map 67% reduce 0%
+2026-11-15 17:11:00,970 INFO mapreduce.Job:  map 68% reduce 0%
+2026-11-15 17:11:01,975 INFO mapreduce.Job:  map 72% reduce 0%
+2026-11-15 17:11:04,989 INFO mapreduce.Job:  map 75% reduce 0%
+2026-11-15 17:11:05,993 INFO mapreduce.Job:  map 76% reduce 0%
+2026-11-15 17:11:09,009 INFO mapreduce.Job:  map 79% reduce 0%
+2026-11-15 17:11:10,014 INFO mapreduce.Job:  map 86% reduce 0%
+2026-11-15 17:11:15,039 INFO mapreduce.Job:  map 90% reduce 0%
+2026-11-15 17:11:17,047 INFO mapreduce.Job:  map 94% reduce 0%
+2026-11-15 17:11:18,052 INFO mapreduce.Job:  map 97% reduce 0%
+2026-11-15 17:11:22,086 INFO mapreduce.Job:  map 100% reduce 0%
+2026-11-15 17:11:38,198 INFO mapreduce.Job:  map 100% reduce 13%
+2026-11-15 17:11:40,205 INFO mapreduce.Job:  map 100% reduce 22%
+2026-11-15 17:11:41,209 INFO mapreduce.Job:  map 100% reduce 27%
+2026-11-15 17:11:44,222 INFO mapreduce.Job:  map 100% reduce 29%
+2026-11-15 17:11:50,246 INFO mapreduce.Job:  map 100% reduce 31%
+2026-11-15 17:11:52,253 INFO mapreduce.Job:  map 100% reduce 32%
+2026-11-15 17:11:53,258 INFO mapreduce.Job:  map 100% reduce 38%
+2026-11-15 17:11:56,270 INFO mapreduce.Job:  map 100% reduce 51%
+2026-11-15 17:11:57,275 INFO mapreduce.Job:  map 100% reduce 62%
+2026-11-15 17:11:58,281 INFO mapreduce.Job:  map 100% reduce 66%
+2026-11-15 17:11:59,287 INFO mapreduce.Job:  map 100% reduce 69%
+2026-11-15 17:12:01,295 INFO mapreduce.Job:  map 100% reduce 74%
+2026-11-15 17:12:03,304 INFO mapreduce.Job:  map 100% reduce 79%
+2026-11-15 17:12:04,307 INFO mapreduce.Job:  map 100% reduce 92%
+2026-11-15 17:12:05,312 INFO mapreduce.Job:  map 100% reduce 93%
+2026-11-15 17:12:07,319 INFO mapreduce.Job:  map 100% reduce 95%
+2026-11-15 17:12:10,331 INFO mapreduce.Job:  map 100% reduce 99%
+2026-11-15 17:12:11,354 INFO mapreduce.Job:  map 100% reduce 100%
+2026-11-15 17:12:11,378 INFO mapreduce.Job: Job job_1794749680865_0086 completed successfully
+2026-11-15 17:12:11,451 INFO mapreduce.Job: Counters: 54
+	File System Counters
+		FILE: Number of bytes read=3677479780
+		FILE: Number of bytes written=5546018726
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=1412346498
+		HDFS: Number of bytes written=315674751
+		HDFS: Number of read operations=114
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=12
+		HDFS: Number of bytes read erasure-coded=0
+	Job Counters 
+		Launched map tasks=21
+		Launched reduce tasks=6
+		Data-local map tasks=21
+		Total time spent by all maps in occupied slots (ms)=1026886
+		Total time spent by all reduces in occupied slots (ms)=922312
+		Total time spent by all map tasks (ms)=513443
+		Total time spent by all reduce tasks (ms)=230578
+		Total vcore-milliseconds taken by all map tasks=513443
+		Total vcore-milliseconds taken by all reduce tasks=230578
+		Total megabyte-milliseconds taken by all map tasks=525765632
+		Total megabyte-milliseconds taken by all reduce tasks=472223744
+	Map-Reduce Framework
+		Map input records=12344085
+		Map output records=185141649
+		Map output bytes=4310076485
+		Map output materialized bytes=1860598774
+		Input split bytes=2457
+		Combine input records=185141649
+		Combine output records=77004962
+		Reduce input groups=29668540
+		Reduce shuffle bytes=1860598774
+		Reduce input records=77004962
+		Reduce output records=29668540
+		Spilled Records=229188150
+		Shuffled Maps =126
+		Failed Shuffles=0
+		Merged Map outputs=126
+		GC time elapsed (ms)=8154
+		CPU time spent (ms)=534560
+		Physical memory (bytes) snapshot=14639173632
+		Virtual memory (bytes) snapshot=79355846656
+		Total committed heap usage (bytes)=11544821760
+		Peak Map Physical memory (bytes)=658485248
+		Peak Map Virtual memory (bytes)=2754883584
+		Peak Reduce Physical memory (bytes)=532193280
+		Peak Reduce Virtual memory (bytes)=3652009984
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=1412344041
+	File Output Format Counters 
+		Bytes Written=315674751

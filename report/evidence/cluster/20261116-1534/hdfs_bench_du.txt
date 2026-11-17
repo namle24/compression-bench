@@ -1,0 +1,2 @@
+48.6 G  97.3 G  /bench/data
+0       0       /bench/out

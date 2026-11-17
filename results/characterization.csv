@@ -1,0 +1,6 @@
+,exec_s,exec_s,cpu_util,cpu_util,iowait_util,iowait_util,disk_mbps,disk_mbps,net_mbps,net_mbps
+,mean,std,mean,std,mean,std,mean,std,mean,std
+app,,,,,,,,,,
+bigram,467.644,16.465,0.535,0.013,0.004,0.001,79.453,1.294,14.337,0.363
+hashscore,744.638,65.211,0.797,0.003,0.001,0.0,12.079,0.986,0.011,0.001
+sort,584.69,26.964,0.193,0.012,0.005,0.001,93.596,3.8,24.577,1.266

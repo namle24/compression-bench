@@ -1,0 +1,21 @@
+== worker2 Mon Nov 16 03:34:16 PM UTC 2026
+Linux worker2 5.15.0-203-generic #213-Ubuntu SMP Fri Oct 23 13:21:06 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
+CPU(s):                                  4
+Model name:                              12th Gen Intel(R) Core(TM) i5-12400F
+Thread(s) per core:                      1
+Flags:                                   fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon 
+               total        used        free      shared  buff/cache   available
+Mem:            7936        1587        5857           1         491        6101
+Swap:           4095         321        3774
+Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv  115G   45G   66G  41% /
+lo               UNKNOWN        127.0.0.1/8 ::1/128 
+ens160           UP             192.168.1.203/24 fe80::20c:29ff:fe7f:a8a5/64 
+1113217 Jps
+3496 NodeManager
+1112137 MRAppMaster
+1112891 YarnChild
+3343 DataNode
+ 15:34:17 up 1 day,  2:04,  0 users,  load average: 2.92, 2.27, 2.47
+	Speed: 10000Mb/s
+	Duplex: Full

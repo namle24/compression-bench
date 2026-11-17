@@ -1,0 +1,395 @@
+2026-11-15 13:38:32,304 INFO compress.CodecPool: Got brand-new compressor [.snappy]
+2026-11-15 13:38:33,780 INFO compress.CodecPool: Got brand-new decompressor [.snappy]
+2026-11-15 13:38:38,205 INFO compress.CodecPool: Got brand-new compressor [.lz4]
+2026-11-15 13:38:38,962 INFO compress.CodecPool: Got brand-new decompressor [.lz4]
+2026-11-15 13:38:42,444 INFO zlib.ZlibFactory: Successfully loaded & initialized native-zlib library
+2026-11-15 13:38:42,445 INFO compress.CodecPool: Got brand-new compressor [.gz]
+2026-11-15 13:38:49,979 INFO compress.CodecPool: Got brand-new decompressor [.gz]
+2026-11-15 13:39:35,321 INFO compress.CodecPool: Got brand-new compressor [.zst]
+2026-11-15 13:39:36,242 INFO compress.CodecPool: Got brand-new decompressor [.zst]
+codec    rep  orig_bytes  comp_bytes  ratio   comp_s    decomp_s  comp_cpu_s  decomp_cpu_s
+snappy   1    268435545   172201978   1.5588  0.6530    0.2061    0.6475      0.2337
+snappy   2    268435545   172201978   1.5588  0.5786    0.1950    0.5718      0.2221
+snappy   3    268435545   172201978   1.5588  0.5612    0.2022    0.5570      0.2301
+snappy   4    268435545   172201978   1.5588  0.5682    0.2015    0.5613      0.2280
+snappy   5    268435545   172201978   1.5588  0.5698    0.1959    0.5647      0.2242
+lz4      1    268435545   177694114   1.5107  0.5246    0.0821    0.5186      0.1191
+lz4      2    268435545   177694114   1.5107  0.5162    0.0883    0.5105      0.1162
+lz4      3    268435545   177694114   1.5107  0.5823    0.0869    0.5778      0.1181
+lz4      4    268435545   177694114   1.5107  0.5448    0.0879    0.5383      0.1205
+lz4      5    268435545   177694114   1.5107  0.5380    0.0843    0.5320      0.1122
+gzip     1    268435545   114085316   2.3529  7.5897    1.2783    7.5853      1.2953
+gzip     2    268435545   114085316   2.3529  7.5026    1.2613    7.4956      1.2792
+gzip     3    268435545   114085316   2.3529  7.4998    1.2598    7.4971      1.2805
+gzip     4    268435545   114085316   2.3529  7.5449    1.2754    7.5432      1.2944
+gzip     5    268435545   114085316   2.3529  7.3223    1.2814    7.3207      1.2988
+zstd-1   1    268435545   118007544   2.2747  0.9044    0.2103    0.9042      0.2273
+zstd-1   2    268435545   118007544   2.2747  0.8719    0.2153    0.8710      0.2356
+zstd-1   3    268435545   118007544   2.2747  0.8753    0.2083    0.8750      0.2295
+zstd-1   4    268435545   118007544   2.2747  0.8880    0.2032    0.8845      0.2220
+zstd-1   5    268435545   118007544   2.2747  0.8845    0.2053    0.8841      0.2224
+zstd-3   1    268435545   103649139   2.5898  1.4169    0.2100    1.4152      0.2215
+zstd-3   2    268435545   103649139   2.5898  1.4145    0.2128    1.4129      0.2258
+zstd-3   3    268435545   103649139   2.5898  1.4157    0.1998    1.4143      0.2158
+zstd-3   4    268435545   103649139   2.5898  1.3919    0.2180    1.3904      0.2355
+zstd-3   5    268435545   103649139   2.5898  1.4278    0.2203    1.4262      0.2370
+zstd-9   1    268435545   95342529    2.8155  8.3065    0.2601    8.2999      0.2773
+zstd-9   2    268435545   95342529    2.8155  8.3128    0.2574    8.3078      0.2747
+zstd-9   3    268435545   95342529    2.8155  8.3469    0.2586    8.3394      0.2747
+zstd-9   4    268435545   95342529    2.8155  8.3397    0.2439    8.3371      0.2594
+zstd-9   5    268435545   95342529    2.8155  8.2960    0.2548    8.2938      0.2706
+zstd-19  1    268435545   83895016    3.1997  124.0676  0.3024    124.0195    0.3159
+zstd-19  2    268435545   83895016    3.1997  126.0481  0.3288    126.0158    0.3438
+zstd-19  3    268435545   83895016    3.1997  128.2098  0.3208    128.1708    0.3344
+zstd-19  4    268435545   83895016    3.1997  123.1038  0.2954    123.0733    0.3111
+zstd-19  5    268435545   83895016    3.1997  123.6341  0.3008    123.6029    0.3139
+skip /bench/data/1g/none
+skip /bench/data/1g/snappy
+[13:53:18] generating /bench/data/1g/lz4
+[13:54:12] generating /bench/data/1g/gzip
+[13:54:56] generating /bench/data/1g/zstd
+[13:55:37] generating /bench/data/2g/none
+[13:57:16] generating /bench/data/2g/snappy
+[13:58:27] generating /bench/data/2g/lz4
+[13:59:33] generating /bench/data/2g/gzip
+[14:00:35] generating /bench/data/2g/zstd
+[14:01:29] generating /bench/data/4g/none
+[14:04:11] generating /bench/data/4g/snappy
+[14:06:08] generating /bench/data/4g/lz4
+[14:08:22] generating /bench/data/4g/gzip
+[14:10:04] generating /bench/data/4g/zstd
+[14:11:28] generating /bench/data/8g/none
+[14:17:39] generating /bench/data/8g/snappy
+[14:21:01] generating /bench/data/8g/lz4
+[14:24:37] generating /bench/data/8g/gzip
+[14:27:26] generating /bench/data/8g/zstd
+[14:29:45] sort_1g_C0_none_r1
+[14:31:40] sort_1g_C1_snappy_r1
+[14:32:56] sort_1g_C2_snappy_r1
+[14:34:21] sort_1g_C3_snappy_r1
+[14:35:29] sort_1g_C1_lz4_r1
+[14:36:57] sort_1g_C2_lz4_r1
+[14:38:29] sort_1g_C3_lz4_r1
+[14:39:38] sort_1g_C1_gzip_r1
+[14:40:43] sort_1g_C2_gzip_r1
+[14:42:50] sort_1g_C3_gzip_r1
+[14:43:58] sort_1g_C1_zstd_r1
+[14:45:10] sort_1g_C2_zstd_r1
+[14:46:34] sort_1g_C3_zstd_r1
+[14:47:42] hashscore_1g_C0_none_r1
+[14:50:28] hashscore_1g_C1_snappy_r1
+[14:53:49] hashscore_1g_C2_snappy_r1
+[14:56:58] hashscore_1g_C3_snappy_r1
+[14:59:48] hashscore_1g_C1_lz4_r1
+[15:03:08] hashscore_1g_C2_lz4_r1
+[15:06:28] hashscore_1g_C3_lz4_r1
+[15:09:52] hashscore_1g_C1_gzip_r1
+[15:12:37] hashscore_1g_C2_gzip_r1
+[15:15:50] hashscore_1g_C3_gzip_r1
+[15:19:12] hashscore_1g_C1_zstd_r1
+[15:21:58] hashscore_1g_C2_zstd_r1
+[15:24:42] hashscore_1g_C3_zstd_r1
+[15:27:27] bigram_1g_C0_none_r1
+[15:29:14] bigram_1g_C1_snappy_r1
+[15:30:40] bigram_1g_C2_snappy_r1
+[15:32:09] bigram_1g_C3_snappy_r1
+[15:33:28] bigram_1g_C1_lz4_r1
+[15:34:55] bigram_1g_C2_lz4_r1
+[15:36:40] bigram_1g_C3_lz4_r1
+[15:38:02] bigram_1g_C1_gzip_r1
+[15:39:30] bigram_1g_C2_gzip_r1
+[15:41:13] bigram_1g_C3_gzip_r1
+[15:42:38] bigram_1g_C1_zstd_r1
+[15:44:00] bigram_1g_C2_zstd_r1
+[15:45:28] bigram_1g_C3_zstd_r1
+[15:46:45] sort_2g_C0_none_r1
+[15:50:03] sort_2g_C1_snappy_r1
+[15:52:08] sort_2g_C2_snappy_r1
+[15:54:21] sort_2g_C3_snappy_r1
+[15:56:54] sort_2g_C1_lz4_r1
+[15:59:06] sort_2g_C2_lz4_r1
+[16:01:58] sort_2g_C3_lz4_r1
+[16:04:14] sort_2g_C1_gzip_r1
+[16:05:55] sort_2g_C2_gzip_r1
+[16:08:21] sort_2g_C3_gzip_r1
+[16:10:24] sort_2g_C1_zstd_r1
+[16:12:20] sort_2g_C2_zstd_r1
+[16:15:00] sort_2g_C3_zstd_r1
+[16:16:32] hashscore_2g_C0_none_r1
+[16:20:30] hashscore_2g_C1_snappy_r1
+[16:24:11] hashscore_2g_C2_snappy_r1
+[16:27:49] hashscore_2g_C3_snappy_r1
+[16:31:27] hashscore_2g_C1_lz4_r1
+[16:35:05] hashscore_2g_C2_lz4_r1
+[16:40:13] hashscore_2g_C3_lz4_r1
+[16:43:54] hashscore_2g_C1_gzip_r1
+[16:47:31] hashscore_2g_C2_gzip_r1
+[16:51:25] hashscore_2g_C3_gzip_r1
+[16:55:20] hashscore_2g_C1_zstd_r1
+[16:59:15] hashscore_2g_C2_zstd_r1
+[17:03:21] hashscore_2g_C3_zstd_r1
+[17:07:03] bigram_2g_C0_none_r1
+[17:10:02] bigram_2g_C1_snappy_r1
+[17:12:18] bigram_2g_C2_snappy_r1
+[17:15:05] bigram_2g_C3_snappy_r1
+[17:17:16] bigram_2g_C1_lz4_r1
+[17:19:32] bigram_2g_C2_lz4_r1
+[17:22:05] bigram_2g_C3_lz4_r1
+[17:24:14] bigram_2g_C1_gzip_r1
+[17:26:24] bigram_2g_C2_gzip_r1
+[17:28:47] bigram_2g_C3_gzip_r1
+[17:30:55] bigram_2g_C1_zstd_r1
+[17:33:06] bigram_2g_C2_zstd_r1
+[17:35:44] bigram_2g_C3_zstd_r1
+[17:37:28] sort_4g_C0_none_r1
+[17:42:58] sort_4g_C1_snappy_r1
+[17:47:15] sort_4g_C2_snappy_r1
+[17:52:20] sort_4g_C3_snappy_r1
+[17:55:27] sort_4g_C1_lz4_r1
+[18:00:00] sort_4g_C2_lz4_r1
+[18:04:32] sort_4g_C3_lz4_r1
+[18:07:55] sort_4g_C1_gzip_r1
+[18:11:43] sort_4g_C2_gzip_r1
+[18:17:17] sort_4g_C3_gzip_r1
+[18:20:17] sort_4g_C1_zstd_r1
+[18:23:33] sort_4g_C2_zstd_r1
+[18:29:02] sort_4g_C3_zstd_r1
+[18:32:10] hashscore_4g_C0_none_r1
+[18:38:46] hashscore_4g_C1_snappy_r1
+[18:45:23] hashscore_4g_C2_snappy_r1
+[18:51:54] hashscore_4g_C3_snappy_r1
+[18:58:29] hashscore_4g_C1_lz4_r1
+[19:04:50] hashscore_4g_C2_lz4_r1
+[19:11:24] hashscore_4g_C3_lz4_r1
+[19:17:57] hashscore_4g_C1_gzip_r1
+[19:25:22] hashscore_4g_C2_gzip_r1
+[19:32:02] hashscore_4g_C3_gzip_r1
+[19:39:35] hashscore_4g_C1_zstd_r1
+[19:46:02] hashscore_4g_C2_zstd_r1
+[19:52:40] hashscore_4g_C3_zstd_r1
+[19:59:09] bigram_4g_C0_none_r1
+[20:03:18] bigram_4g_C1_snappy_r1
+[20:07:24] bigram_4g_C2_snappy_r1
+[20:11:11] bigram_4g_C3_snappy_r1
+[20:14:32] bigram_4g_C1_lz4_r1
+[20:18:24] bigram_4g_C2_lz4_r1
+[20:22:30] bigram_4g_C3_lz4_r1
+[20:26:04] bigram_4g_C1_gzip_r1
+[20:30:14] bigram_4g_C2_gzip_r1
+[20:34:13] bigram_4g_C3_gzip_r1
+[20:37:54] bigram_4g_C1_zstd_r1
+[20:41:57] bigram_4g_C2_zstd_r1
+[20:45:35] bigram_4g_C3_zstd_r1
+[20:48:44] sort_8g_C0_none_r1
+[20:58:28] sort_8g_C1_snappy_r1
+[21:06:17] sort_8g_C2_snappy_r1
+[21:16:30] sort_8g_C3_snappy_r1
+[21:22:54] sort_8g_C1_lz4_r1
+[21:30:53] sort_8g_C2_lz4_r1
+[21:40:11] sort_8g_C3_lz4_r1
+[21:46:54] sort_8g_C1_gzip_r1
+[21:53:10] sort_8g_C2_gzip_r1
+[22:01:48] sort_8g_C3_gzip_r1
+[22:09:09] sort_8g_C1_zstd_r1
+[22:15:15] sort_8g_C2_zstd_r1
+[22:24:45] sort_8g_C3_zstd_r1
+[22:29:00] hashscore_8g_C0_none_r1
+[22:42:58] hashscore_8g_C1_snappy_r1
+[22:57:07] hashscore_8g_C2_snappy_r1
+[23:10:55] hashscore_8g_C3_snappy_r1
+[23:23:28] hashscore_8g_C1_lz4_r1
+[23:37:36] hashscore_8g_C2_lz4_r1
+[23:51:31] hashscore_8g_C3_lz4_r1
+[00:05:34] hashscore_8g_C1_gzip_r1
+[00:19:30] hashscore_8g_C2_gzip_r1
+[00:31:30] hashscore_8g_C3_gzip_r1
+[00:45:20] hashscore_8g_C1_zstd_r1
+[00:58:58] hashscore_8g_C2_zstd_r1
+[01:12:47] hashscore_8g_C3_zstd_r1
+[01:26:36] bigram_8g_C0_none_r1
+[01:34:59] bigram_8g_C1_snappy_r1
+[01:42:22] bigram_8g_C2_snappy_r1
+[01:48:54] bigram_8g_C3_snappy_r1
+[01:54:44] bigram_8g_C1_lz4_r1
+[02:01:39] bigram_8g_C2_lz4_r1
+[02:08:27] bigram_8g_C3_lz4_r1
+[02:14:28] bigram_8g_C1_gzip_r1
+[02:21:20] bigram_8g_C2_gzip_r1
+[02:29:03] bigram_8g_C3_gzip_r1
+[02:35:29] bigram_8g_C1_zstd_r1
+[02:42:22] bigram_8g_C2_zstd_r1
+[02:48:31] bigram_8g_C3_zstd_r1
+[02:53:41] sort_1g_C0_none_r2
+[02:55:28] sort_1g_C1_snappy_r2
+[02:57:03] sort_1g_C2_snappy_r2
+[02:58:47] sort_1g_C3_snappy_r2
+[03:00:14] sort_1g_C1_lz4_r2
+[03:01:36] sort_1g_C2_lz4_r2
+[03:03:01] sort_1g_C3_lz4_r2
+[03:04:29] sort_1g_C1_gzip_r2
+[03:05:49] sort_1g_C2_gzip_r2
+[03:07:41] sort_1g_C3_gzip_r2
+[03:08:57] sort_1g_C1_zstd_r2
+[03:10:06] sort_1g_C2_zstd_r2
+[03:11:12] sort_1g_C3_zstd_r2
+[03:12:03] hashscore_1g_C0_none_r2
+[03:14:49] hashscore_1g_C1_snappy_r2
+[03:17:36] hashscore_1g_C2_snappy_r2
+[03:20:47] hashscore_1g_C3_snappy_r2
+[03:24:05] hashscore_1g_C1_lz4_r2
+[03:27:27] hashscore_1g_C2_lz4_r2
+[03:30:11] hashscore_1g_C3_lz4_r2
+[03:33:26] hashscore_1g_C1_gzip_r2
+[03:36:47] hashscore_1g_C2_gzip_r2
+[03:40:13] hashscore_1g_C3_gzip_r2
+[03:43:38] hashscore_1g_C1_zstd_r2
+[03:46:23] hashscore_1g_C2_zstd_r2
+[03:49:36] hashscore_1g_C3_zstd_r2
+[03:53:03] bigram_1g_C0_none_r2
+[03:54:37] bigram_1g_C1_snappy_r2
+[03:56:04] bigram_1g_C2_snappy_r2
+[03:57:32] bigram_1g_C3_snappy_r2
+[03:58:47] bigram_1g_C1_lz4_r2
+[04:00:13] bigram_1g_C2_lz4_r2
+[04:01:38] bigram_1g_C3_lz4_r2
+[04:03:04] bigram_1g_C1_gzip_r2
+[04:04:28] bigram_1g_C2_gzip_r2
+[04:06:11] bigram_1g_C3_gzip_r2
+[04:07:34] bigram_1g_C1_zstd_r2
+[04:08:56] bigram_1g_C2_zstd_r2
+[04:10:23] bigram_1g_C3_zstd_r2
+[04:11:33] sort_2g_C0_none_r2
+[04:13:40] sort_2g_C1_snappy_r2
+[04:15:51] sort_2g_C2_snappy_r2
+[04:17:57] sort_2g_C3_snappy_r2
+[04:20:33] sort_2g_C1_lz4_r2
+[04:22:58] sort_2g_C2_lz4_r2
+[04:25:49] sort_2g_C3_lz4_r2
+[04:28:27] sort_2g_C1_gzip_r2
+[04:30:21] sort_2g_C2_gzip_r2
+[04:33:16] sort_2g_C3_gzip_r2
+[04:35:12] sort_2g_C1_zstd_r2
+[04:37:08] sort_2g_C2_zstd_r2
+[04:39:42] sort_2g_C3_zstd_r2
+[04:40:58] hashscore_2g_C0_none_r2
+[04:44:52] hashscore_2g_C1_snappy_r2
+[04:48:35] hashscore_2g_C2_snappy_r2
+[04:52:32] hashscore_2g_C3_snappy_r2
+[04:56:10] hashscore_2g_C1_lz4_r2
+[04:59:48] hashscore_2g_C2_lz4_r2
+[05:03:29] hashscore_2g_C3_lz4_r2
+[05:08:31] hashscore_2g_C1_gzip_r2
+[05:12:06] hashscore_2g_C2_gzip_r2
+[05:15:43] hashscore_2g_C3_gzip_r2
+[05:19:19] hashscore_2g_C1_zstd_r2
+[05:22:54] hashscore_2g_C2_zstd_r2
+[05:28:00] hashscore_2g_C3_zstd_r2
+[05:31:32] bigram_2g_C0_none_r2
+[05:34:06] bigram_2g_C1_snappy_r2
+[05:36:20] bigram_2g_C2_snappy_r2
+[05:38:42] bigram_2g_C3_snappy_r2
+[05:40:38] bigram_2g_C1_lz4_r2
+[05:42:57] bigram_2g_C2_lz4_r2
+[05:45:34] bigram_2g_C3_lz4_r2
+[05:47:35] bigram_2g_C1_gzip_r2
+[05:49:47] bigram_2g_C2_gzip_r2
+[05:52:36] bigram_2g_C3_gzip_r2
+[05:54:42] bigram_2g_C1_zstd_r2
+[05:56:50] bigram_2g_C2_zstd_r2
+[05:59:05] bigram_2g_C3_zstd_r2
+[06:00:57] sort_4g_C0_none_r2
+[06:06:26] sort_4g_C1_snappy_r2
+[06:10:35] sort_4g_C2_snappy_r2
+[06:15:00] sort_4g_C3_snappy_r2
+[06:18:39] sort_4g_C1_lz4_r2
+[06:22:30] sort_4g_C2_lz4_r2
+[06:27:18] sort_4g_C3_lz4_r2
+[06:30:11] sort_4g_C1_gzip_r2
+[06:33:56] sort_4g_C2_gzip_r2
+[06:38:15] sort_4g_C3_gzip_r2
+[06:41:43] sort_4g_C1_zstd_r2
+[06:45:13] sort_4g_C2_zstd_r2
+[06:48:52] sort_4g_C3_zstd_r2
+[06:51:16] hashscore_4g_C0_none_r2
+[06:57:47] hashscore_4g_C1_snappy_r2
+[07:05:14] hashscore_4g_C2_snappy_r2
+[07:11:55] hashscore_4g_C3_snappy_r2
+[07:18:27] hashscore_4g_C1_lz4_r2
+[07:24:54] hashscore_4g_C2_lz4_r2
+[07:31:21] hashscore_4g_C3_lz4_r2
+[07:37:53] hashscore_4g_C1_gzip_r2
+[07:45:17] hashscore_4g_C2_gzip_r2
+[07:51:55] hashscore_4g_C3_gzip_r2
+[07:58:22] hashscore_4g_C1_zstd_r2
+[08:04:37] hashscore_4g_C2_zstd_r2
+[08:11:32] hashscore_4g_C3_zstd_r2
+[08:18:00] bigram_4g_C0_none_r2
+[08:22:16] bigram_4g_C1_snappy_r2
+[08:26:30] bigram_4g_C2_snappy_r2
+[08:30:25] bigram_4g_C3_snappy_r2
+[08:33:43] bigram_4g_C1_lz4_r2
+[08:37:40] bigram_4g_C2_lz4_r2
+[08:41:45] bigram_4g_C3_lz4_r2
+[08:45:15] bigram_4g_C1_gzip_r2
+[08:48:53] bigram_4g_C2_gzip_r2
+[08:53:25] bigram_4g_C3_gzip_r2
+[08:57:01] bigram_4g_C1_zstd_r2
+[09:00:37] bigram_4g_C2_zstd_r2
+[09:04:45] bigram_4g_C3_zstd_r2
+[09:07:57] sort_8g_C0_none_r2
+[09:18:32] sort_8g_C1_snappy_r2
+[09:26:41] sort_8g_C2_snappy_r2
+[09:37:09] sort_8g_C3_snappy_r2
+[09:43:43] sort_8g_C1_lz4_r2
+[09:51:01] sort_8g_C2_lz4_r2
+[09:59:51] sort_8g_C3_lz4_r2
+[10:06:29] sort_8g_C1_gzip_r2
+[10:12:42] sort_8g_C2_gzip_r2
+[10:21:19] sort_8g_C3_gzip_r2
+[10:27:54] sort_8g_C1_zstd_r2
+[10:33:35] sort_8g_C2_zstd_r2
+[10:41:48] sort_8g_C3_zstd_r2
+[10:46:04] hashscore_8g_C0_none_r2
+[10:58:13] hashscore_8g_C1_snappy_r2
+[11:10:43] hashscore_8g_C2_snappy_r2
+[11:22:47] hashscore_8g_C3_snappy_r2
+[11:36:43] hashscore_8g_C1_lz4_r2
+[11:48:51] hashscore_8g_C2_lz4_r2
+[12:02:48] hashscore_8g_C3_lz4_r2
+[12:14:57] hashscore_8g_C1_gzip_r2
+[12:29:14] hashscore_8g_C2_gzip_r2
+[12:42:47] hashscore_8g_C3_gzip_r2
+[12:56:54] hashscore_8g_C1_zstd_r2
+[13:08:59] hashscore_8g_C2_zstd_r2
+[13:21:00] hashscore_8g_C3_zstd_r2
+[13:34:53] bigram_8g_C0_none_r2
+[13:42:52] bigram_8g_C1_snappy_r2
+[13:50:07] bigram_8g_C2_snappy_r2
+[13:56:25] bigram_8g_C3_snappy_r2
+[14:02:22] bigram_8g_C1_lz4_r2
+[14:09:35] bigram_8g_C2_lz4_r2
+[14:16:59] bigram_8g_C3_lz4_r2
+[14:22:58] bigram_8g_C1_gzip_r2
+[14:30:00] bigram_8g_C2_gzip_r2
+[14:37:36] bigram_8g_C3_gzip_r2
+[14:43:54] bigram_8g_C1_zstd_r2
+[14:50:35] bigram_8g_C2_zstd_r2
+[14:57:47] bigram_8g_C3_zstd_r2
+[15:03:06] sort_1g_C0_none_r3
+[15:04:59] sort_1g_C1_snappy_r3
+[15:06:18] sort_1g_C2_snappy_r3
+[15:07:28] sort_1g_C3_snappy_r3
+[15:08:31] sort_1g_C1_lz4_r3
+[15:09:45] sort_1g_C2_lz4_r3
+[15:11:16] sort_1g_C3_lz4_r3
+[15:12:27] sort_1g_C1_gzip_r3
+[15:13:42] sort_1g_C2_gzip_r3
+[15:15:11] sort_1g_C3_gzip_r3
+[15:16:19] sort_1g_C1_zstd_r3
+[15:17:40] sort_1g_C2_zstd_r3
+[15:18:56] sort_1g_C3_zstd_r3
+[15:19:50] hashscore_1g_C0_none_r3
+[15:22:38] hashscore_1g_C1_snappy_r3
+[15:26:03] hashscore_1g_C2_snappy_r3
+[15:29:21] hashscore_1g_C3_snappy_r3
+[15:32:38] hashscore_1g_C1_lz4_r3

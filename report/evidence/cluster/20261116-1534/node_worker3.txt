@@ -1,0 +1,19 @@
+== worker3 Mon Nov 16 15:34:17 UTC 2026
+Linux worker3 5.15.0-203-generic #213-Ubuntu SMP Fri Oct 23 13:21:06 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
+CPU(s):                                  2
+Model name:                              Intel(R) Core(TM) i5-9300H CPU @ 2.40GHz
+Thread(s) per core:                      1
+Flags:                                   fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon rep
+               total        used        free      shared  buff/cache   available
+Mem:            3911        1654        2011           0         245        2035
+Swap:              0           0           0
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/vda1       117G   33G   84G  29% /
+lo               UNKNOWN        127.0.0.1/8 ::1/128 
+ens3             UP             192.168.1.204/24 fe80::5054:ff:fecb:d004/64 
+840703 YarnChild
+841343 Jps
+32820 DataNode
+32967 NodeManager
+840704 YarnChild
+ 15:34:18 up 1 day,  3:28,  0 users,  load average: 2.05, 2.02, 1.60
