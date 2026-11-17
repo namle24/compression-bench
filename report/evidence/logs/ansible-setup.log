@@ -1,0 +1,180 @@
+[WARNING]: Found both group and host with same name: master
+
+PLAY [Common node setup] *******************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [master]
+ok: [worker1]
+ok: [worker2]
+ok: [worker3]
+
+TASK [Install packages] ********************************************************
+changed: [master]
+changed: [worker2]
+changed: [worker3]
+changed: [worker1]
+
+TASK [Install analysis packages on master] *************************************
+skipping: [worker2]
+skipping: [worker1]
+skipping: [worker3]
+changed: [master]
+
+TASK [Set hostname] ************************************************************
+ok: [worker2]
+ok: [master]
+ok: [worker1]
+ok: [worker3]
+
+TASK [Drop the 127.0.1.1 hostname alias] ***************************************
+changed: [worker2]
+changed: [worker1]
+changed: [master]
+ok: [worker3]
+
+TASK [Add cluster nodes to /etc/hosts] *****************************************
+changed: [worker1] => (item=master)
+changed: [worker2] => (item=master)
+changed: [master] => (item=master)
+changed: [worker3] => (item=master)
+changed: [worker1] => (item=worker1)
+changed: [worker2] => (item=worker1)
+changed: [master] => (item=worker1)
+changed: [worker3] => (item=worker1)
+changed: [worker2] => (item=worker2)
+changed: [worker1] => (item=worker2)
+changed: [master] => (item=worker2)
+changed: [worker3] => (item=worker2)
+changed: [worker1] => (item=worker3)
+changed: [worker2] => (item=worker3)
+changed: [master] => (item=worker3)
+changed: [worker3] => (item=worker3)
+
+TASK [Allow cache drop and traffic shaping without password] *******************
+changed: [master]
+changed: [worker2]
+changed: [worker1]
+changed: [worker3]
+
+TASK [Download Hadoop] *********************************************************
+changed: [master]
+changed: [worker1]
+changed: [worker2]
+changed: [worker3]
+
+TASK [Unpack Hadoop] ***********************************************************
+changed: [master]
+changed: [worker3]
+changed: [worker2]
+changed: [worker1]
+
+TASK [Link Hadoop home] ********************************************************
+changed: [worker1]
+changed: [worker2]
+changed: [master]
+changed: [worker3]
+
+TASK [Create data and tool directories] ****************************************
+changed: [master] => (item=/data/hadoop/nn)
+changed: [worker1] => (item=/data/hadoop/nn)
+changed: [worker2] => (item=/data/hadoop/nn)
+changed: [worker3] => (item=/data/hadoop/nn)
+changed: [master] => (item=/data/hadoop/dn)
+changed: [worker1] => (item=/data/hadoop/dn)
+changed: [worker2] => (item=/data/hadoop/dn)
+changed: [worker3] => (item=/data/hadoop/dn)
+changed: [master] => (item=/data/hadoop/tmp)
+changed: [worker1] => (item=/data/hadoop/tmp)
+changed: [worker2] => (item=/data/hadoop/tmp)
+changed: [worker3] => (item=/data/hadoop/tmp)
+changed: [worker1] => (item=/opt/bench)
+changed: [master] => (item=/opt/bench)
+changed: [worker2] => (item=/opt/bench)
+changed: [worker3] => (item=/opt/bench)
+
+TASK [Export Hadoop environment] ***********************************************
+changed: [worker1]
+changed: [master]
+changed: [worker2]
+changed: [worker3]
+
+TASK [Set JAVA_HOME for Hadoop daemons] ****************************************
+changed: [worker1]
+changed: [worker2]
+changed: [master]
+changed: [worker3]
+
+TASK [Write Hadoop configuration] **********************************************
+changed: [master] => (item=core-site.xml)
+changed: [worker2] => (item=core-site.xml)
+changed: [worker1] => (item=core-site.xml)
+changed: [worker3] => (item=core-site.xml)
+changed: [master] => (item=hdfs-site.xml)
+changed: [worker2] => (item=hdfs-site.xml)
+changed: [worker1] => (item=hdfs-site.xml)
+changed: [worker3] => (item=hdfs-site.xml)
+changed: [master] => (item=mapred-site.xml)
+changed: [worker2] => (item=mapred-site.xml)
+changed: [worker1] => (item=mapred-site.xml)
+changed: [worker3] => (item=mapred-site.xml)
+changed: [master] => (item=yarn-site.xml)
+changed: [worker2] => (item=yarn-site.xml)
+changed: [worker1] => (item=yarn-site.xml)
+changed: [worker3] => (item=yarn-site.xml)
+changed: [master] => (item=workers)
+changed: [worker2] => (item=workers)
+changed: [worker1] => (item=workers)
+changed: [worker3] => (item=workers)
+
+TASK [Install bench helper scripts] ********************************************
+changed: [master] => (item=monitor.sh)
+changed: [worker1] => (item=monitor.sh)
+changed: [worker2] => (item=monitor.sh)
+changed: [worker3] => (item=monitor.sh)
+changed: [master] => (item=cluster.sh)
+changed: [worker1] => (item=cluster.sh)
+changed: [worker2] => (item=cluster.sh)
+changed: [worker3] => (item=cluster.sh)
+
+PLAY [Create master SSH key] ***************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [master]
+
+TASK [Generate key] ************************************************************
+ok: [master]
+
+TASK [Read public key] *********************************************************
+ok: [master]
+
+PLAY [Authorize master on every node] ******************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [master]
+ok: [worker1]
+ok: [worker2]
+ok: [worker3]
+
+TASK [Add master key] **********************************************************
+ok: [worker1]
+ok: [worker2]
+ok: [master]
+ok: [worker3]
+
+PLAY [Format and start Hadoop] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [master]
+
+TASK [Format HDFS] *************************************************************
+changed: [master]
+
+TASK [Start daemons] ***********************************************************
+changed: [master]
+
+PLAY RECAP *********************************************************************
+master                     : ok=23   changed=15   unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+worker1                    : ok=16   changed=12   unreachable=0    failed=0    skipped=1    rescued=0    ignored=0   
+worker2                    : ok=16   changed=12   unreachable=0    failed=0    skipped=1    rescued=0    ignored=0   
+worker3                    : ok=16   changed=11   unreachable=0    failed=0    skipped=1    rescued=0    ignored=0   
+

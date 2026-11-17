@@ -1,0 +1,3 @@
+netlimit jobs (sort 4 GB, all nodes at 100 Mbit/s):
+C0 none   job_1794749680865_0538
+C2 zstd   job_1794749680865_0542

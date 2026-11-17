@@ -1,0 +1,23 @@
+[07:13:50] netlimit done, tc cleared
+Deleted /bench/data/1g
+Deleted /bench/data/2g
+Deleted /bench/data/4g
+[07:13:54] generating /bench/data/16g/none
+[07:24:47] generating /bench/data/16g/snappy
+[07:32:23] generating /bench/data/16g/lz4
+[07:38:58] generating /bench/data/16g/gzip
+[07:44:03] generating /bench/data/16g/zstd
+[07:48:57] sort_16g_C0_none_r1
+[08:07:15] sort_16g_C1_snappy_r1
+[08:22:35] sort_16g_C2_snappy_r1
+[08:39:06] sort_16g_C3_snappy_r1
+[08:52:30] sort_16g_C1_lz4_r1
+[09:07:26] sort_16g_C2_lz4_r1
+[09:26:28] sort_16g_C3_lz4_r1
+[09:38:36] sort_16g_C1_gzip_r1
+[09:50:01] sort_16g_C2_gzip_r1
+[10:08:11] sort_16g_C3_gzip_r1
+[10:19:30] sort_16g_C1_zstd_r1
+[10:31:15] sort_16g_C2_zstd_r1
+[10:46:03] sort_16g_C3_zstd_r1
+[10:55:30] bigram_16g_C0_none_r1

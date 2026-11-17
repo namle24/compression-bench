@@ -1,0 +1,15 @@
+cd ~/compression-bench
+export RESULTS=$PWD/results-100mbit APPS="sort bigram" SIZES="2 4" CONFIGS=C2
+scripts/run_experiments.sh
+scripts/netlimit.sh clear
+cd analysis && python3 parse.py "$RESULTS"
+while pgrep -f "[n]etlimit_run.sh" >/dev/null; do sleep 60; done
+cd ~/compression-bench
+scripts/netlimit.sh clear
+echo "[$(date +%T)] netlimit done, tc cleared"
+hdfs dfs -rm -r -f -skipTrash /bench/data/1g /bench/data/2g /bench/data/4g
+export SIZES=16 APPS="sort bigram"
+scripts/gen_data.sh
+scripts/run_experiments.sh
+cd analysis && python3 parse.py ../results && python3 plots.py ../results
+echo "ALL DONE"
