@@ -1,0 +1,21 @@
+== master Wed Nov 18 01:36:46 AM UTC 2026
+Linux master 5.15.0-203-generic #213-Ubuntu SMP Fri Oct 23 13:21:06 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
+CPU(s):                                  2
+Model name:                              12th Gen Intel(R) Core(TM) i5-12400F
+Thread(s) per core:                      1
+Flags:                                   fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon 
+               total        used        free      shared  buff/cache   available
+Mem:            3911        1615        1749           1         546        2062
+Swap:           4095           0        4095
+Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   56G   12G   42G  23% /
+lo               UNKNOWN        127.0.0.1/8 ::1/128 
+ens160           UP             192.168.1.201/24 fe80::20c:29ff:fe99:19df/64 
+86354 NameNode
+87188 JobHistoryServer
+86854 ResourceManager
+86653 SecondaryNameNode
+2047776 Jps
+ 01:36:46 up 2 days, 14:46,  0 users,  load average: 0.41, 0.18, 0.11
+	Speed: 10000Mb/s
+	Duplex: Full

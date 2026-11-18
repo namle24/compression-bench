@@ -1,7 +1,7 @@
 Linux worker3 5.15.0-203-generic #213-Ubuntu SMP Fri Oct 23 13:21:06 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
 2
                total        used        free      shared  buff/cache   available
-Mem:            3911         726        1234           0        1950        2941
+Mem:            3911         834         385           0        2691        2818
 Swap:              0           0           0
 Architecture:                            x86_64
 CPU op-mode(s):                          32-bit, 64-bit
@@ -24,4 +24,4 @@ Hypervisor vendor:                       KVM
 Virtualization type:                     full
 L1d cache:                               64 KiB (2 instances)
 Filesystem      Size  Used Avail Use% Mounted on
-/dev/vda1       117G   33G   85G  28% /
+/dev/vda1       117G   53G   64G  46% /

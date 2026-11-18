@@ -1,0 +1,603 @@
+==> /opt/hadoop/logs/hadoop-hadoop-nodemanager-worker1.log <==
+	at java.base/sun.nio.ch.FileChannelImpl.transferToDirectlyInternal(FileChannelImpl.java:501)
+	at java.base/sun.nio.ch.FileChannelImpl.transferToDirectly(FileChannelImpl.java:566)
+	at java.base/sun.nio.ch.FileChannelImpl.transferTo(FileChannelImpl.java:678)
+	at io.netty.channel.DefaultFileRegion.transferTo(DefaultFileRegion.java:130)
+	at org.apache.hadoop.mapred.FadvisedFileRegion.transferTo(FadvisedFileRegion.java:87)
+	at io.netty.channel.socket.nio.NioSocketChannel.doWriteFileRegion(NioSocketChannel.java:369)
+	at io.netty.channel.nio.AbstractNioByteChannel.doWriteInternal(AbstractNioByteChannel.java:238)
+	at io.netty.channel.nio.AbstractNioByteChannel.doWrite0(AbstractNioByteChannel.java:212)
+	at io.netty.channel.socket.nio.NioSocketChannel.doWrite(NioSocketChannel.java:407)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.flush0(AbstractChannel.java:931)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.forceFlush(AbstractNioChannel.java:361)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:782)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-11-18 01:24:57,002 ERROR org.apache.hadoop.mapred.ShuffleHandler: Future is unsuccessful. channel='668abe80' Cause: 
+java.io.IOException: Connection reset by peer
+	at java.base/sun.nio.ch.FileChannelImpl.transferTo0(Native Method)
+	at java.base/sun.nio.ch.FileChannelImpl.transferToDirectlyInternal(FileChannelImpl.java:501)
+	at java.base/sun.nio.ch.FileChannelImpl.transferToDirectly(FileChannelImpl.java:566)
+	at java.base/sun.nio.ch.FileChannelImpl.transferTo(FileChannelImpl.java:678)
+	at io.netty.channel.DefaultFileRegion.transferTo(DefaultFileRegion.java:130)
+	at org.apache.hadoop.mapred.FadvisedFileRegion.transferTo(FadvisedFileRegion.java:87)
+	at io.netty.channel.socket.nio.NioSocketChannel.doWriteFileRegion(NioSocketChannel.java:369)
+	at io.netty.channel.nio.AbstractNioByteChannel.doWriteInternal(AbstractNioByteChannel.java:238)
+	at io.netty.channel.nio.AbstractNioByteChannel.doWrite0(AbstractNioByteChannel.java:212)
+	at io.netty.channel.socket.nio.NioSocketChannel.doWrite(NioSocketChannel.java:407)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.flush0(AbstractChannel.java:931)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.forceFlush(AbstractNioChannel.java:361)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:782)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-11-18 01:25:00,184 ERROR org.apache.hadoop.mapred.ShuffleHandler: Future is unsuccessful. channel='5e4571e6' Cause: 
+java.io.IOException: Connection reset by peer
+	at java.base/sun.nio.ch.FileChannelImpl.transferTo0(Native Method)
+	at java.base/sun.nio.ch.FileChannelImpl.transferToDirectlyInternal(FileChannelImpl.java:501)
+	at java.base/sun.nio.ch.FileChannelImpl.transferToDirectly(FileChannelImpl.java:566)
+	at java.base/sun.nio.ch.FileChannelImpl.transferTo(FileChannelImpl.java:678)
+	at io.netty.channel.DefaultFileRegion.transferTo(DefaultFileRegion.java:130)
+	at org.apache.hadoop.mapred.FadvisedFileRegion.transferTo(FadvisedFileRegion.java:87)
+	at io.netty.channel.socket.nio.NioSocketChannel.doWriteFileRegion(NioSocketChannel.java:369)
+	at io.netty.channel.nio.AbstractNioByteChannel.doWriteInternal(AbstractNioByteChannel.java:238)
+	at io.netty.channel.nio.AbstractNioByteChannel.doWrite0(AbstractNioByteChannel.java:212)
+	at io.netty.channel.socket.nio.NioSocketChannel.doWrite(NioSocketChannel.java:407)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.flush0(AbstractChannel.java:931)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.forceFlush(AbstractNioChannel.java:361)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:782)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-11-18 01:25:01,889 ERROR org.apache.hadoop.mapred.ShuffleHandler: Future is unsuccessful. channel='8bfb256a' Cause: 
+java.io.IOException: Connection reset by peer
+	at java.base/sun.nio.ch.FileChannelImpl.transferTo0(Native Method)
+	at java.base/sun.nio.ch.FileChannelImpl.transferToDirectlyInternal(FileChannelImpl.java:501)
+	at java.base/sun.nio.ch.FileChannelImpl.transferToDirectly(FileChannelImpl.java:566)
+	at java.base/sun.nio.ch.FileChannelImpl.transferTo(FileChannelImpl.java:678)
+	at io.netty.channel.DefaultFileRegion.transferTo(DefaultFileRegion.java:130)
+	at org.apache.hadoop.mapred.FadvisedFileRegion.transferTo(FadvisedFileRegion.java:87)
+	at io.netty.channel.socket.nio.NioSocketChannel.doWriteFileRegion(NioSocketChannel.java:369)
+	at io.netty.channel.nio.AbstractNioByteChannel.doWriteInternal(AbstractNioByteChannel.java:238)
+	at io.netty.channel.nio.AbstractNioByteChannel.doWrite0(AbstractNioByteChannel.java:212)
+	at io.netty.channel.socket.nio.NioSocketChannel.doWrite(NioSocketChannel.java:407)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.flush0(AbstractChannel.java:931)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.forceFlush(AbstractNioChannel.java:361)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:782)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-11-18 01:25:11,855 ERROR org.apache.hadoop.mapred.ShuffleHandler: Future is unsuccessful. channel='dadb4b5a' Cause: 
+java.io.IOException: Connection reset by peer
+	at java.base/sun.nio.ch.FileChannelImpl.transferTo0(Native Method)
+	at java.base/sun.nio.ch.FileChannelImpl.transferToDirectlyInternal(FileChannelImpl.java:501)
+	at java.base/sun.nio.ch.FileChannelImpl.transferToDirectly(FileChannelImpl.java:566)
+	at java.base/sun.nio.ch.FileChannelImpl.transferTo(FileChannelImpl.java:678)
+	at io.netty.channel.DefaultFileRegion.transferTo(DefaultFileRegion.java:130)
+	at org.apache.hadoop.mapred.FadvisedFileRegion.transferTo(FadvisedFileRegion.java:87)
+	at io.netty.channel.socket.nio.NioSocketChannel.doWriteFileRegion(NioSocketChannel.java:369)
+	at io.netty.channel.nio.AbstractNioByteChannel.doWriteInternal(AbstractNioByteChannel.java:238)
+	at io.netty.channel.nio.AbstractNioByteChannel.doWrite0(AbstractNioByteChannel.java:212)
+	at io.netty.channel.socket.nio.NioSocketChannel.doWrite(NioSocketChannel.java:407)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.flush0(AbstractChannel.java:931)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.forceFlush(AbstractNioChannel.java:361)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:782)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-11-18 01:25:14,341 ERROR org.apache.hadoop.mapred.ShuffleHandler: Future is unsuccessful. channel='e1d4f3a5' Cause: 
+java.io.IOException: Connection reset by peer
+	at java.base/sun.nio.ch.FileChannelImpl.transferTo0(Native Method)
+	at java.base/sun.nio.ch.FileChannelImpl.transferToDirectlyInternal(FileChannelImpl.java:501)
+	at java.base/sun.nio.ch.FileChannelImpl.transferToDirectly(FileChannelImpl.java:566)
+	at java.base/sun.nio.ch.FileChannelImpl.transferTo(FileChannelImpl.java:678)
+	at io.netty.channel.DefaultFileRegion.transferTo(DefaultFileRegion.java:130)
+	at org.apache.hadoop.mapred.FadvisedFileRegion.transferTo(FadvisedFileRegion.java:87)
+	at io.netty.channel.socket.nio.NioSocketChannel.doWriteFileRegion(NioSocketChannel.java:369)
+	at io.netty.channel.nio.AbstractNioByteChannel.doWriteInternal(AbstractNioByteChannel.java:238)
+	at io.netty.channel.nio.AbstractNioByteChannel.doWrite0(AbstractNioByteChannel.java:212)
+	at io.netty.channel.socket.nio.NioSocketChannel.doWrite(NioSocketChannel.java:407)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.flush0(AbstractChannel.java:931)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.forceFlush(AbstractNioChannel.java:361)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:782)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-11-18 01:25:14,567 ERROR org.apache.hadoop.mapred.ShuffleHandler: Future is unsuccessful. channel='459fa09a' Cause: 
+java.io.IOException: Connection reset by peer
+	at java.base/sun.nio.ch.FileChannelImpl.transferTo0(Native Method)
+	at java.base/sun.nio.ch.FileChannelImpl.transferToDirectlyInternal(FileChannelImpl.java:501)
+	at java.base/sun.nio.ch.FileChannelImpl.transferToDirectly(FileChannelImpl.java:566)
+	at java.base/sun.nio.ch.FileChannelImpl.transferTo(FileChannelImpl.java:678)
+	at io.netty.channel.DefaultFileRegion.transferTo(DefaultFileRegion.java:130)
+	at org.apache.hadoop.mapred.FadvisedFileRegion.transferTo(FadvisedFileRegion.java:87)
+	at io.netty.channel.socket.nio.NioSocketChannel.doWriteFileRegion(NioSocketChannel.java:369)
+	at io.netty.channel.nio.AbstractNioByteChannel.doWriteInternal(AbstractNioByteChannel.java:238)
+	at io.netty.channel.nio.AbstractNioByteChannel.doWrite0(AbstractNioByteChannel.java:212)
+	at io.netty.channel.socket.nio.NioSocketChannel.doWrite(NioSocketChannel.java:407)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.flush0(AbstractChannel.java:931)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.forceFlush(AbstractNioChannel.java:361)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:782)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-11-18 01:25:16,156 ERROR org.apache.hadoop.mapred.ShuffleHandler: Future is unsuccessful. channel='b266d48c' Cause: 
+java.io.IOException: Connection reset by peer
+	at java.base/sun.nio.ch.FileChannelImpl.transferTo0(Native Method)
+	at java.base/sun.nio.ch.FileChannelImpl.transferToDirectlyInternal(FileChannelImpl.java:501)
+	at java.base/sun.nio.ch.FileChannelImpl.transferToDirectly(FileChannelImpl.java:566)
+	at java.base/sun.nio.ch.FileChannelImpl.transferTo(FileChannelImpl.java:678)
+	at io.netty.channel.DefaultFileRegion.transferTo(DefaultFileRegion.java:130)
+	at org.apache.hadoop.mapred.FadvisedFileRegion.transferTo(FadvisedFileRegion.java:87)
+	at io.netty.channel.socket.nio.NioSocketChannel.doWriteFileRegion(NioSocketChannel.java:369)
+	at io.netty.channel.nio.AbstractNioByteChannel.doWriteInternal(AbstractNioByteChannel.java:238)
+	at io.netty.channel.nio.AbstractNioByteChannel.doWrite0(AbstractNioByteChannel.java:212)
+	at io.netty.channel.socket.nio.NioSocketChannel.doWrite(NioSocketChannel.java:407)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.flush0(AbstractChannel.java:931)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.forceFlush(AbstractNioChannel.java:361)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:782)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2026-11-18 01:26:26,351 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.launcher.ContainerLaunch: Container container_1794749680865_0630_01_000167 succeeded 
+2026-11-18 01:26:26,351 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.container.ContainerImpl: Container container_1794749680865_0630_01_000167 transitioned from RUNNING to EXITED_WITH_SUCCESS
+2026-11-18 01:26:26,352 INFO org.apache.hadoop.yarn.server.nodemanager.DefaultContainerExecutor: Deleting absolute path : /data/hadoop/tmp/nm-local-dir/usercache/hadoop/appcache/application_1794749680865_0630/container_1794749680865_0630_01_000167
+2026-11-18 01:26:26,352 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.launcher.ContainerCleanup: Cleaning up container container_1794749680865_0630_01_000167
+2026-11-18 01:26:26,352 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.container.ContainerImpl: Container container_1794749680865_0630_01_000167 transitioned from EXITED_WITH_SUCCESS to DONE
+2026-11-18 01:26:26,352 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.application.ApplicationImpl: Removing container_1794749680865_0630_01_000167 from application application_1794749680865_0630
+2026-11-18 01:26:26,352 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.monitor.ContainersMonitorImpl: Stopping resource-monitoring for container_1794749680865_0630_01_000167
+2026-11-18 01:26:26,352 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.logaggregation.AppLogAggregatorImpl: Considering container container_1794749680865_0630_01_000167 for log-aggregation
+2026-11-18 01:26:26,352 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.AuxServices: Got event CONTAINER_STOP for appId application_1794749680865_0630
+2026-11-18 01:26:28,355 INFO org.apache.hadoop.yarn.server.nodemanager.NodeStatusUpdaterImpl: Removed completed containers from NM context: [container_1794749680865_0630_01_000167].
+2026-11-18 01:26:31,491 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.launcher.ContainerLaunch: Could not get pid for container_1794749680865_0630_01_000167. Waited for 5000 ms.
+2026-11-18 01:26:31,501 INFO org.apache.hadoop.yarn.server.nodemanager.DefaultContainerExecutor: Deleting absolute path : /data/hadoop/tmp/nm-local-dir/usercache/hadoop/appcache/application_1794749680865_0630/container_1794749680865_0630_01_000167/launch_container.sh
+2026-11-18 01:26:31,502 WARN org.apache.hadoop.yarn.server.nodemanager.DefaultContainerExecutor: delete returned false for path: [/data/hadoop/tmp/nm-local-dir/usercache/hadoop/appcache/application_1794749680865_0630/container_1794749680865_0630_01_000167/launch_container.sh]
+2026-11-18 01:26:31,502 INFO org.apache.hadoop.yarn.server.nodemanager.DefaultContainerExecutor: Deleting absolute path : /data/hadoop/tmp/nm-local-dir/usercache/hadoop/appcache/application_1794749680865_0630/container_1794749680865_0630_01_000167/container_tokens
+2026-11-18 01:26:31,502 WARN org.apache.hadoop.yarn.server.nodemanager.DefaultContainerExecutor: delete returned false for path: [/data/hadoop/tmp/nm-local-dir/usercache/hadoop/appcache/application_1794749680865_0630/container_1794749680865_0630_01_000167/container_tokens]
+2026-11-18 01:26:31,502 INFO org.apache.hadoop.yarn.server.nodemanager.DefaultContainerExecutor: Deleting absolute path : /data/hadoop/tmp/nm-local-dir/usercache/hadoop/appcache/application_1794749680865_0630/container_1794749680865_0630_01_000167/sysfs
+2026-11-18 01:26:31,502 WARN org.apache.hadoop.yarn.server.nodemanager.DefaultContainerExecutor: delete returned false for path: [/data/hadoop/tmp/nm-local-dir/usercache/hadoop/appcache/application_1794749680865_0630/container_1794749680865_0630_01_000167/sysfs]
+2026-11-18 01:26:33,847 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.launcher.ContainerLaunch: Container container_1794749680865_0630_01_000171 succeeded 
+2026-11-18 01:26:33,847 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.container.ContainerImpl: Container container_1794749680865_0630_01_000171 transitioned from RUNNING to EXITED_WITH_SUCCESS
+2026-11-18 01:26:33,847 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.launcher.ContainerCleanup: Cleaning up container container_1794749680865_0630_01_000171
+2026-11-18 01:26:33,847 INFO org.apache.hadoop.yarn.server.nodemanager.DefaultContainerExecutor: Deleting absolute path : /data/hadoop/tmp/nm-local-dir/usercache/hadoop/appcache/application_1794749680865_0630/container_1794749680865_0630_01_000171
+2026-11-18 01:26:33,848 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.container.ContainerImpl: Container container_1794749680865_0630_01_000171 transitioned from EXITED_WITH_SUCCESS to DONE
+2026-11-18 01:26:33,848 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.application.ApplicationImpl: Removing container_1794749680865_0630_01_000171 from application application_1794749680865_0630
+2026-11-18 01:26:33,848 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.monitor.ContainersMonitorImpl: Stopping resource-monitoring for container_1794749680865_0630_01_000171
+2026-11-18 01:26:33,848 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.logaggregation.AppLogAggregatorImpl: Considering container container_1794749680865_0630_01_000171 for log-aggregation
+2026-11-18 01:26:33,848 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.AuxServices: Got event CONTAINER_STOP for appId application_1794749680865_0630
+2026-11-18 01:26:33,860 INFO org.apache.hadoop.yarn.server.nodemanager.DefaultContainerExecutor: Deleting absolute path : /data/hadoop/tmp/nm-local-dir/usercache/hadoop/appcache/application_1794749680865_0630/container_1794749680865_0630_01_000171/launch_container.sh
+2026-11-18 01:26:33,860 WARN org.apache.hadoop.yarn.server.nodemanager.DefaultContainerExecutor: delete returned false for path: [/data/hadoop/tmp/nm-local-dir/usercache/hadoop/appcache/application_1794749680865_0630/container_1794749680865_0630_01_000171/launch_container.sh]
+2026-11-18 01:26:33,860 INFO org.apache.hadoop.yarn.server.nodemanager.DefaultContainerExecutor: Deleting absolute path : /data/hadoop/tmp/nm-local-dir/usercache/hadoop/appcache/application_1794749680865_0630/container_1794749680865_0630_01_000171/container_tokens
+2026-11-18 01:26:33,860 WARN org.apache.hadoop.yarn.server.nodemanager.DefaultContainerExecutor: delete returned false for path: [/data/hadoop/tmp/nm-local-dir/usercache/hadoop/appcache/application_1794749680865_0630/container_1794749680865_0630_01_000171/container_tokens]
+2026-11-18 01:26:33,860 INFO org.apache.hadoop.yarn.server.nodemanager.DefaultContainerExecutor: Deleting absolute path : /data/hadoop/tmp/nm-local-dir/usercache/hadoop/appcache/application_1794749680865_0630/container_1794749680865_0630_01_000171/sysfs
+2026-11-18 01:26:33,860 WARN org.apache.hadoop.yarn.server.nodemanager.DefaultContainerExecutor: delete returned false for path: [/data/hadoop/tmp/nm-local-dir/usercache/hadoop/appcache/application_1794749680865_0630/container_1794749680865_0630_01_000171/sysfs]
+2026-11-18 01:26:35,617 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.launcher.ContainerLaunch: Container container_1794749680865_0630_01_000169 succeeded 
+2026-11-18 01:26:35,617 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.container.ContainerImpl: Container container_1794749680865_0630_01_000169 transitioned from RUNNING to EXITED_WITH_SUCCESS
+2026-11-18 01:26:35,617 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.launcher.ContainerCleanup: Cleaning up container container_1794749680865_0630_01_000169
+2026-11-18 01:26:35,617 INFO org.apache.hadoop.yarn.server.nodemanager.DefaultContainerExecutor: Deleting absolute path : /data/hadoop/tmp/nm-local-dir/usercache/hadoop/appcache/application_1794749680865_0630/container_1794749680865_0630_01_000169
+2026-11-18 01:26:35,617 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.container.ContainerImpl: Container container_1794749680865_0630_01_000169 transitioned from EXITED_WITH_SUCCESS to DONE
+2026-11-18 01:26:35,617 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.application.ApplicationImpl: Removing container_1794749680865_0630_01_000169 from application application_1794749680865_0630
+2026-11-18 01:26:35,617 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.monitor.ContainersMonitorImpl: Stopping resource-monitoring for container_1794749680865_0630_01_000169
+2026-11-18 01:26:35,617 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.logaggregation.AppLogAggregatorImpl: Considering container container_1794749680865_0630_01_000169 for log-aggregation
+2026-11-18 01:26:35,617 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.AuxServices: Got event CONTAINER_STOP for appId application_1794749680865_0630
+2026-11-18 01:26:35,618 INFO org.apache.hadoop.yarn.server.nodemanager.NodeStatusUpdaterImpl: Removed completed containers from NM context: [container_1794749680865_0630_01_000171].
+2026-11-18 01:26:35,627 INFO org.apache.hadoop.yarn.server.nodemanager.DefaultContainerExecutor: Deleting absolute path : /data/hadoop/tmp/nm-local-dir/usercache/hadoop/appcache/application_1794749680865_0630/container_1794749680865_0630_01_000169/launch_container.sh
+2026-11-18 01:26:35,627 WARN org.apache.hadoop.yarn.server.nodemanager.DefaultContainerExecutor: delete returned false for path: [/data/hadoop/tmp/nm-local-dir/usercache/hadoop/appcache/application_1794749680865_0630/container_1794749680865_0630_01_000169/launch_container.sh]
+2026-11-18 01:26:35,627 INFO org.apache.hadoop.yarn.server.nodemanager.DefaultContainerExecutor: Deleting absolute path : /data/hadoop/tmp/nm-local-dir/usercache/hadoop/appcache/application_1794749680865_0630/container_1794749680865_0630_01_000169/container_tokens
+2026-11-18 01:26:35,627 WARN org.apache.hadoop.yarn.server.nodemanager.DefaultContainerExecutor: delete returned false for path: [/data/hadoop/tmp/nm-local-dir/usercache/hadoop/appcache/application_1794749680865_0630/container_1794749680865_0630_01_000169/container_tokens]
+2026-11-18 01:26:35,627 INFO org.apache.hadoop.yarn.server.nodemanager.DefaultContainerExecutor: Deleting absolute path : /data/hadoop/tmp/nm-local-dir/usercache/hadoop/appcache/application_1794749680865_0630/container_1794749680865_0630_01_000169/sysfs
+2026-11-18 01:26:35,627 WARN org.apache.hadoop.yarn.server.nodemanager.DefaultContainerExecutor: delete returned false for path: [/data/hadoop/tmp/nm-local-dir/usercache/hadoop/appcache/application_1794749680865_0630/container_1794749680865_0630_01_000169/sysfs]
+2026-11-18 01:26:37,621 INFO org.apache.hadoop.yarn.server.nodemanager.NodeStatusUpdaterImpl: Removed completed containers from NM context: [container_1794749680865_0630_01_000169].
+2026-11-18 01:26:47,641 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.application.ApplicationImpl: Application application_1794749680865_0630 transitioned from RUNNING to APPLICATION_RESOURCES_CLEANINGUP
+2026-11-18 01:26:47,642 INFO org.apache.hadoop.yarn.server.nodemanager.DefaultContainerExecutor: Deleting absolute path : /data/hadoop/tmp/nm-local-dir/usercache/hadoop/appcache/application_1794749680865_0630
+2026-11-18 01:26:47,642 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.AuxServices: Got event APPLICATION_STOP for appId application_1794749680865_0630
+2026-11-18 01:26:47,642 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.application.ApplicationImpl: Application application_1794749680865_0630 transitioned from APPLICATION_RESOURCES_CLEANINGUP to FINISHED
+2026-11-18 01:26:47,642 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.logaggregation.AppLogAggregatorImpl: Application just finished : application_1794749680865_0630
+2026-11-18 01:26:47,666 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.logaggregation.AppLogAggregatorImpl: Uploading logs for container container_1794749680865_0630_01_000102. Current good log dirs are /opt/hadoop-3.4.1/logs/userlogs
+2026-11-18 01:26:47,667 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.logaggregation.AppLogAggregatorImpl: Uploading logs for container container_1794749680865_0630_01_000032. Current good log dirs are /opt/hadoop-3.4.1/logs/userlogs
+2026-11-18 01:26:47,668 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.logaggregation.AppLogAggregatorImpl: Uploading logs for container container_1794749680865_0630_01_000160. Current good log dirs are /opt/hadoop-3.4.1/logs/userlogs
+2026-11-18 01:26:47,669 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.logaggregation.AppLogAggregatorImpl: Uploading logs for container container_1794749680865_0630_01_000003. Current good log dirs are /opt/hadoop-3.4.1/logs/userlogs
+2026-11-18 01:26:47,670 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.logaggregation.AppLogAggregatorImpl: Uploading logs for container container_1794749680865_0630_01_000131. Current good log dirs are /opt/hadoop-3.4.1/logs/userlogs
+2026-11-18 01:26:47,670 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.logaggregation.AppLogAggregatorImpl: Uploading logs for container container_1794749680865_0630_01_000143. Current good log dirs are /opt/hadoop-3.4.1/logs/userlogs
+2026-11-18 01:26:47,670 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.logaggregation.AppLogAggregatorImpl: Uploading logs for container container_1794749680865_0630_01_000040. Current good log dirs are /opt/hadoop-3.4.1/logs/userlogs
+2026-11-18 01:26:47,671 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.logaggregation.AppLogAggregatorImpl: Uploading logs for container container_1794749680865_0630_01_000073. Current good log dirs are /opt/hadoop-3.4.1/logs/userlogs
+2026-11-18 01:26:47,673 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.logaggregation.AppLogAggregatorImpl: Uploading logs for container container_1794749680865_0630_01_000139. Current good log dirs are /opt/hadoop-3.4.1/logs/userlogs
+2026-11-18 01:26:47,673 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.logaggregation.AppLogAggregatorImpl: Uploading logs for container container_1794749680865_0630_01_000053. Current good log dirs are /opt/hadoop-3.4.1/logs/userlogs
+2026-11-18 01:26:47,674 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.logaggregation.AppLogAggregatorImpl: Uploading logs for container container_1794749680865_0630_01_000082. Current good log dirs are /opt/hadoop-3.4.1/logs/userlogs
+2026-11-18 01:26:47,675 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.logaggregation.AppLogAggregatorImpl: Uploading logs for container container_1794749680865_0630_01_000061. Current good log dirs are /opt/hadoop-3.4.1/logs/userlogs
+2026-11-18 01:26:47,676 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.logaggregation.AppLogAggregatorImpl: Uploading logs for container container_1794749680865_0630_01_000094. Current good log dirs are /opt/hadoop-3.4.1/logs/userlogs
+2026-11-18 01:26:47,677 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.logaggregation.AppLogAggregatorImpl: Uploading logs for container container_1794749680865_0630_01_000152. Current good log dirs are /opt/hadoop-3.4.1/logs/userlogs
+2026-11-18 01:26:47,678 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.logaggregation.AppLogAggregatorImpl: Uploading logs for container container_1794749680865_0630_01_000123. Current good log dirs are /opt/hadoop-3.4.1/logs/userlogs
+2026-11-18 01:26:47,679 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.logaggregation.AppLogAggregatorImpl: Uploading logs for container container_1794749680865_0630_01_000004. Current good log dirs are /opt/hadoop-3.4.1/logs/userlogs
+2026-11-18 01:26:47,680 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.logaggregation.AppLogAggregatorImpl: Uploading logs for container container_1794749680865_0630_01_000132. Current good log dirs are /opt/hadoop-3.4.1/logs/userlogs
+2026-11-18 01:26:47,681 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.logaggregation.AppLogAggregatorImpl: Uploading logs for container container_1794749680865_0630_01_000103. Current good log dirs are /opt/hadoop-3.4.1/logs/userlogs
+2026-11-18 01:26:47,682 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.logaggregation.AppLogAggregatorImpl: Uploading logs for container container_1794749680865_0630_01_000033. Current good log dirs are /opt/hadoop-3.4.1/logs/userlogs
+2026-11-18 01:26:47,683 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.logaggregation.AppLogAggregatorImpl: Uploading logs for container container_1794749680865_0630_01_000161. Current good log dirs are /opt/hadoop-3.4.1/logs/userlogs
+2026-11-18 01:26:47,683 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.logaggregation.AppLogAggregatorImpl: Uploading logs for container container_1794749680865_0630_01_000012. Current good log dirs are /opt/hadoop-3.4.1/logs/userlogs
+2026-11-18 01:26:47,684 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.logaggregation.AppLogAggregatorImpl: Uploading logs for container container_1794749680865_0630_01_000140. Current good log dirs are /opt/hadoop-3.4.1/logs/userlogs
+2026-11-18 01:26:47,684 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.logaggregation.AppLogAggregatorImpl: Uploading logs for container container_1794749680865_0630_01_000111. Current good log dirs are /opt/hadoop-3.4.1/logs/userlogs
+2026-11-18 01:26:47,685 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.logaggregation.AppLogAggregatorImpl: Uploading logs for container container_1794749680865_0630_01_000041. Current good log dirs are /opt/hadoop-3.4.1/logs/userlogs
+2026-11-18 01:26:47,687 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.logaggregation.AppLogAggregatorImpl: Uploading logs for container container_1794749680865_0630_01_000169. Current good log dirs are /opt/hadoop-3.4.1/logs/userlogs
+2026-11-18 01:26:47,687 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.logaggregation.AppLogAggregatorImpl: Uploading logs for container container_1794749680865_0630_01_000074. Current good log dirs are /opt/hadoop-3.4.1/logs/userlogs
+2026-11-18 01:26:47,688 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.logaggregation.AppLogAggregatorImpl: Uploading logs for container container_1794749680865_0630_01_000021. Current good log dirs are /opt/hadoop-3.4.1/logs/userlogs
+2026-11-18 01:26:47,690 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.logaggregation.AppLogAggregatorImpl: Uploading logs for container container_1794749680865_0630_01_000149. Current good log dirs are /opt/hadoop-3.4.1/logs/userlogs
+2026-11-18 01:26:47,690 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.logaggregation.AppLogAggregatorImpl: Uploading logs for container container_1794749680865_0630_01_000054. Current good log dirs are /opt/hadoop-3.4.1/logs/userlogs
+2026-11-18 01:26:47,691 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.logaggregation.AppLogAggregatorImpl: Uploading logs for container container_1794749680865_0630_01_000112. Current good log dirs are /opt/hadoop-3.4.1/logs/userlogs
+2026-11-18 01:26:47,693 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.logaggregation.AppLogAggregatorImpl: Uploading logs for container container_1794749680865_0630_01_000017. Current good log dirs are /opt/hadoop-3.4.1/logs/userlogs
+2026-11-18 01:26:47,694 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.logaggregation.AppLogAggregatorImpl: Uploading logs for container container_1794749680865_0630_01_000050. Current good log dirs are /opt/hadoop-3.4.1/logs/userlogs
+2026-11-18 01:26:47,696 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.logaggregation.AppLogAggregatorImpl: Uploading logs for container container_1794749680865_0630_01_000083. Current good log dirs are /opt/hadoop-3.4.1/logs/userlogs
+2026-11-18 01:26:47,697 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.logaggregation.AppLogAggregatorImpl: Uploading logs for container container_1794749680865_0630_01_000095. Current good log dirs are /opt/hadoop-3.4.1/logs/userlogs
+2026-11-18 01:26:47,698 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.logaggregation.AppLogAggregatorImpl: Uploading logs for container container_1794749680865_0630_01_000120. Current good log dirs are /opt/hadoop-3.4.1/logs/userlogs
+2026-11-18 01:26:47,699 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.logaggregation.AppLogAggregatorImpl: Uploading logs for container container_1794749680865_0630_01_000005. Current good log dirs are /opt/hadoop-3.4.1/logs/userlogs
+2026-11-18 01:26:47,701 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.logaggregation.AppLogAggregatorImpl: Uploading logs for container container_1794749680865_0630_01_000133. Current good log dirs are /opt/hadoop-3.4.1/logs/userlogs
+2026-11-18 01:26:47,701 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.logaggregation.AppLogAggregatorImpl: Uploading logs for container container_1794749680865_0630_01_000034. Current good log dirs are /opt/hadoop-3.4.1/logs/userlogs
+2026-11-18 01:26:47,702 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.logaggregation.AppLogAggregatorImpl: Uploading logs for container container_1794749680865_0630_01_000162. Current good log dirs are /opt/hadoop-3.4.1/logs/userlogs
+2026-11-18 01:26:47,708 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.logaggregation.AppLogAggregatorImpl: Uploading logs for container container_1794749680865_0630_01_000013. Current good log dirs are /opt/hadoop-3.4.1/logs/userlogs
+2026-11-18 01:26:47,709 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.logaggregation.AppLogAggregatorImpl: Uploading logs for container container_1794749680865_0630_01_000141. Current good log dirs are /opt/hadoop-3.4.1/logs/userlogs
+2026-11-18 01:26:47,709 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.logaggregation.AppLogAggregatorImpl: Uploading logs for container container_1794749680865_0630_01_000104. Current good log dirs are /opt/hadoop-3.4.1/logs/userlogs
+2026-11-18 01:26:47,710 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.logaggregation.AppLogAggregatorImpl: Uploading logs for container container_1794749680865_0630_01_000042. Current good log dirs are /opt/hadoop-3.4.1/logs/userlogs
+2026-11-18 01:26:47,712 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.logaggregation.AppLogAggregatorImpl: Uploading logs for container container_1794749680865_0630_01_000075. Current good log dirs are /opt/hadoop-3.4.1/logs/userlogs
+2026-11-18 01:26:47,713 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.logaggregation.AppLogAggregatorImpl: Uploading logs for container container_1794749680865_0630_01_000084. Current good log dirs are /opt/hadoop-3.4.1/logs/userlogs
+2026-11-18 01:26:47,714 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.logaggregation.AppLogAggregatorImpl: Uploading logs for container container_1794749680865_0630_01_000022. Current good log dirs are /opt/hadoop-3.4.1/logs/userlogs
+2026-11-18 01:26:47,715 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.logaggregation.AppLogAggregatorImpl: Uploading logs for container container_1794749680865_0630_01_000150. Current good log dirs are /opt/hadoop-3.4.1/logs/userlogs
+2026-11-18 01:26:47,716 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.logaggregation.AppLogAggregatorImpl: Uploading logs for container container_1794749680865_0630_01_000113. Current good log dirs are /opt/hadoop-3.4.1/logs/userlogs
+2026-11-18 01:26:47,717 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.logaggregation.AppLogAggregatorImpl: Uploading logs for container container_1794749680865_0630_01_000051. Current good log dirs are /opt/hadoop-3.4.1/logs/userlogs
+2026-11-18 01:26:47,718 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.logaggregation.AppLogAggregatorImpl: Uploading logs for container container_1794749680865_0630_01_000092. Current good log dirs are /opt/hadoop-3.4.1/logs/userlogs
+2026-11-18 01:26:47,719 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.logaggregation.AppLogAggregatorImpl: Uploading logs for container container_1794749680865_0630_01_000063. Current good log dirs are /opt/hadoop-3.4.1/logs/userlogs
+2026-11-18 01:26:47,719 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.logaggregation.AppLogAggregatorImpl: Uploading logs for container container_1794749680865_0630_01_000121. Current good log dirs are /opt/hadoop-3.4.1/logs/userlogs
+2026-11-18 01:26:47,720 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.logaggregation.AppLogAggregatorImpl: Uploading logs for container container_1794749680865_0630_01_000059. Current good log dirs are /opt/hadoop-3.4.1/logs/userlogs
+2026-11-18 01:26:47,722 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.logaggregation.AppLogAggregatorImpl: Uploading logs for container container_1794749680865_0630_01_000101. Current good log dirs are /opt/hadoop-3.4.1/logs/userlogs
+2026-11-18 01:26:47,723 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.logaggregation.AppLogAggregatorImpl: Uploading logs for container container_1794749680865_0630_01_000006. Current good log dirs are /opt/hadoop-3.4.1/logs/userlogs
+2026-11-18 01:26:47,724 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.logaggregation.AppLogAggregatorImpl: Uploading logs for container container_1794749680865_0630_01_000167. Current good log dirs are /opt/hadoop-3.4.1/logs/userlogs
+2026-11-18 01:26:47,724 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.logaggregation.AppLogAggregatorImpl: Uploading logs for container container_1794749680865_0630_01_000130. Current good log dirs are /opt/hadoop-3.4.1/logs/userlogs
+2026-11-18 01:26:47,725 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.logaggregation.AppLogAggregatorImpl: Uploading logs for container container_1794749680865_0630_01_000014. Current good log dirs are /opt/hadoop-3.4.1/logs/userlogs
+2026-11-18 01:26:47,726 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.logaggregation.AppLogAggregatorImpl: Uploading logs for container container_1794749680865_0630_01_000072. Current good log dirs are /opt/hadoop-3.4.1/logs/userlogs
+2026-11-18 01:26:47,727 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.logaggregation.AppLogAggregatorImpl: Uploading logs for container container_1794749680865_0630_01_000043. Current good log dirs are /opt/hadoop-3.4.1/logs/userlogs
+2026-11-18 01:26:47,728 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.logaggregation.AppLogAggregatorImpl: Uploading logs for container container_1794749680865_0630_01_000171. Current good log dirs are /opt/hadoop-3.4.1/logs/userlogs
+2026-11-18 01:26:47,728 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.logaggregation.AppLogAggregatorImpl: Uploading logs for container container_1794749680865_0630_01_000085. Current good log dirs are /opt/hadoop-3.4.1/logs/userlogs
+2026-11-18 01:26:47,729 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.logaggregation.AppLogAggregatorImpl: Uploading logs for container container_1794749680865_0630_01_000023. Current good log dirs are /opt/hadoop-3.4.1/logs/userlogs
+2026-11-18 01:26:47,730 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.logaggregation.AppLogAggregatorImpl: Uploading logs for container container_1794749680865_0630_01_000151. Current good log dirs are /opt/hadoop-3.4.1/logs/userlogs
+2026-11-18 01:26:47,730 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.logaggregation.AppLogAggregatorImpl: Uploading logs for container container_1794749680865_0630_01_000114. Current good log dirs are /opt/hadoop-3.4.1/logs/userlogs
+2026-11-18 01:26:47,731 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.logaggregation.AppLogAggregatorImpl: Uploading logs for container container_1794749680865_0630_01_000060. Current good log dirs are /opt/hadoop-3.4.1/logs/userlogs
+2026-11-18 01:26:47,732 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.logaggregation.AppLogAggregatorImpl: Uploading logs for container container_1794749680865_0630_01_000093. Current good log dirs are /opt/hadoop-3.4.1/logs/userlogs
+2026-11-18 01:26:47,733 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.logaggregation.AppLogAggregatorImpl: Uploading logs for container container_1794749680865_0630_01_000031. Current good log dirs are /opt/hadoop-3.4.1/logs/userlogs
+2026-11-18 01:26:47,735 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.logaggregation.AppLogAggregatorImpl: Uploading logs for container container_1794749680865_0630_01_000159. Current good log dirs are /opt/hadoop-3.4.1/logs/userlogs
+2026-11-18 01:26:47,735 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.logaggregation.AppLogAggregatorImpl: Uploading logs for container container_1794749680865_0630_01_000122. Current good log dirs are /opt/hadoop-3.4.1/logs/userlogs
+2026-11-18 01:26:47,736 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.logaggregation.AppLogAggregatorImpl: Uploading logs for container container_1794749680865_0630_01_000027. Current good log dirs are /opt/hadoop-3.4.1/logs/userlogs
+2026-11-18 01:26:47,948 INFO org.apache.hadoop.yarn.server.nodemanager.DefaultContainerExecutor: Deleting path : /opt/hadoop-3.4.1/logs/userlogs/application_1794749680865_0630/container_1794749680865_0630_01_000027/launch_container.sh
+2026-11-18 01:26:47,948 INFO org.apache.hadoop.yarn.server.nodemanager.DefaultContainerExecutor: Deleting path : /opt/hadoop-3.4.1/logs/userlogs/application_1794749680865_0630
+2026-11-18 01:26:47,948 INFO org.apache.hadoop.yarn.server.nodemanager.DefaultContainerExecutor: Deleting path : /opt/hadoop-3.4.1/logs/userlogs/application_1794749680865_0630/container_1794749680865_0630_01_000027/stdout
+2026-11-18 01:26:47,948 INFO org.apache.hadoop.yarn.server.nodemanager.DefaultContainerExecutor: Deleting path : /opt/hadoop-3.4.1/logs/userlogs/application_1794749680865_0630/container_1794749680865_0630_01_000027/syslog
+2026-11-18 01:26:47,948 INFO org.apache.hadoop.yarn.server.nodemanager.DefaultContainerExecutor: Deleting path : /opt/hadoop-3.4.1/logs/userlogs/application_1794749680865_0630/container_1794749680865_0630_01_000027/prelaunch.out
+2026-11-18 01:26:47,948 INFO org.apache.hadoop.yarn.server.nodemanager.DefaultContainerExecutor: Deleting path : /opt/hadoop-3.4.1/logs/userlogs/application_1794749680865_0630/container_1794749680865_0630_01_000027/directory.info
+2026-11-18 01:26:47,948 INFO org.apache.hadoop.yarn.server.nodemanager.DefaultContainerExecutor: Deleting path : /opt/hadoop-3.4.1/logs/userlogs/application_1794749680865_0630/container_1794749680865_0630_01_000027/prelaunch.err
+2026-11-18 01:26:47,948 INFO org.apache.hadoop.yarn.server.nodemanager.DefaultContainerExecutor: Deleting path : /opt/hadoop-3.4.1/logs/userlogs/application_1794749680865_0630/container_1794749680865_0630_01_000027/stderr
+2026-11-18 01:34:42,066 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2026-11-18 01:34:42,307 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 0, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+
+==> /opt/hadoop/logs/hadoop-hadoop-datanode-worker1.log <==
+2026-11-18 01:15:16,624 WARN org.apache.hadoop.hdfs.server.datanode.DataNode: Slow BlockReceiver write packet to mirror took 453ms (threshold=300ms), downstream DNs=[192.168.1.204:9866], blockId=1073763433, seqno=5944
+2026-11-18 01:15:16,778 WARN org.apache.hadoop.hdfs.server.datanode.DataNode: Slow BlockReceiver write packet to mirror took 303ms (threshold=300ms), downstream DNs=[192.168.1.204:9866], blockId=1073763439, seqno=7875
+2026-11-18 01:15:16,830 WARN org.apache.hadoop.hdfs.server.datanode.DataNode: Slow BlockReceiver write packet to mirror took 330ms (threshold=300ms), downstream DNs=[192.168.1.204:9866], blockId=1073763440, seqno=5314
+2026-11-18 01:15:17,100 WARN org.apache.hadoop.hdfs.server.datanode.DataNode: Slow BlockReceiver write packet to mirror took 322ms (threshold=300ms), downstream DNs=[192.168.1.204:9866], blockId=1073763439, seqno=7889
+2026-11-18 01:15:17,127 WARN org.apache.hadoop.hdfs.server.datanode.DataNode: Slow BlockReceiver write packet to mirror took 502ms (threshold=300ms), downstream DNs=[192.168.1.204:9866], blockId=1073763433, seqno=5955
+2026-11-18 01:15:17,224 WARN org.apache.hadoop.hdfs.server.datanode.DataNode: Slow BlockReceiver write packet to mirror took 393ms (threshold=300ms), downstream DNs=[192.168.1.204:9866], blockId=1073763440, seqno=5332
+2026-11-18 01:15:17,656 WARN org.apache.hadoop.hdfs.server.datanode.DataNode: Slow BlockReceiver write packet to mirror took 527ms (threshold=300ms), downstream DNs=[192.168.1.204:9866], blockId=1073763433, seqno=5966
+2026-11-18 01:15:17,705 WARN org.apache.hadoop.hdfs.server.datanode.DataNode: Slow BlockReceiver write packet to mirror took 480ms (threshold=300ms), downstream DNs=[192.168.1.204:9866], blockId=1073763440, seqno=5350
+2026-11-18 01:15:18,079 WARN org.apache.hadoop.hdfs.server.datanode.DataNode: Slow BlockReceiver write packet to mirror took 373ms (threshold=300ms), downstream DNs=[192.168.1.204:9866], blockId=1073763440, seqno=5368
+2026-11-18 01:15:18,109 WARN org.apache.hadoop.hdfs.server.datanode.DataNode: Slow BlockReceiver write packet to mirror took 452ms (threshold=300ms), downstream DNs=[192.168.1.204:9866], blockId=1073763433, seqno=5978
+2026-11-18 01:15:18,498 WARN org.apache.hadoop.hdfs.server.datanode.DataNode: Slow BlockReceiver write packet to mirror took 417ms (threshold=300ms), downstream DNs=[192.168.1.204:9866], blockId=1073763440, seqno=5386
+2026-11-18 01:15:18,543 WARN org.apache.hadoop.hdfs.server.datanode.DataNode: Slow BlockReceiver write packet to mirror took 434ms (threshold=300ms), downstream DNs=[192.168.1.204:9866], blockId=1073763433, seqno=5989
+2026-11-18 01:15:18,939 WARN org.apache.hadoop.hdfs.server.datanode.DataNode: Slow BlockReceiver write packet to mirror took 440ms (threshold=300ms), downstream DNs=[192.168.1.204:9866], blockId=1073763440, seqno=5405
+2026-11-18 01:15:19,007 WARN org.apache.hadoop.hdfs.server.datanode.DataNode: Slow BlockReceiver write packet to mirror took 464ms (threshold=300ms), downstream DNs=[192.168.1.204:9866], blockId=1073763433, seqno=6000
+2026-11-18 01:15:19,334 WARN org.apache.hadoop.hdfs.server.datanode.DataNode: Slow BlockReceiver write packet to mirror took 393ms (threshold=300ms), downstream DNs=[192.168.1.204:9866], blockId=1073763440, seqno=5423
+2026-11-18 01:15:19,415 WARN org.apache.hadoop.hdfs.server.datanode.DataNode: Slow BlockReceiver write packet to mirror took 406ms (threshold=300ms), downstream DNs=[192.168.1.204:9866], blockId=1073763433, seqno=6011
+2026-11-18 01:15:19,734 WARN org.apache.hadoop.hdfs.server.datanode.DataNode: Slow BlockReceiver write packet to mirror took 398ms (threshold=300ms), downstream DNs=[192.168.1.204:9866], blockId=1073763440, seqno=5441
+2026-11-18 01:15:19,836 WARN org.apache.hadoop.hdfs.server.datanode.DataNode: Slow BlockReceiver write packet to mirror took 420ms (threshold=300ms), downstream DNs=[192.168.1.204:9866], blockId=1073763433, seqno=6022
+2026-11-18 01:15:20,142 WARN org.apache.hadoop.hdfs.server.datanode.DataNode: Slow BlockReceiver write packet to mirror took 406ms (threshold=300ms), downstream DNs=[192.168.1.204:9866], blockId=1073763440, seqno=5459
+2026-11-18 01:15:20,252 WARN org.apache.hadoop.hdfs.server.datanode.DataNode: Slow BlockReceiver write packet to mirror took 416ms (threshold=300ms), downstream DNs=[192.168.1.204:9866], blockId=1073763433, seqno=6033
+2026-11-18 01:15:20,559 WARN org.apache.hadoop.hdfs.server.datanode.DataNode: Slow BlockReceiver write packet to mirror took 415ms (threshold=300ms), downstream DNs=[192.168.1.204:9866], blockId=1073763440, seqno=5477
+2026-11-18 01:15:20,706 WARN org.apache.hadoop.hdfs.server.datanode.DataNode: Slow BlockReceiver write packet to mirror took 454ms (threshold=300ms), downstream DNs=[192.168.1.204:9866], blockId=1073763433, seqno=6044
+2026-11-18 01:15:20,989 WARN org.apache.hadoop.hdfs.server.datanode.DataNode: Slow BlockReceiver write packet to mirror took 429ms (threshold=300ms), downstream DNs=[192.168.1.204:9866], blockId=1073763440, seqno=5495
+2026-11-18 01:15:21,138 WARN org.apache.hadoop.hdfs.server.datanode.DataNode: Slow BlockReceiver write packet to mirror took 430ms (threshold=300ms), downstream DNs=[192.168.1.204:9866], blockId=1073763433, seqno=6055
+2026-11-18 01:15:21,422 WARN org.apache.hadoop.hdfs.server.datanode.DataNode: Slow BlockReceiver write packet to mirror took 433ms (threshold=300ms), downstream DNs=[192.168.1.204:9866], blockId=1073763440, seqno=5513
+2026-11-18 01:15:21,578 WARN org.apache.hadoop.hdfs.server.datanode.DataNode: Slow BlockReceiver write packet to mirror took 439ms (threshold=300ms), downstream DNs=[192.168.1.204:9866], blockId=1073763433, seqno=6066
+2026-11-18 01:15:21,884 WARN org.apache.hadoop.hdfs.server.datanode.DataNode: Slow BlockReceiver write packet to mirror took 460ms (threshold=300ms), downstream DNs=[192.168.1.204:9866], blockId=1073763440, seqno=5531
+2026-11-18 01:15:21,946 WARN org.apache.hadoop.hdfs.server.datanode.DataNode: Slow BlockReceiver write packet to mirror took 364ms (threshold=300ms), downstream DNs=[192.168.1.204:9866], blockId=1073763439, seqno=8153
+2026-11-18 01:15:22,052 WARN org.apache.hadoop.hdfs.server.datanode.DataNode: Slow BlockReceiver write packet to mirror took 473ms (threshold=300ms), downstream DNs=[192.168.1.204:9866], blockId=1073763433, seqno=6077
+2026-11-18 01:15:22,249 WARN org.apache.hadoop.hdfs.server.datanode.DataNode: Slow BlockReceiver write packet to mirror took 364ms (threshold=300ms), downstream DNs=[192.168.1.204:9866], blockId=1073763440, seqno=5549
+2026-11-18 01:15:22,526 WARN org.apache.hadoop.hdfs.server.datanode.DataNode: Slow BlockReceiver write packet to mirror took 473ms (threshold=300ms), downstream DNs=[192.168.1.204:9866], blockId=1073763433, seqno=6088
+2026-11-18 01:15:22,580 WARN org.apache.hadoop.hdfs.server.datanode.DataNode: Slow BlockReceiver write packet to mirror took 335ms (threshold=300ms), downstream DNs=[192.168.1.204:9866], blockId=1073763439, seqno=8190
+2026-11-18 01:15:22,622 WARN org.apache.hadoop.hdfs.server.datanode.DataNode: Slow BlockReceiver write packet to mirror took 372ms (threshold=300ms), downstream DNs=[192.168.1.204:9866], blockId=1073763440, seqno=5567
+2026-11-18 01:15:23,006 WARN org.apache.hadoop.hdfs.server.datanode.DataNode: Slow BlockReceiver write packet to mirror took 382ms (threshold=300ms), downstream DNs=[192.168.1.204:9866], blockId=1073763440, seqno=5585
+2026-11-18 01:15:23,025 WARN org.apache.hadoop.hdfs.server.datanode.DataNode: Slow BlockReceiver write packet to mirror took 498ms (threshold=300ms), downstream DNs=[192.168.1.204:9866], blockId=1073763433, seqno=6099
+2026-11-18 01:15:23,404 WARN org.apache.hadoop.hdfs.server.datanode.DataNode: Slow BlockReceiver write packet to mirror took 398ms (threshold=300ms), downstream DNs=[192.168.1.204:9866], blockId=1073763440, seqno=5603
+2026-11-18 01:15:23,445 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /192.168.1.202:52056, dest: /192.168.1.202:9866, volume: /data/hadoop/dn, bytes: 125672800, op: HDFS_WRITE, cliID: DFSClient_attempt_1794749680865_0629_r_000002_0_-2083522092_1, offset: 0, srvID: 617f4eb3-d37a-4c45-8fbe-4ef97d364e5d, blockid: BP-105570151-192.168.1.201-1794728025265:blk_1073763439_22615, duration(ns): 55279636802
+2026-11-18 01:15:23,445 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-105570151-192.168.1.201-1794728025265:blk_1073763439_22615, type=HAS_DOWNSTREAM_IN_PIPELINE, downstreams=1:[192.168.1.204:9866] terminating
+2026-11-18 01:15:23,458 WARN org.apache.hadoop.hdfs.server.datanode.DataNode: Slow BlockReceiver write packet to mirror took 431ms (threshold=300ms), downstream DNs=[192.168.1.204:9866], blockId=1073763433, seqno=6110
+2026-11-18 01:15:23,786 WARN org.apache.hadoop.hdfs.server.datanode.DataNode: Slow BlockReceiver write packet to mirror took 328ms (threshold=300ms), downstream DNs=[192.168.1.204:9866], blockId=1073763433, seqno=6121
+2026-11-18 01:15:23,988 WARN org.apache.hadoop.hdfs.server.datanode.DataNode: Slow BlockReceiver write packet to mirror took 313ms (threshold=300ms), downstream DNs=[192.168.1.204:9866], blockId=1073763440, seqno=5639
+2026-11-18 01:15:24,102 WARN org.apache.hadoop.hdfs.server.datanode.DataNode: Slow BlockReceiver write packet to mirror took 314ms (threshold=300ms), downstream DNs=[192.168.1.204:9866], blockId=1073763433, seqno=6132
+2026-11-18 01:15:24,448 WARN org.apache.hadoop.hdfs.server.datanode.DataNode: Slow BlockReceiver write packet to mirror took 345ms (threshold=300ms), downstream DNs=[192.168.1.204:9866], blockId=1073763433, seqno=6143
+2026-11-18 01:15:24,593 WARN org.apache.hadoop.hdfs.server.datanode.DataNode: Slow BlockReceiver write packet to mirror took 303ms (threshold=300ms), downstream DNs=[192.168.1.204:9866], blockId=1073763440, seqno=5675
+2026-11-18 01:15:24,780 WARN org.apache.hadoop.hdfs.server.datanode.DataNode: Slow BlockReceiver write packet to mirror took 331ms (threshold=300ms), downstream DNs=[192.168.1.204:9866], blockId=1073763433, seqno=6154
+2026-11-18 01:15:24,902 WARN org.apache.hadoop.hdfs.server.datanode.DataNode: Slow BlockReceiver write packet to mirror took 307ms (threshold=300ms), downstream DNs=[192.168.1.204:9866], blockId=1073763440, seqno=5693
+2026-11-18 01:15:25,098 WARN org.apache.hadoop.hdfs.server.datanode.DataNode: Slow BlockReceiver write packet to mirror took 317ms (threshold=300ms), downstream DNs=[192.168.1.204:9866], blockId=1073763433, seqno=6165
+2026-11-18 01:15:25,420 WARN org.apache.hadoop.hdfs.server.datanode.DataNode: Slow BlockReceiver write packet to mirror took 321ms (threshold=300ms), downstream DNs=[192.168.1.204:9866], blockId=1073763433, seqno=6176
+2026-11-18 01:15:25,495 WARN org.apache.hadoop.hdfs.server.datanode.DataNode: Slow BlockReceiver write packet to mirror took 302ms (threshold=300ms), downstream DNs=[192.168.1.204:9866], blockId=1073763440, seqno=5729
+2026-11-18 01:15:25,745 WARN org.apache.hadoop.hdfs.server.datanode.DataNode: Slow BlockReceiver write packet to mirror took 325ms (threshold=300ms), downstream DNs=[192.168.1.204:9866], blockId=1073763433, seqno=6187
+2026-11-18 01:15:26,072 WARN org.apache.hadoop.hdfs.server.datanode.DataNode: Slow BlockReceiver write packet to mirror took 327ms (threshold=300ms), downstream DNs=[192.168.1.204:9866], blockId=1073763433, seqno=6198
+2026-11-18 01:15:26,104 WARN org.apache.hadoop.hdfs.server.datanode.DataNode: Slow BlockReceiver write packet to mirror took 310ms (threshold=300ms), downstream DNs=[192.168.1.204:9866], blockId=1073763440, seqno=5765
+2026-11-18 01:15:26,400 WARN org.apache.hadoop.hdfs.server.datanode.DataNode: Slow BlockReceiver write packet to mirror took 328ms (threshold=300ms), downstream DNs=[192.168.1.204:9866], blockId=1073763433, seqno=6209
+2026-11-18 01:15:26,419 WARN org.apache.hadoop.hdfs.server.datanode.DataNode: Slow BlockReceiver write packet to mirror took 314ms (threshold=300ms), downstream DNs=[192.168.1.204:9866], blockId=1073763440, seqno=5783
+2026-11-18 01:15:26,729 WARN org.apache.hadoop.hdfs.server.datanode.DataNode: Slow BlockReceiver write packet to mirror took 328ms (threshold=300ms), downstream DNs=[192.168.1.204:9866], blockId=1073763433, seqno=6220
+2026-11-18 01:15:27,064 WARN org.apache.hadoop.hdfs.server.datanode.DataNode: Slow BlockReceiver write packet to mirror took 335ms (threshold=300ms), downstream DNs=[192.168.1.204:9866], blockId=1073763433, seqno=6231
+2026-11-18 01:15:27,292 WARN org.apache.hadoop.hdfs.server.datanode.DataNode: Slow BlockReceiver write packet to mirror took 309ms (threshold=300ms), downstream DNs=[192.168.1.204:9866], blockId=1073763440, seqno=5837
+2026-11-18 01:15:27,395 WARN org.apache.hadoop.hdfs.server.datanode.DataNode: Slow BlockReceiver write packet to mirror took 330ms (threshold=300ms), downstream DNs=[192.168.1.204:9866], blockId=1073763433, seqno=6242
+2026-11-18 01:15:28,014 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /192.168.1.202:56804, dest: /192.168.1.202:9866, volume: /data/hadoop/dn, bytes: 134217728, op: HDFS_WRITE, cliID: DFSClient_attempt_1794749680865_0629_r_000000_0_-852335565_1, offset: 0, srvID: 617f4eb3-d37a-4c45-8fbe-4ef97d364e5d, blockid: BP-105570151-192.168.1.201-1794728025265:blk_1073763433_22609, duration(ns): 76413969168
+2026-11-18 01:15:28,014 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-105570151-192.168.1.201-1794728025265:blk_1073763433_22609, type=HAS_DOWNSTREAM_IN_PIPELINE, downstreams=1:[192.168.1.204:9866] terminating
+2026-11-18 01:15:28,019 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-105570151-192.168.1.201-1794728025265:blk_1073763442_22618 src: /192.168.1.202:51412 dest: /192.168.1.202:9866
+2026-11-18 01:15:30,833 WARN org.apache.hadoop.hdfs.server.datanode.DataNode: Slow BlockReceiver write packet to mirror took 306ms (threshold=300ms), downstream DNs=[192.168.1.204:9866], blockId=1073763440, seqno=6142
+2026-11-18 01:15:31,447 WARN org.apache.hadoop.hdfs.server.datanode.DataNode: Slow BlockReceiver write packet to mirror took 310ms (threshold=300ms), downstream DNs=[192.168.1.204:9866], blockId=1073763440, seqno=6188
+2026-11-18 01:15:32,050 WARN org.apache.hadoop.hdfs.server.datanode.DataNode: Slow BlockReceiver write packet to mirror took 319ms (threshold=300ms), downstream DNs=[192.168.1.204:9866], blockId=1073763440, seqno=6232
+2026-11-18 01:15:32,872 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /192.168.1.202:38610, dest: /192.168.1.202:9866, volume: /data/hadoop/dn, bytes: 134217728, op: HDFS_WRITE, cliID: DFSClient_attempt_1794749680865_0629_r_000004_0_-1652509654_1, offset: 0, srvID: 617f4eb3-d37a-4c45-8fbe-4ef97d364e5d, blockid: BP-105570151-192.168.1.201-1794728025265:blk_1073763440_22616, duration(ns): 39151004541
+2026-11-18 01:15:32,872 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-105570151-192.168.1.201-1794728025265:blk_1073763440_22616, type=HAS_DOWNSTREAM_IN_PIPELINE, downstreams=1:[192.168.1.204:9866] terminating
+2026-11-18 01:15:32,876 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-105570151-192.168.1.201-1794728025265:blk_1073763443_22619 src: /192.168.1.202:51422 dest: /192.168.1.202:9866
+2026-11-18 01:15:35,239 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /192.168.1.202:51412, dest: /192.168.1.202:9866, volume: /data/hadoop/dn, bytes: 125875542, op: HDFS_WRITE, cliID: DFSClient_attempt_1794749680865_0629_r_000000_0_-852335565_1, offset: 0, srvID: 617f4eb3-d37a-4c45-8fbe-4ef97d364e5d, blockid: BP-105570151-192.168.1.201-1794728025265:blk_1073763442_22618, duration(ns): 7216751580
+2026-11-18 01:15:35,239 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-105570151-192.168.1.201-1794728025265:blk_1073763442_22618, type=HAS_DOWNSTREAM_IN_PIPELINE, downstreams=1:[192.168.1.203:9866] terminating
+2026-11-18 01:15:39,615 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /192.168.1.202:51422, dest: /192.168.1.202:9866, volume: /data/hadoop/dn, bytes: 125638135, op: HDFS_WRITE, cliID: DFSClient_attempt_1794749680865_0629_r_000004_0_-1652509654_1, offset: 0, srvID: 617f4eb3-d37a-4c45-8fbe-4ef97d364e5d, blockid: BP-105570151-192.168.1.201-1794728025265:blk_1073763443_22619, duration(ns): 6735345160
+2026-11-18 01:15:39,615 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-105570151-192.168.1.201-1794728025265:blk_1073763443_22619, type=HAS_DOWNSTREAM_IN_PIPELINE, downstreams=1:[192.168.1.203:9866] terminating
+2026-11-18 01:15:48,818 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-105570151-192.168.1.201-1794728025265:blk_1073763445_22621 src: /192.168.1.203:60450 dest: /192.168.1.202:9866
+2026-11-18 01:15:55,318 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /192.168.1.203:60450, dest: /192.168.1.202:9866, volume: /data/hadoop/dn, bytes: 125668178, op: HDFS_WRITE, cliID: DFSClient_attempt_1794749680865_0629_r_000005_0_810695526_1, offset: 0, srvID: 617f4eb3-d37a-4c45-8fbe-4ef97d364e5d, blockid: BP-105570151-192.168.1.201-1794728025265:blk_1073763445_22621, duration(ns): 6498510305
+2026-11-18 01:15:55,318 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-105570151-192.168.1.201-1794728025265:blk_1073763445_22621, type=LAST_IN_PIPELINE terminating
+2026-11-18 01:16:05,759 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /192.168.1.204:34510, dest: /192.168.1.202:9866, volume: /data/hadoop/dn, bytes: 675403, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_293009665_1, offset: 0, srvID: 617f4eb3-d37a-4c45-8fbe-4ef97d364e5d, blockid: BP-105570151-192.168.1.201-1794728025265:blk_1073763422_22598, duration(ns): 681763580641
+2026-11-18 01:16:05,759 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-105570151-192.168.1.201-1794728025265:blk_1073763422_22598, type=LAST_IN_PIPELINE terminating
+2026-11-18 01:16:05,769 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-105570151-192.168.1.201-1794728025265:blk_1073763447_22623 src: /192.168.1.204:51824 dest: /192.168.1.202:9866
+2026-11-18 01:16:05,776 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /192.168.1.204:51824, dest: /192.168.1.202:9866, volume: /data/hadoop/dn, bytes: 447, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_293009665_1, offset: 0, srvID: 617f4eb3-d37a-4c45-8fbe-4ef97d364e5d, blockid: BP-105570151-192.168.1.201-1794728025265:blk_1073763447_22623, duration(ns): 6961747
+2026-11-18 01:16:05,776 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-105570151-192.168.1.201-1794728025265:blk_1073763447_22623, type=LAST_IN_PIPELINE terminating
+2026-11-18 01:16:05,807 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-105570151-192.168.1.201-1794728025265:blk_1073763448_22624 src: /192.168.1.204:51834 dest: /192.168.1.202:9866
+2026-11-18 01:16:05,867 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /192.168.1.204:51834, dest: /192.168.1.202:9866, volume: /data/hadoop/dn, bytes: 675403, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_293009665_1, offset: 0, srvID: 617f4eb3-d37a-4c45-8fbe-4ef97d364e5d, blockid: BP-105570151-192.168.1.201-1794728025265:blk_1073763448_22624, duration(ns): 59613013
+2026-11-18 01:16:05,867 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-105570151-192.168.1.201-1794728025265:blk_1073763448_22624, type=LAST_IN_PIPELINE terminating
+2026-11-18 01:16:05,887 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-105570151-192.168.1.201-1794728025265:blk_1073763449_22625 src: /192.168.1.204:51836 dest: /192.168.1.202:9866
+2026-11-18 01:16:05,918 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /192.168.1.204:51836, dest: /192.168.1.202:9866, volume: /data/hadoop/dn, bytes: 306754, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_293009665_1, offset: 0, srvID: 617f4eb3-d37a-4c45-8fbe-4ef97d364e5d, blockid: BP-105570151-192.168.1.201-1794728025265:blk_1073763449_22625, duration(ns): 29971535
+2026-11-18 01:16:05,918 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-105570151-192.168.1.201-1794728025265:blk_1073763449_22625, type=LAST_IN_PIPELINE terminating
+2026-11-18 01:16:12,657 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-105570151-192.168.1.201-1794728025265:blk_1073763450_22626 src: /192.168.1.202:58110 dest: /192.168.1.202:9866
+2026-11-18 01:16:12,740 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /192.168.1.202:58110, dest: /192.168.1.202:9866, volume: /data/hadoop/dn, bytes: 3105449, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_-98526000_2317, offset: 0, srvID: 617f4eb3-d37a-4c45-8fbe-4ef97d364e5d, blockid: BP-105570151-192.168.1.201-1794728025265:blk_1073763450_22626, duration(ns): 80901927
+2026-11-18 01:16:12,740 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-105570151-192.168.1.201-1794728025265:blk_1073763450_22626, type=HAS_DOWNSTREAM_IN_PIPELINE, downstreams=1:[192.168.1.203:9866] terminating
+2026-11-18 01:16:19,548 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-105570151-192.168.1.201-1794728025265:blk_1073763453_22629 src: /192.168.1.203:50632 dest: /192.168.1.202:9866
+2026-11-18 01:16:19,562 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /192.168.1.203:50632, dest: /192.168.1.202:9866, volume: /data/hadoop/dn, bytes: 17510, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_2078873100_1, offset: 0, srvID: 617f4eb3-d37a-4c45-8fbe-4ef97d364e5d, blockid: BP-105570151-192.168.1.201-1794728025265:blk_1073763453_22629, duration(ns): 11360496
+2026-11-18 01:16:19,562 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-105570151-192.168.1.201-1794728025265:blk_1073763453_22629, type=LAST_IN_PIPELINE terminating
+2026-11-18 01:16:19,698 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-105570151-192.168.1.201-1794728025265:blk_1073763454_22630 src: /192.168.1.204:52226 dest: /192.168.1.202:9866
+2026-11-18 01:16:19,708 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /192.168.1.204:52226, dest: /192.168.1.202:9866, volume: /data/hadoop/dn, bytes: 19031, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_2078873100_1, offset: 0, srvID: 617f4eb3-d37a-4c45-8fbe-4ef97d364e5d, blockid: BP-105570151-192.168.1.201-1794728025265:blk_1073763454_22630, duration(ns): 9356312
+2026-11-18 01:16:19,708 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-105570151-192.168.1.201-1794728025265:blk_1073763454_22630, type=LAST_IN_PIPELINE terminating
+2026-11-18 01:16:19,722 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-105570151-192.168.1.201-1794728025265:blk_1073763455_22631 src: /192.168.1.204:52230 dest: /192.168.1.202:9866
+2026-11-18 01:16:19,728 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /192.168.1.204:52230, dest: /192.168.1.202:9866, volume: /data/hadoop/dn, bytes: 4106, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_2078873100_1, offset: 0, srvID: 617f4eb3-d37a-4c45-8fbe-4ef97d364e5d, blockid: BP-105570151-192.168.1.201-1794728025265:blk_1073763455_22631, duration(ns): 4676450
+2026-11-18 01:16:19,728 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-105570151-192.168.1.201-1794728025265:blk_1073763455_22631, type=LAST_IN_PIPELINE terminating
+2026-11-18 01:16:19,875 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-105570151-192.168.1.201-1794728025265:blk_1073763456_22632 src: /192.168.1.204:52240 dest: /192.168.1.202:9866
+2026-11-18 01:16:19,917 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /192.168.1.204:52240, dest: /192.168.1.202:9866, volume: /data/hadoop/dn, bytes: 265421, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_2078873100_1, offset: 0, srvID: 617f4eb3-d37a-4c45-8fbe-4ef97d364e5d, blockid: BP-105570151-192.168.1.201-1794728025265:blk_1073763456_22632, duration(ns): 42410489
+2026-11-18 01:16:19,918 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-105570151-192.168.1.201-1794728025265:blk_1073763456_22632, type=LAST_IN_PIPELINE terminating
+2026-11-18 01:16:24,056 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073763425_22601 replica FinalizedReplica, blk_1073763425_22601, FINALIZED
+  getNumBytes()     = 134217728
+  getBytesOnDisk()  = 134217728
+  getVisibleLength()= 134217728
+  getVolume()       = /data/hadoop/dn
+  getBlockURI()     = file:/data/hadoop/dn/current/BP-105570151-192.168.1.201-1794728025265/current/finalized/subdir0/subdir20/blk_1073763425 on volume /data/hadoop/dn for deletion
+2026-11-18 01:16:24,056 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073763426_22602 replica FinalizedReplica, blk_1073763426_22602, FINALIZED
+  getNumBytes()     = 134217728
+  getBytesOnDisk()  = 134217728
+  getVisibleLength()= 134217728
+  getVolume()       = /data/hadoop/dn
+  getBlockURI()     = file:/data/hadoop/dn/current/BP-105570151-192.168.1.201-1794728025265/current/finalized/subdir0/subdir20/blk_1073763426 on volume /data/hadoop/dn for deletion
+2026-11-18 01:16:24,056 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073763427_22603 replica FinalizedReplica, blk_1073763427_22603, FINALIZED
+  getNumBytes()     = 134217728
+  getBytesOnDisk()  = 134217728
+  getVisibleLength()= 134217728
+  getVolume()       = /data/hadoop/dn
+  getBlockURI()     = file:/data/hadoop/dn/current/BP-105570151-192.168.1.201-1794728025265/current/finalized/subdir0/subdir20/blk_1073763427 on volume /data/hadoop/dn for deletion
+2026-11-18 01:16:24,056 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073763428_22604 replica FinalizedReplica, blk_1073763428_22604, FINALIZED
+  getNumBytes()     = 134217728
+  getBytesOnDisk()  = 134217728
+  getVisibleLength()= 134217728
+  getVolume()       = /data/hadoop/dn
+  getBlockURI()     = file:/data/hadoop/dn/current/BP-105570151-192.168.1.201-1794728025265/current/finalized/subdir0/subdir20/blk_1073763428 on volume /data/hadoop/dn for deletion
+2026-11-18 01:16:24,057 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073763429_22605 replica FinalizedReplica, blk_1073763429_22605, FINALIZED
+  getNumBytes()     = 134217728
+  getBytesOnDisk()  = 134217728
+  getVisibleLength()= 134217728
+  getVolume()       = /data/hadoop/dn
+  getBlockURI()     = file:/data/hadoop/dn/current/BP-105570151-192.168.1.201-1794728025265/current/finalized/subdir0/subdir20/blk_1073763429 on volume /data/hadoop/dn for deletion
+2026-11-18 01:16:24,057 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-105570151-192.168.1.201-1794728025265 blk_1073763425_22601 URI file:/data/hadoop/dn/current/BP-105570151-192.168.1.201-1794728025265/current/finalized/subdir0/subdir20/blk_1073763425
+2026-11-18 01:16:24,057 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073763430_22606 replica FinalizedReplica, blk_1073763430_22606, FINALIZED
+  getNumBytes()     = 134217728
+  getBytesOnDisk()  = 134217728
+  getVisibleLength()= 134217728
+  getVolume()       = /data/hadoop/dn
+  getBlockURI()     = file:/data/hadoop/dn/current/BP-105570151-192.168.1.201-1794728025265/current/finalized/subdir0/subdir20/blk_1073763430 on volume /data/hadoop/dn for deletion
+2026-11-18 01:16:24,058 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073763431_22607 replica FinalizedReplica, blk_1073763431_22607, FINALIZED
+  getNumBytes()     = 134217728
+  getBytesOnDisk()  = 134217728
+  getVisibleLength()= 134217728
+  getVolume()       = /data/hadoop/dn
+  getBlockURI()     = file:/data/hadoop/dn/current/BP-105570151-192.168.1.201-1794728025265/current/finalized/subdir0/subdir20/blk_1073763431 on volume /data/hadoop/dn for deletion
+2026-11-18 01:16:24,058 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073763433_22609 replica FinalizedReplica, blk_1073763433_22609, FINALIZED
+  getNumBytes()     = 134217728
+  getBytesOnDisk()  = 134217728
+  getVisibleLength()= 134217728
+  getVolume()       = /data/hadoop/dn
+  getBlockURI()     = file:/data/hadoop/dn/current/BP-105570151-192.168.1.201-1794728025265/current/finalized/subdir0/subdir20/blk_1073763433 on volume /data/hadoop/dn for deletion
+2026-11-18 01:16:24,058 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-105570151-192.168.1.201-1794728025265 blk_1073763426_22602 URI file:/data/hadoop/dn/current/BP-105570151-192.168.1.201-1794728025265/current/finalized/subdir0/subdir20/blk_1073763426
+2026-11-18 01:16:24,058 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073763434_22610 replica FinalizedReplica, blk_1073763434_22610, FINALIZED
+  getNumBytes()     = 134217728
+  getBytesOnDisk()  = 134217728
+  getVisibleLength()= 134217728
+  getVolume()       = /data/hadoop/dn
+  getBlockURI()     = file:/data/hadoop/dn/current/BP-105570151-192.168.1.201-1794728025265/current/finalized/subdir0/subdir20/blk_1073763434 on volume /data/hadoop/dn for deletion
+2026-11-18 01:16:24,058 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073763435_22611 replica FinalizedReplica, blk_1073763435_22611, FINALIZED
+  getNumBytes()     = 134217728
+  getBytesOnDisk()  = 134217728
+  getVisibleLength()= 134217728
+  getVolume()       = /data/hadoop/dn
+  getBlockURI()     = file:/data/hadoop/dn/current/BP-105570151-192.168.1.201-1794728025265/current/finalized/subdir0/subdir20/blk_1073763435 on volume /data/hadoop/dn for deletion
+2026-11-18 01:16:24,058 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073763438_22614 replica FinalizedReplica, blk_1073763438_22614, FINALIZED
+  getNumBytes()     = 134217728
+  getBytesOnDisk()  = 134217728
+  getVisibleLength()= 134217728
+  getVolume()       = /data/hadoop/dn
+  getBlockURI()     = file:/data/hadoop/dn/current/BP-105570151-192.168.1.201-1794728025265/current/finalized/subdir0/subdir20/blk_1073763438 on volume /data/hadoop/dn for deletion
+2026-11-18 01:16:24,058 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073763439_22615 replica FinalizedReplica, blk_1073763439_22615, FINALIZED
+  getNumBytes()     = 125672800
+  getBytesOnDisk()  = 125672800
+  getVisibleLength()= 125672800
+  getVolume()       = /data/hadoop/dn
+  getBlockURI()     = file:/data/hadoop/dn/current/BP-105570151-192.168.1.201-1794728025265/current/finalized/subdir0/subdir20/blk_1073763439 on volume /data/hadoop/dn for deletion
+2026-11-18 01:16:24,058 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073763440_22616 replica FinalizedReplica, blk_1073763440_22616, FINALIZED
+  getNumBytes()     = 134217728
+  getBytesOnDisk()  = 134217728
+  getVisibleLength()= 134217728
+  getVolume()       = /data/hadoop/dn
+  getBlockURI()     = file:/data/hadoop/dn/current/BP-105570151-192.168.1.201-1794728025265/current/finalized/subdir0/subdir20/blk_1073763440 on volume /data/hadoop/dn for deletion
+2026-11-18 01:16:24,058 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073763442_22618 replica FinalizedReplica, blk_1073763442_22618, FINALIZED
+  getNumBytes()     = 125875542
+  getBytesOnDisk()  = 125875542
+  getVisibleLength()= 125875542
+  getVolume()       = /data/hadoop/dn
+  getBlockURI()     = file:/data/hadoop/dn/current/BP-105570151-192.168.1.201-1794728025265/current/finalized/subdir0/subdir20/blk_1073763442 on volume /data/hadoop/dn for deletion
+2026-11-18 01:16:24,058 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-105570151-192.168.1.201-1794728025265 blk_1073763427_22603 URI file:/data/hadoop/dn/current/BP-105570151-192.168.1.201-1794728025265/current/finalized/subdir0/subdir20/blk_1073763427
+2026-11-18 01:16:24,058 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073763443_22619 replica FinalizedReplica, blk_1073763443_22619, FINALIZED
+  getNumBytes()     = 125638135
+  getBytesOnDisk()  = 125638135
+  getVisibleLength()= 125638135
+  getVolume()       = /data/hadoop/dn
+  getBlockURI()     = file:/data/hadoop/dn/current/BP-105570151-192.168.1.201-1794728025265/current/finalized/subdir0/subdir20/blk_1073763443 on volume /data/hadoop/dn for deletion
+2026-11-18 01:16:24,059 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073763445_22621 replica FinalizedReplica, blk_1073763445_22621, FINALIZED
+  getNumBytes()     = 125668178
+  getBytesOnDisk()  = 125668178
+  getVisibleLength()= 125668178
+  getVolume()       = /data/hadoop/dn
+  getBlockURI()     = file:/data/hadoop/dn/current/BP-105570151-192.168.1.201-1794728025265/current/finalized/subdir0/subdir20/blk_1073763445 on volume /data/hadoop/dn for deletion
+2026-11-18 01:16:24,059 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073763447_22623 replica FinalizedReplica, blk_1073763447_22623, FINALIZED
+  getNumBytes()     = 447
+  getBytesOnDisk()  = 447
+  getVisibleLength()= 447
+  getVolume()       = /data/hadoop/dn
+  getBlockURI()     = file:/data/hadoop/dn/current/BP-105570151-192.168.1.201-1794728025265/current/finalized/subdir0/subdir20/blk_1073763447 on volume /data/hadoop/dn for deletion
+2026-11-18 01:16:24,059 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073763417_22593 replica FinalizedReplica, blk_1073763417_22593, FINALIZED
+  getNumBytes()     = 17510
+  getBytesOnDisk()  = 17510
+  getVisibleLength()= 17510
+  getVolume()       = /data/hadoop/dn
+  getBlockURI()     = file:/data/hadoop/dn/current/BP-105570151-192.168.1.201-1794728025265/current/finalized/subdir0/subdir20/blk_1073763417 on volume /data/hadoop/dn for deletion
+2026-11-18 01:16:24,059 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073763418_22594 replica FinalizedReplica, blk_1073763418_22594, FINALIZED
+  getNumBytes()     = 19031
+  getBytesOnDisk()  = 19031
+  getVisibleLength()= 19031
+  getVolume()       = /data/hadoop/dn
+  getBlockURI()     = file:/data/hadoop/dn/current/BP-105570151-192.168.1.201-1794728025265/current/finalized/subdir0/subdir20/blk_1073763418 on volume /data/hadoop/dn for deletion
+2026-11-18 01:16:24,059 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073763419_22595 replica FinalizedReplica, blk_1073763419_22595, FINALIZED
+  getNumBytes()     = 4106
+  getBytesOnDisk()  = 4106
+  getVisibleLength()= 4106
+  getVolume()       = /data/hadoop/dn
+  getBlockURI()     = file:/data/hadoop/dn/current/BP-105570151-192.168.1.201-1794728025265/current/finalized/subdir0/subdir20/blk_1073763419 on volume /data/hadoop/dn for deletion
+2026-11-18 01:16:24,059 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073763422_22598 replica FinalizedReplica, blk_1073763422_22598, FINALIZED
+  getNumBytes()     = 675403
+  getBytesOnDisk()  = 675403
+  getVisibleLength()= 675403
+  getVolume()       = /data/hadoop/dn
+  getBlockURI()     = file:/data/hadoop/dn/current/BP-105570151-192.168.1.201-1794728025265/current/finalized/subdir0/subdir20/blk_1073763422 on volume /data/hadoop/dn for deletion
+2026-11-18 01:16:24,059 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-105570151-192.168.1.201-1794728025265 blk_1073763428_22604 URI file:/data/hadoop/dn/current/BP-105570151-192.168.1.201-1794728025265/current/finalized/subdir0/subdir20/blk_1073763428
+2026-11-18 01:16:24,060 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-105570151-192.168.1.201-1794728025265 blk_1073763429_22605 URI file:/data/hadoop/dn/current/BP-105570151-192.168.1.201-1794728025265/current/finalized/subdir0/subdir20/blk_1073763429
+2026-11-18 01:16:24,060 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-105570151-192.168.1.201-1794728025265 blk_1073763430_22606 URI file:/data/hadoop/dn/current/BP-105570151-192.168.1.201-1794728025265/current/finalized/subdir0/subdir20/blk_1073763430
+2026-11-18 01:16:24,060 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-105570151-192.168.1.201-1794728025265 blk_1073763431_22607 URI file:/data/hadoop/dn/current/BP-105570151-192.168.1.201-1794728025265/current/finalized/subdir0/subdir20/blk_1073763431
+2026-11-18 01:16:24,060 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-105570151-192.168.1.201-1794728025265 blk_1073763433_22609 URI file:/data/hadoop/dn/current/BP-105570151-192.168.1.201-1794728025265/current/finalized/subdir0/subdir20/blk_1073763433
+2026-11-18 01:16:24,060 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-105570151-192.168.1.201-1794728025265 blk_1073763434_22610 URI file:/data/hadoop/dn/current/BP-105570151-192.168.1.201-1794728025265/current/finalized/subdir0/subdir20/blk_1073763434
+2026-11-18 01:16:24,061 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-105570151-192.168.1.201-1794728025265 blk_1073763435_22611 URI file:/data/hadoop/dn/current/BP-105570151-192.168.1.201-1794728025265/current/finalized/subdir0/subdir20/blk_1073763435
+2026-11-18 01:16:24,061 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-105570151-192.168.1.201-1794728025265 blk_1073763438_22614 URI file:/data/hadoop/dn/current/BP-105570151-192.168.1.201-1794728025265/current/finalized/subdir0/subdir20/blk_1073763438
+2026-11-18 01:16:24,061 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-105570151-192.168.1.201-1794728025265 blk_1073763439_22615 URI file:/data/hadoop/dn/current/BP-105570151-192.168.1.201-1794728025265/current/finalized/subdir0/subdir20/blk_1073763439
+2026-11-18 01:16:24,061 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-105570151-192.168.1.201-1794728025265 blk_1073763440_22616 URI file:/data/hadoop/dn/current/BP-105570151-192.168.1.201-1794728025265/current/finalized/subdir0/subdir20/blk_1073763440
+2026-11-18 01:16:24,062 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-105570151-192.168.1.201-1794728025265 blk_1073763442_22618 URI file:/data/hadoop/dn/current/BP-105570151-192.168.1.201-1794728025265/current/finalized/subdir0/subdir20/blk_1073763442
+2026-11-18 01:16:24,062 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-105570151-192.168.1.201-1794728025265 blk_1073763443_22619 URI file:/data/hadoop/dn/current/BP-105570151-192.168.1.201-1794728025265/current/finalized/subdir0/subdir20/blk_1073763443
+2026-11-18 01:16:24,062 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-105570151-192.168.1.201-1794728025265 blk_1073763445_22621 URI file:/data/hadoop/dn/current/BP-105570151-192.168.1.201-1794728025265/current/finalized/subdir0/subdir20/blk_1073763445
+2026-11-18 01:16:24,062 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-105570151-192.168.1.201-1794728025265 blk_1073763447_22623 URI file:/data/hadoop/dn/current/BP-105570151-192.168.1.201-1794728025265/current/finalized/subdir0/subdir20/blk_1073763447
+2026-11-18 01:16:24,062 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-105570151-192.168.1.201-1794728025265 blk_1073763417_22593 URI file:/data/hadoop/dn/current/BP-105570151-192.168.1.201-1794728025265/current/finalized/subdir0/subdir20/blk_1073763417
+2026-11-18 01:16:24,062 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-105570151-192.168.1.201-1794728025265 blk_1073763418_22594 URI file:/data/hadoop/dn/current/BP-105570151-192.168.1.201-1794728025265/current/finalized/subdir0/subdir20/blk_1073763418
+2026-11-18 01:16:24,062 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-105570151-192.168.1.201-1794728025265 blk_1073763419_22595 URI file:/data/hadoop/dn/current/BP-105570151-192.168.1.201-1794728025265/current/finalized/subdir0/subdir20/blk_1073763419
+2026-11-18 01:16:24,062 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-105570151-192.168.1.201-1794728025265 blk_1073763422_22598 URI file:/data/hadoop/dn/current/BP-105570151-192.168.1.201-1794728025265/current/finalized/subdir0/subdir20/blk_1073763422
+2026-11-18 01:25:39,483 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-105570151-192.168.1.201-1794728025265:blk_1073763459_22635 src: /192.168.1.203:48662 dest: /192.168.1.202:9866
+2026-11-18 01:25:53,091 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-105570151-192.168.1.201-1794728025265:blk_1073763460_22636 src: /192.168.1.202:42920 dest: /192.168.1.202:9866
+2026-11-18 01:25:59,708 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-105570151-192.168.1.201-1794728025265:blk_1073763461_22637 src: /192.168.1.202:43210 dest: /192.168.1.202:9866
+2026-11-18 01:26:01,698 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-105570151-192.168.1.201-1794728025265:blk_1073763462_22638 src: /192.168.1.202:43224 dest: /192.168.1.202:9866
+2026-11-18 01:26:11,746 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /192.168.1.203:48662, dest: /192.168.1.202:9866, volume: /data/hadoop/dn, bytes: 103028752, op: HDFS_WRITE, cliID: DFSClient_attempt_1794749680865_0630_r_000001_0_-73119430_1, offset: 0, srvID: 617f4eb3-d37a-4c45-8fbe-4ef97d364e5d, blockid: BP-105570151-192.168.1.201-1794728025265:blk_1073763459_22635, duration(ns): 32261647889
+2026-11-18 01:26:11,746 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-105570151-192.168.1.201-1794728025265:blk_1073763459_22635, type=LAST_IN_PIPELINE terminating
+2026-11-18 01:26:25,862 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /192.168.1.202:42920, dest: /192.168.1.202:9866, volume: /data/hadoop/dn, bytes: 103046147, op: HDFS_WRITE, cliID: DFSClient_attempt_1794749680865_0630_r_000000_0_-2085819243_1, offset: 0, srvID: 617f4eb3-d37a-4c45-8fbe-4ef97d364e5d, blockid: BP-105570151-192.168.1.201-1794728025265:blk_1073763460_22636, duration(ns): 32650347346
+2026-11-18 01:26:25,862 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-105570151-192.168.1.201-1794728025265:blk_1073763460_22636, type=HAS_DOWNSTREAM_IN_PIPELINE, downstreams=1:[192.168.1.204:9866] terminating
+2026-11-18 01:26:33,427 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /192.168.1.202:43210, dest: /192.168.1.202:9866, volume: /data/hadoop/dn, bytes: 102995871, op: HDFS_WRITE, cliID: DFSClient_attempt_1794749680865_0630_r_000004_0_824923789_1, offset: 0, srvID: 617f4eb3-d37a-4c45-8fbe-4ef97d364e5d, blockid: BP-105570151-192.168.1.201-1794728025265:blk_1073763461_22637, duration(ns): 33698648153
+2026-11-18 01:26:33,427 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-105570151-192.168.1.201-1794728025265:blk_1073763461_22637, type=HAS_DOWNSTREAM_IN_PIPELINE, downstreams=1:[192.168.1.203:9866] terminating
+2026-11-18 01:26:35,159 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /192.168.1.202:43224, dest: /192.168.1.202:9866, volume: /data/hadoop/dn, bytes: 102998686, op: HDFS_WRITE, cliID: DFSClient_attempt_1794749680865_0630_r_000002_0_1207011221_1, offset: 0, srvID: 617f4eb3-d37a-4c45-8fbe-4ef97d364e5d, blockid: BP-105570151-192.168.1.201-1794728025265:blk_1073763462_22638, duration(ns): 33447555247
+2026-11-18 01:26:35,159 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-105570151-192.168.1.201-1794728025265:blk_1073763462_22638, type=HAS_DOWNSTREAM_IN_PIPELINE, downstreams=1:[192.168.1.203:9866] terminating
+2026-11-18 01:26:40,791 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-105570151-192.168.1.201-1794728025265:blk_1073763465_22641 src: /192.168.1.204:40932 dest: /192.168.1.202:9866
+2026-11-18 01:26:40,795 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /192.168.1.204:40932, dest: /192.168.1.202:9866, volume: /data/hadoop/dn, bytes: 447, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_1562726405_1, offset: 0, srvID: 617f4eb3-d37a-4c45-8fbe-4ef97d364e5d, blockid: BP-105570151-192.168.1.201-1794728025265:blk_1073763465_22641, duration(ns): 2961002
+2026-11-18 01:26:40,795 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-105570151-192.168.1.201-1794728025265:blk_1073763465_22641, type=LAST_IN_PIPELINE terminating
+2026-11-18 01:26:45,236 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073763456_22632 replica FinalizedReplica, blk_1073763456_22632, FINALIZED
+  getNumBytes()     = 265421
+  getBytesOnDisk()  = 265421
+  getVisibleLength()= 265421
+  getVolume()       = /data/hadoop/dn
+  getBlockURI()     = file:/data/hadoop/dn/current/BP-105570151-192.168.1.201-1794728025265/current/finalized/subdir0/subdir20/blk_1073763456 on volume /data/hadoop/dn for deletion
+2026-11-18 01:26:45,237 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073763453_22629 replica FinalizedReplica, blk_1073763453_22629, FINALIZED
+  getNumBytes()     = 17510
+  getBytesOnDisk()  = 17510
+  getVisibleLength()= 17510
+  getVolume()       = /data/hadoop/dn
+  getBlockURI()     = file:/data/hadoop/dn/current/BP-105570151-192.168.1.201-1794728025265/current/finalized/subdir0/subdir20/blk_1073763453 on volume /data/hadoop/dn for deletion
+2026-11-18 01:26:45,237 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073763454_22630 replica FinalizedReplica, blk_1073763454_22630, FINALIZED
+  getNumBytes()     = 19031
+  getBytesOnDisk()  = 19031
+  getVisibleLength()= 19031
+  getVolume()       = /data/hadoop/dn
+  getBlockURI()     = file:/data/hadoop/dn/current/BP-105570151-192.168.1.201-1794728025265/current/finalized/subdir0/subdir20/blk_1073763454 on volume /data/hadoop/dn for deletion
+2026-11-18 01:26:45,237 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-105570151-192.168.1.201-1794728025265 blk_1073763456_22632 URI file:/data/hadoop/dn/current/BP-105570151-192.168.1.201-1794728025265/current/finalized/subdir0/subdir20/blk_1073763456
+2026-11-18 01:26:45,238 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073763455_22631 replica FinalizedReplica, blk_1073763455_22631, FINALIZED
+  getNumBytes()     = 4106
+  getBytesOnDisk()  = 4106
+  getVisibleLength()= 4106
+  getVolume()       = /data/hadoop/dn
+  getBlockURI()     = file:/data/hadoop/dn/current/BP-105570151-192.168.1.201-1794728025265/current/finalized/subdir0/subdir20/blk_1073763455 on volume /data/hadoop/dn for deletion
+2026-11-18 01:26:45,238 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-105570151-192.168.1.201-1794728025265 blk_1073763453_22629 URI file:/data/hadoop/dn/current/BP-105570151-192.168.1.201-1794728025265/current/finalized/subdir0/subdir20/blk_1073763453
+2026-11-18 01:26:45,239 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-105570151-192.168.1.201-1794728025265 blk_1073763454_22630 URI file:/data/hadoop/dn/current/BP-105570151-192.168.1.201-1794728025265/current/finalized/subdir0/subdir20/blk_1073763454
+2026-11-18 01:26:45,239 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-105570151-192.168.1.201-1794728025265 blk_1073763455_22631 URI file:/data/hadoop/dn/current/BP-105570151-192.168.1.201-1794728025265/current/finalized/subdir0/subdir20/blk_1073763455
+2026-11-18 01:26:47,674 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-105570151-192.168.1.201-1794728025265:blk_1073763468_22644 src: /192.168.1.202:47412 dest: /192.168.1.202:9866
+2026-11-18 01:26:47,945 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /192.168.1.202:47412, dest: /192.168.1.202:9866, volume: /data/hadoop/dn, bytes: 3081211, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_1924709869_2381, offset: 0, srvID: 617f4eb3-d37a-4c45-8fbe-4ef97d364e5d, blockid: BP-105570151-192.168.1.201-1794728025265:blk_1073763468_22644, duration(ns): 268234670
+2026-11-18 01:26:47,945 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-105570151-192.168.1.201-1794728025265:blk_1073763468_22644, type=HAS_DOWNSTREAM_IN_PIPELINE, downstreams=1:[192.168.1.204:9866] terminating
+2026-11-18 01:26:51,233 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073763465_22641 replica FinalizedReplica, blk_1073763465_22641, FINALIZED
+  getNumBytes()     = 447
+  getBytesOnDisk()  = 447
+  getVisibleLength()= 447
+  getVolume()       = /data/hadoop/dn
+  getBlockURI()     = file:/data/hadoop/dn/current/BP-105570151-192.168.1.201-1794728025265/current/finalized/subdir0/subdir20/blk_1073763465 on volume /data/hadoop/dn for deletion
+2026-11-18 01:26:51,234 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-105570151-192.168.1.201-1794728025265 blk_1073763465_22641 URI file:/data/hadoop/dn/current/BP-105570151-192.168.1.201-1794728025265/current/finalized/subdir0/subdir20/blk_1073763465

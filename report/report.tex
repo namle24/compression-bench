@@ -24,7 +24,7 @@
 \section{Introduction}
 Hadoop jobs move a lot of bytes: they read the input from HDFS, write intermediate map output to local disk, send it to the reducers over the network during the shuffle, and write the result back to HDFS with replication. Compression reduces the number of bytes at each of these steps, but every compressed byte must also be compressed and decompressed by a CPU. Whether the job ends up faster or slower depends on which resource is the bottleneck.
 
-In this project we measured this trade-off on a small Hadoop cluster that we built ourselves. We compared four codecs (Snappy, LZ4, Gzip and Zstandard) against an uncompressed baseline, at two levels: storage (the HDFS input and output of the job) and communication (the map output that is shuffled to the reducers). We used three applications with different profiles (I/O-bound, CPU-bound and balanced) and four dataset sizes (1, 2, 4 and 8 GB). Every configuration was run three times, which gives 468 job executions in the main campaign, plus a codec micro-benchmark and a second set of runs with the network limited to 100 Mbit/s.
+In this project we measured this trade-off on a small Hadoop cluster that we built ourselves. We compared four codecs (Snappy, LZ4, Gzip and Zstandard) against an uncompressed baseline, at two levels: storage (the HDFS input and output of the job) and communication (the map output that is shuffled to the reducers). We used three applications with different profiles (I/O-bound, CPU-bound and balanced) and dataset sizes from 1 to 16 GB (1, 2, 4 and 8 GB for all applications, 16 GB for Sort and BigramCount). Every configuration was run three times, which gives 546 job executions, plus a codec micro-benchmark and a second set of runs with the network limited to 100 Mbit/s.
 
 We chose Hadoop MapReduce rather than Spark because Hadoop supports all four codecs at both levels through the same \path{CompressionCodec} interface (\path{mapreduce.output.fileoutputformat.compress.codec} and \path{mapreduce.map.output.compress.codec}). Spark does not accept Gzip as a shuffle codec, so the comparison would not have been complete.
 
@@ -80,9 +80,9 @@ The cluster is deployed with an Ansible playbook (\path{ansible/site.yml}) that 
 
 \section{Methodology}
 \subsection{Dataset}
-The input is synthetic sales data. Each record is a line \path{id|date|city|product|price|qty|comment} where the id is a random 64-bit hex number and the comment is a sequence of words taken from a 20,000-word vocabulary with a Zipf distribution, so the text compresses roughly like real text. A map-only job (\path{DataGen}) writes the records into SequenceFiles with block compression. Each map task writes one file of about 100 MB, which is smaller than one HDFS block, so every codec gives the same number of input splits (11, 21, 41 and 82 for 1, 2, 4 and 8 GB). Block-compressed SequenceFiles are splittable for all codecs, including Gzip.
+The input is synthetic sales data. Each record is a line \path{id|date|city|product|price|qty|comment} where the id is a random 64-bit hex number and the comment is a sequence of words taken from a 20,000-word vocabulary with a Zipf distribution, so the text compresses roughly like real text. A map-only job (\path{DataGen}) writes the records into SequenceFiles with block compression. Each map task writes one file of about 100 MB, which is smaller than one HDFS block, so every codec gives the same number of input splits (11, 21, 41, 82 and 164 for 1, 2, 4, 8 and 16 GB). Block-compressed SequenceFiles are splittable for all codecs, including Gzip.
 
-We used dataset sizes of 1, 2, 4 and 8 GB of raw text (the uncompressed SequenceFile of the 8 GB dataset is 8.4 GiB on HDFS). In the rest of the report, measured volumes are given in GiB. We did not go up to 20 GB because of time and disk space: the 468 runs of the campaign already took 37.6 hours, and the 18 datasets use 97 GiB of HDFS space with replication.
+We used dataset sizes of 1, 2, 4, 8 and 16 GB of raw text (the uncompressed SequenceFile of the 8 GB dataset is 8.4 GiB on HDFS, the 16 GB one 16.8 GiB). In the rest of the report, measured volumes are given in GiB. The main campaign covered 1 to 8 GB for the three applications (468 runs, 37.6 hours). We then added 16 GB for Sort and BigramCount (78 runs, 18 hours including the generation of the datasets). HashScore was not run at 16 GB: its results at 4 and 8 GB were already within the run-to-run variation, and its 39 runs at 16 GB would have added about 16 hours. We did not go up to 20 GB because of disk space: the five 16 GB datasets alone use 104 GiB of HDFS with replication, and we had to delete the 1, 2 and 4 GB datasets to make room for them.
 
 \subsection{Compression configurations}
 Storage compression means that the input dataset is stored compressed with the codec and that the job also writes its output compressed with the same codec (\path{mapreduce.output.fileoutputformat.compress}, block type). Communication compression means that the map output is compressed before it is spilled to disk and sent to the reducers (\path{mapreduce.map.output.compress}). The four configurations are the ones of the project description:
@@ -103,10 +103,10 @@ Storage compression means that the input dataset is stored compressed with the c
   \end{tabularx}
 \end{table}
 
-For C1, C2 and C3 we tested the four codecs, so each application and size has 13 configurations (C0 plus 3 x 4). With 3 applications, 4 sizes and 3 repetitions this gives 468 runs.
+For C1, C2 and C3 we tested the four codecs, so each application and size has 13 configurations (C0 plus 3 x 4). With 3 applications, 4 sizes and 3 repetitions this gives 468 runs, and the 16 GB runs of Sort and BigramCount add 78 more.
 
 \subsection{Running a measurement}
-For every run the driver script drops the page cache on all nodes, starts the monitor on every node, submits the job, waits for it, stops the monitor and downloads the counters. The loop over repetitions is the outer loop: we first run every configuration once, then every configuration a second time, and so on. This way a slow period of the hosts (for example a background update on the PC) affects one repetition of many configurations instead of all repetitions of one configuration. Graphs show the mean of the 3 runs and error bars show the standard deviation. Across all configurations, the median coefficient of variation of the execution time is 6.7\%.
+For every run the driver script drops the page cache on all nodes, starts the monitor on every node, submits the job, waits for it, stops the monitor and downloads the counters. The loop over repetitions is the outer loop: we first run every configuration once, then every configuration a second time, and so on. This way a slow period of the hosts (for example a background update on the PC) affects one repetition of many configurations instead of all repetitions of one configuration. Graphs show the mean of the 3 runs and error bars show the standard deviation. Across all configurations, the median coefficient of variation of the execution time is 5.9\% (3.0\% at 16 GB, where runs are longer).
 
 \subsection{Metrics}
 \begin{itemize}
@@ -178,12 +178,12 @@ Before using the codecs in jobs, we measured them alone with a small Java progra
 
 Snappy and LZ4 are the fastest codecs, about 450 MB/s for compression, but they only reduce the data by about a third (ratio around 1.55). LZ4 decompresses more than twice as fast as Snappy. Gzip reaches a ratio of 2.35 but compresses at only 34 MB/s, so it costs 11 times more CPU per GB than Snappy. Zstandard at level 3 compresses better than Gzip (2.59) while being 5 times faster to compress and 6 times faster to decompress. Higher Zstandard levels give a better ratio but compression becomes very slow (2 MB/s at level 19), so they are only useful for data that is written once and read many times.
 
-The ratios measured on HDFS with the real datasets are very close: 1.60 for Snappy, 1.55 for LZ4, 2.37 for Gzip and 2.55 for Zstandard (Figure~\ref{fig:ratio}). The 8 GB dataset takes 8.41 GiB uncompressed, 5.26 GiB with Snappy, 5.42 GiB with LZ4, 3.55 GiB with Gzip and 3.30 GiB with Zstandard. Interestingly, writing the dataset was faster with every codec than without compression, even with Gzip (150 s instead of 352 s for 8 GB), because writing 9 GB twice to HDFS costs more than the CPU time of compression.
+The ratios measured on HDFS with the real datasets are very close: 1.60 for Snappy, 1.55 for LZ4, 2.37 for Gzip and 2.55 for Zstandard (Figure~\ref{fig:ratio}). The 8 GB dataset takes 8.41 GiB uncompressed, 5.26 GiB with Snappy, 5.42 GiB with LZ4, 3.55 GiB with Gzip and 3.30 GiB with Zstandard. Interestingly, writing the dataset was faster with every codec than without compression, even with Gzip (150 s instead of 352 s for 8 GB, and 287 s instead of 635 s for 16 GB), because writing 9 GB twice to HDFS costs more than the CPU time of compression.
 
 \begin{figure}[H]
   \centering
   \includegraphics[width=1\linewidth]{../results/figures/compression_ratio.png}
-  \caption{Left: compression ratio of the datasets on HDFS. Middle: time to generate and write the 8 GB dataset. Right: ratio against single-core throughput from the micro-benchmark.}
+  \caption{Left: compression ratio of the datasets on HDFS. Middle: time to generate and write the 16 GB dataset. Right: ratio against single-core throughput from the micro-benchmark.}
   \label{fig:ratio}
 \end{figure}
 
@@ -213,7 +213,7 @@ The following figures show execution time, CPU time, disk volume and network tra
 
 Storage compression makes Sort much faster. With 8 GB, the execution time goes from 585 s (C0) to 442 s with Snappy, 464 s with LZ4, 370 s with Gzip and 337 s with Zstandard, which is 20\% to 42\% less. Two things reduce the I/O. First, the input that the maps read from HDFS is smaller (3.3 GiB instead of 8.4 GiB with Zstandard). Second, Sort writes an output as large as its input, and with C1 this output is also compressed, so both replicas are smaller and less data has to cross the network. The disk volume of the workers drops from 54 GiB to 33 GiB with Zstandard and the network traffic from 14.2 GiB to 8.8 GiB (Figure~\ref{fig:disksort} and Figure~\ref{fig:netsort}). The average reduce time drops from 300 s to 74 s.
 
-BigramCount gains less: 10\% (Snappy) to 16\% (Zstandard) at 8 GB. Its output is small, so C1 only reduces the input read. HashScore does not gain anything: the results are between 1\% faster (Zstandard) and 7\% slower (Gzip), which is inside the run-to-run variation of this application (standard deviation around 55 to 65 s, or 8\%).
+BigramCount gains less: 10\% (Snappy) to 16\% (Zstandard) at 8 GB. Its output is small, so C1 only reduces the input read. HashScore does not gain anything: the results are between 1\% faster (Zstandard) and 7\% slower (Gzip), which is inside the run-to-run variation of this application (standard deviation around 55 to 65 s, or 8\%). At 16 GB the order of the codecs is the same: Sort goes from 1,050 s to 678 s with Zstandard (-35\%) and 689 s with Gzip (-34\%), while BigramCount gains 5\% (LZ4) to 10\% (Zstandard).
 
 \begin{figure}[H]
   \centering
@@ -262,7 +262,7 @@ Shuffle compression reduces the volume of the shuffle in the same proportion as 
 
 \end{figure}
 
-The effect on the total execution time is smaller than on the shuffle. For BigramCount, C2 saves 10\% (Gzip) to 23\% (Snappy) at 8 GB. For Sort it saves 2\% (Snappy) to 14\% (Zstandard), and the error bars are large. There are two reasons. First, the shuffle is only one part of the data movement of Sort: the input read and the replicated output are not affected by C2. Second, compressing the map output costs CPU in the map tasks and decompressing it costs CPU in the reducers. With Gzip, the CPU time of Sort more than doubles (1,158 s instead of 517 s) and the map phase becomes slower (average map time 10.5 s instead of 7.1 s). With Zstandard the CPU time goes up by 24\% and with Snappy and LZ4 by only 4\% to 5\%.
+The effect on the total execution time is smaller than on the shuffle. For BigramCount, C2 saves 10\% (Gzip) to 23\% (Snappy) at 8 GB. For Sort it saves 2\% (Snappy) to 14\% (Zstandard), and the error bars are large. There are two reasons. First, the shuffle is only one part of the data movement of Sort: the input read and the replicated output are not affected by C2. Second, compressing the map output costs CPU in the map tasks and decompressing it costs CPU in the reducers. With Gzip, the CPU time of Sort more than doubles (1,158 s instead of 517 s) and the map phase becomes slower (average map time 10.5 s instead of 7.1 s). With Zstandard the CPU time goes up by 24\% and with Snappy and LZ4 by only 4\% to 5\%. The 16 GB runs confirm this: BigramCount gains 11\% (LZ4) to 18\% (Zstandard) with C2, while for Sort only Zstandard gives a clear gain (-13\%), Gzip is equal to C0 and LZ4 is 5\% slower.
 
 Compression of the shuffle becomes counterproductive when its CPU cost is larger than the time saved on the transfer. This almost happens with Gzip on Sort, where the large CPU overhead eats most of the gain, and it would happen on a cluster with a fast network and busy CPUs. In the main campaign the PC workers exchange data through a virtual switch that is much faster than a real network, which hides part of the benefit of C2. To check this, we repeated the C2 experiments with the network limited to 100 Mbit/s (next subsection).
 
@@ -308,9 +308,9 @@ The limited runs also have much smaller error bars. At full speed the standard d
   \label{fig:config}
 \end{figure}
 
-Figure~\ref{fig:config} compares the four configurations at 8 GB. For Sort and BigramCount, C3 is the fastest configuration for every codec, with one exception (Gzip on Sort, see below). The best result overall is Sort with Zstandard in C3: 247 s instead of 585 s, which is 58\% less than C0 and 27\% less than C1 with the same codec. BigramCount with Zstandard in C3 takes 296 s instead of 468 s (37\% less). The gains of the two levels add up because they act on different bytes: C1 reduces the HDFS input and output, C2 reduces the shuffle.
+Figure~\ref{fig:config} compares the four configurations at 8 GB. For Sort and BigramCount, C3 is the fastest configuration for every codec, with one exception (Gzip on Sort, see below). The best result overall is Sort with Zstandard in C3: 247 s instead of 585 s, which is 58\% less than C0 and 27\% less than C1 with the same codec. BigramCount with Zstandard in C3 takes 296 s instead of 468 s (37\% less). The gains of the two levels add up because they act on different bytes: C1 reduces the HDFS input and output, C2 reduces the shuffle. At 16 GB, C3 is the fastest configuration for every codec in both applications: Sort with Zstandard takes 552 s instead of 1,050 s (-47\%) and BigramCount 605 s instead of 860 s (-30\%).
 
-Combining both levels can still make things worse. The clearest case is Gzip on Sort: C3 with Gzip takes 396 s while C1 with Gzip takes 370 s, so adding Gzip compression of the shuffle on top of Gzip storage compression costs 7\%. The same happens at 2 GB. The CPU time of Sort in C3 with Gzip is 1,395 s, 2.7 times the CPU time of C0. For HashScore, C3 is never better than C0 and it is the worst configuration with Gzip (+11\%) and Zstandard (+9\%). In these cases the job pays the CPU cost of compressing twice and gets nothing back, because the bottleneck is elsewhere.
+Combining both levels can still make things worse. The clearest case is Gzip on Sort: C3 with Gzip takes 396 s while C1 with Gzip takes 370 s, so adding Gzip compression of the shuffle on top of Gzip storage compression costs 7\%. The same happens at 2 GB, but not at 16 GB, where the two are equal (674 s and 689 s). The CPU time of Sort in C3 with Gzip is 1,395 s, 2.7 times the CPU time of C0. For HashScore, C3 is never better than C0 and it is the worst configuration with Gzip (+11\%) and Zstandard (+9\%). In these cases the job pays the CPU cost of compressing twice and gets nothing back, because the bottleneck is elsewhere.
 
 \begin{figure}[H]
   \centering
@@ -325,30 +325,32 @@ Table 6 gives the change of execution time compared with C0 for every size, for 
 \begin{table}[H]
   \centering
   \small
-  \caption{Change of execution time compared with C0 (\%), mean of 3 runs}
-  \begin{tabular}{lrrrr}
+  \caption{Change of execution time compared with C0 (\%), mean of 3 runs. HashScore was not run at 16 GB.}
+  \begin{tabular}{lrrrrr}
   \toprule
-  \textbf{Application, config, codec} & \textbf{1 GB} & \textbf{2 GB} & \textbf{4 GB} & \textbf{8 GB} \\
+  \textbf{Application, config, codec} & \textbf{1 GB} & \textbf{2 GB} & \textbf{4 GB} & \textbf{8 GB} & \textbf{16 GB} \\
   \midrule
-  Sort, C1, Zstd & -40 & -32 & -35 & -42 \\
-  Sort, C2, Zstd & -38 & -5 & -8 & -14 \\
-  Sort, C3, Zstd & -56 & -53 & -49 & -58 \\
-  Sort, C3, Gzip & -43 & -23 & -33 & -32 \\
-  BigramCount, C1, Zstd & -20 & -23 & -10 & -16 \\
-  BigramCount, C2, Snappy & -16 & -14 & -10 & -23 \\
-  BigramCount, C3, Zstd & -34 & -38 & -28 & -37 \\
-  HashScore, C1, LZ4 & +24 & +9 & -2 & +5 \\
-  HashScore, C3, Gzip & +24 & +12 & +5 & +11 \\
-  HashScore, C3, Zstd & +17 & -5 & +3 & +9 \\
+  Sort, C1, Zstd & -40 & -32 & -35 & -42 & -35 \\
+  Sort, C2, Zstd & -38 & -5 & -8 & -14 & -13 \\
+  Sort, C3, Zstd & -56 & -53 & -49 & -58 & -47 \\
+  Sort, C3, Gzip & -43 & -23 & -33 & -32 & -36 \\
+  BigramCount, C1, Zstd & -20 & -23 & -10 & -16 & -10 \\
+  BigramCount, C2, Snappy & -16 & -14 & -10 & -23 & -17 \\
+  BigramCount, C3, Zstd & -34 & -38 & -28 & -37 & -30 \\
+  HashScore, C1, LZ4 & +24 & +9 & -2 & +5 & n/a \\
+  HashScore, C3, Gzip & +24 & +12 & +5 & +11 & n/a \\
+  HashScore, C3, Zstd & +17 & -5 & +3 & +9 & n/a \\
   \bottomrule
   \end{tabular}
 \end{table}
 
-Execution time grows almost linearly with the size of the data. From 1 GB to 8 GB (8 times more data) Sort goes from 94 s to 585 s (6.2 times), BigramCount from 86 s to 468 s (5.4 times) and HashScore from 148 s to 745 s (5.0 times). The growth is less than 8 times because each job has a fixed cost of about 20 s (starting the ApplicationMaster and the containers), which matters more for small inputs.
+Execution time grows almost linearly with the size of the data. From 1 GB to 8 GB (8 times more data) Sort goes from 94 s to 585 s (6.2 times), BigramCount from 86 s to 468 s (5.4 times) and HashScore from 148 s to 745 s (5.0 times). The growth is less than 8 times because each job has a fixed cost of about 20 s (starting the ApplicationMaster and the containers), which matters more for small inputs. From 8 to 16 GB the growth is close to linear: Sort goes from 585 s to 1,050 s and BigramCount from 468 s to 860 s (1.8 times each).
 
-For Sort and BigramCount the relative gain of compression stays roughly constant with the size, so the absolute time saved grows linearly: Sort with Zstandard in C3 saves 53 s at 1 GB and 338 s at 8 GB. The ranking of the codecs is also stable from 2 GB upwards: Zstandard is the best, Gzip is close in C1 but worse in C2 and C3, and Snappy and LZ4 are in the middle and very close to each other. The C2 results of Sort are less stable from one size to another (-38\% at 1 GB but -5\% at 2 GB); the error bars show that the variation between runs is of the same order as the differences here.
+For Sort and BigramCount the relative gain of compression stays roughly constant up to 8 GB and becomes a little smaller at 16 GB, but the absolute time saved keeps growing: Sort with Zstandard in C3 saves 53 s at 1 GB, 338 s at 8 GB and 497 s at 16 GB. The ranking of the codecs is also stable from 2 GB upwards: Zstandard is the best, Gzip is close in C1 but worse in C2 and C3, and Snappy and LZ4 are in the middle and very close to each other. The C2 results of Sort are less stable from one size to another (-38\% at 1 GB but -5\% at 2 GB); the error bars show that the variation between runs is of the same order as the differences here.
 
-HashScore at 1 GB is an exception: all compressed configurations but one are 13\% to 24\% slower than C0 (C1 with Zstandard is equal), while at 8 GB the differences are within about 10\%. We think the cause is task placement rather than the codecs. With 1 GB there are only 11 map tasks for 9 free container slots, so the job ends with a second, almost empty wave, and the length of this wave depends on whether a task lands on worker3, which is about two times slower for SHA-256 (its CPU has no SHA instructions). With 82 map tasks at 8 GB these effects average out. This shows that small inputs give less reliable conclusions, which is one reason we used sizes up to 8 GB.
+The smaller relative gain of Sort at 16 GB comes from the map phase. With 164 map tasks the map phase lasts about 175 s with or without compression: the CPUs of the workers are busy sorting and spilling the map output, and the average map task takes 7.2 s in C0 and 7.6 s in C3 with Zstandard. Compression shortens only the reduce phase, from about 900 s to about 360 s (\path{monitor_sort_16g_C0_none_r1.png} and \path{monitor_sort_16g_C3_zstd_r1.png} in \path{results/figures/}). The fixed part of the job is therefore larger, and the percentage goes down even though more seconds are saved.
+
+HashScore at 1 GB is an exception: all compressed configurations but one are 13\% to 24\% slower than C0 (C1 with Zstandard is equal), while at 8 GB the differences are within about 10\%. We think the cause is task placement rather than the codecs. With 1 GB there are only 11 map tasks for 9 free container slots, so the job ends with a second, almost empty wave, and the length of this wave depends on whether a task lands on worker3, which is about two times slower for SHA-256 (its CPU has no SHA instructions). With 82 map tasks at 8 GB these effects average out. This shows that small inputs give less reliable conclusions, which is one reason we used sizes up to 16 GB.
 
 \begin{figure}[H]
   \centering
@@ -360,22 +362,22 @@ HashScore at 1 GB is an exception: all compressed configurations but one are 13\
 \section{Discussion}
 \subsection{Answers to the questions of the project}
 \paragraph{1. Which codecs give the best trade-off between ratio and CPU overhead?}\mbox{}\\
-Zstandard at level 3. In the micro-benchmark it has the best ratio of the four codecs (2.59) for 6.6 CPU seconds per GB, which is 2 to 2.5 times the cost of Snappy and LZ4 but 5 times less than Gzip. In the cluster it gave the shortest execution time in 5 of the 6 combinations of Sort or BigramCount with C1, C2 or C3 (the exception is BigramCount in C2, where Snappy was faster), and it added at most 24\% of CPU time (Sort, C2), against 124\% for Gzip. Snappy and LZ4 have the lowest CPU cost but a ratio of only about 1.55; they are a safe choice when CPU is scarce, and in our runs they behaved almost the same. Gzip is the worst trade-off: Zstandard compresses better and much faster, and Gzip doubles the CPU time of Sort when it is used for the shuffle.
+Zstandard at level 3. In the micro-benchmark it has the best ratio of the four codecs (2.59) for 6.6 CPU seconds per GB, which is 2 to 2.5 times the cost of Snappy and LZ4 but 5 times less than Gzip. In the cluster it gave the shortest execution time in 5 of the 6 combinations of Sort or BigramCount with C1, C2 or C3 at 8 GB (the exception is BigramCount in C2, where Snappy was faster) and in all 6 at 16 GB, and it added at most 24\% of CPU time (Sort, C2), against 124\% for Gzip. Snappy and LZ4 have the lowest CPU cost but a ratio of only about 1.55; they are a safe choice when CPU is scarce, and in our runs they behaved almost the same. Gzip is the worst trade-off: Zstandard compresses better and much faster, and Gzip doubles the CPU time of Sort when it is used for the shuffle.
 
 \paragraph{2. Does compression systematically improve I/O-bound applications?}\mbox{}\\
-Almost, but not systematically. For Sort, all 32 combinations of codec, size and C1 or C3 are faster than C0, by 12\% to 58\%. With C2 alone, the gain is small and not always present: Sort with Gzip in C2 was 7\% slower at 2 GB, LZ4 5\% slower at 2 GB, and Snappy only 2\% faster at 8 GB. The benefit depends on which bytes are compressed: compressing the HDFS input and output of Sort helps a lot, while compressing only the shuffle helps less because it adds CPU work in the maps and leaves the largest transfers unchanged.
+Almost, but not systematically. For Sort, all 40 combinations of codec, size and C1 or C3 are faster than C0, by 12\% to 58\%. With C2 alone, the gain is small and not always present: Sort with Gzip in C2 was 7\% slower at 2 GB, LZ4 5\% slower at 2 GB and at 16 GB, and Snappy only 2\% faster at 8 GB. The benefit depends on which bytes are compressed: compressing the HDFS input and output of Sort helps a lot, while compressing only the shuffle helps less because it adds CPU work in the maps and leaves the largest transfers unchanged.
 
 \paragraph{3. How does compression affect CPU-bound applications?}\mbox{}\\
 It does not help and it can slow them down. HashScore spends almost all of its CPU time computing hashes; it reads 8.4 GiB but shuffles almost nothing. Storage compression reduces the bytes read but this was not the bottleneck, so the execution time stays within the variation (between -1\% and +7\% at 8 GB). With Gzip or Zstandard in C3 it is 9 to 11\% slower, and at 1 GB up to 24\% slower. The extra CPU time is small (+4\% with Gzip) but every second of CPU taken by the codec is a second not used for hashing, because the CPUs are already saturated.
 
 \paragraph{4. How do the benefits evolve with increasing dataset sizes?}\mbox{}\\
-For the I/O-bound and balanced applications the relative gain is about constant between 1 and 8 GB, so the absolute time saved grows with the data (Table 6). For the CPU-bound application the overhead is largest at 1 GB and becomes small at 8 GB. Results at small sizes are also more variable (coefficients of variation up to 24\% at 1 to 2 GB). We could not check whether this stays true beyond 8 GB.
+For the I/O-bound and balanced applications the relative gain is about constant between 1 and 8 GB and a little smaller at 16 GB, while the absolute time saved keeps growing with the data (Table 6). At 16 GB the map phase of Sort, which compression does not shorten, takes a larger share of the job. For the CPU-bound application the overhead is largest at 1 GB and becomes small at 8 GB. Results at small sizes are also more variable: the coefficient of variation reaches 24\% at 1 to 2 GB, while at 16 GB its median is 3\%. We did not run HashScore at 16 GB, so for the CPU-bound case the trend stops at 8 GB.
 
 \paragraph{5. Is compression more beneficial for storage or for network communication?}\mbox{}\\
-On our cluster it depends on where the bytes are. For Sort, storage compression is clearly more useful (-42\% with Zstandard in C1 against -14\% in C2 at 8 GB), because the input and the replicated output are larger than the shuffle and the output replicas also travel over the network. For BigramCount, whose output is small, the two levels give similar gains (-10\% to -16\% for C1 and -10\% to -23\% for C2). With a slower network, the value of shuffle compression goes up (Figure~\ref{fig:netlim}).
+On our cluster it depends on where the bytes are. For Sort, storage compression is clearly more useful (-42\% with Zstandard in C1 against -14\% in C2 at 8 GB, -35\% against -13\% at 16 GB), because the input and the replicated output are larger than the shuffle and the output replicas also travel over the network. For BigramCount, whose output is small, the two levels give similar gains (-10\% to -16\% for C1 and -10\% to -23\% for C2). With a slower network, the value of shuffle compression goes up (Figure~\ref{fig:netlim}).
 
 \paragraph{6. Can combining storage and communication compression degrade performance?}\mbox{}\\
-Yes. C3 with Gzip is slower than C1 with Gzip for Sort (396 s against 370 s at 8 GB, also at 2 GB), and C3 is the slowest configuration of HashScore with Gzip and Zstandard. In both cases the extra compression of the shuffle adds CPU time that is not paid back. With fast codecs (Zstandard, Snappy, LZ4) on I/O-bound or balanced jobs, C3 was always the best configuration.
+Yes. C3 with Gzip is slower than C1 with Gzip for Sort (396 s against 370 s at 8 GB, also at 2 GB; at 16 GB the two are equal), and C3 is the slowest configuration of HashScore with Gzip and Zstandard. In both cases the extra compression of the shuffle adds CPU time that is not paid back. With fast codecs (Zstandard, Snappy, LZ4) on I/O-bound or balanced jobs, C3 was always the best configuration.
 
 \paragraph{7. Under which conditions should compression be disabled?}\mbox{}\\
 From our measurements: when the job is CPU-bound and moves little data (HashScore), when the CPUs are already saturated, for the shuffle when the codec is slow (Gzip) and the network is fast, and for small inputs where the fixed cost of the job dominates and the gain is lost in the variation. For Sort and BigramCount there was no configuration where turning off compression completely was the best choice.
@@ -395,41 +397,41 @@ From our measurements: when the job is CPU-bound and moves little data (HashScor
   \item Two of the workers run on the same PC, so they share its CPU, memory bandwidth and SSD.
   \item The data is synthetic text. Real data that is already compressed (images, video) would give a ratio close to 1 and only the CPU cost would remain.
   \item Snappy and LZ4 run in Java (snappy-java, lz4-java) in Hadoop 3.4, while zlib and Zstandard use native libraries. This may favour Zstandard a little.
-  \item We used only one Zstandard level (3) in the cluster, three repetitions per point, and sizes up to 8 GB.
+  \item We used only one Zstandard level (3) in the cluster, three repetitions per point, and sizes up to 16 GB (8 GB for HashScore).
   \item Only Hadoop MapReduce was tested, not Spark.
 \end{itemize}
 
 \section{Conclusion}
-Compression is useful in Hadoop when the job moves a lot of data and the CPUs are not saturated. On our cluster, compressing both the HDFS data and the shuffle with Zstandard made the I/O-bound Sort 58\% faster and the balanced BigramCount 37\% faster at 8 GB, with almost no increase in CPU time. For the CPU-bound HashScore, compression brought nothing and could cost up to 11\% at 8 GB. Gzip is not a good choice for intermediate data, and Zstandard at a low level is a better choice than Gzip everywhere. The decision to compress should therefore be based on the profile of the job and on the infrastructure, in particular the network: on our cluster the slow link of one node made compression of the transferred data much more valuable.
+Compression is useful in Hadoop when the job moves a lot of data and the CPUs are not saturated. On our cluster, compressing both the HDFS data and the shuffle with Zstandard made the I/O-bound Sort 58\% faster and the balanced BigramCount 37\% faster at 8 GB (47\% and 30\% at 16 GB), with almost no increase in CPU time. For the CPU-bound HashScore, compression brought nothing and could cost up to 11\% at 8 GB. Gzip is not a good choice for intermediate data, and Zstandard at a low level is a better choice than Gzip everywhere. The decision to compress should therefore be based on the profile of the job and on the infrastructure, in particular the network: on our cluster the slow link of one node made compression of the transferred data much more valuable.
 
 \appendix
 \section{Screenshots of the Hadoop web interfaces}
-These screenshots were taken at the end of the main campaign. More screenshots, taken during the campaign and during the network-limited runs, are in \path{report/evidence/screenshots/}.
+These screenshots were taken at the end of all experiments. More screenshots, taken during the campaign, during the network-limited runs and during the 16 GB runs, are in \path{report/evidence/screenshots/}.
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.8\linewidth]{evidence/screenshots/campaign-end/02_hdfs_datanodes.png}
+  \includegraphics[width=0.8\linewidth]{evidence/screenshots/final/02_hdfs_datanodes.png}
   \caption{NameNode web UI: the three DataNodes and their disk usage.}
 
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.8\linewidth]{evidence/screenshots/campaign-end/05_yarn_nodes.png}
+  \includegraphics[width=0.8\linewidth]{evidence/screenshots/final/05_yarn_nodes.png}
   \caption{ResourceManager web UI: the three NodeManagers with their memory and vcores.}
 
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.8\linewidth]{evidence/screenshots/campaign-end/09_jobhistory.png}
-  \caption{JobHistory server: list of finished jobs of the campaign.}
+  \includegraphics[width=0.8\linewidth]{evidence/screenshots/final/09_jobhistory.png}
+  \caption{JobHistory server: list of finished jobs.}
 
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.6\linewidth]{evidence/screenshots/campaign-end/11_job_counters.png}
+  \includegraphics[width=0.6\linewidth]{evidence/screenshots/final/11_job_counters.png}
   \caption{Counters of one job in the JobHistory server, the source of the CPU time and shuffle bytes.}
 
 \end{figure}
@@ -442,6 +444,8 @@ cd .. && scripts/run_all.sh
 scripts/netlimit.sh set 100mbit
 RESULTS=$PWD/results-100mbit APPS="sort bigram" SIZES="2 4" CONFIGS=C2 scripts/run_experiments.sh
 scripts/netlimit.sh clear
+export SIZES=16 APPS="sort bigram"
+scripts/gen_data.sh && scripts/run_experiments.sh
 \end{verbatim}
 
 \end{document}

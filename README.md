@@ -24,12 +24,12 @@ report/outline.md   report structure and which figure answers which question
 
 Reference topology (bridged networking, all VMs on the same LAN, static IPs):
 
-| VM      | Host   | Role                                           | Suggested size        |
+| VM      | Host   | Role                                           | Size used             |
 |---------|--------|------------------------------------------------|-----------------------|
-| master  | PC     | NameNode, ResourceManager, JobHistory, driver  | 2 vCPU, 4 GB, 40 GB   |
-| worker1 | PC     | DataNode, NodeManager                          | 4 vCPU, 8 GB, 60 GB   |
-| worker2 | PC     | DataNode, NodeManager                          | 4 vCPU, 8 GB, 60 GB   |
-| worker3 | laptop | DataNode, NodeManager                          | 4 vCPU, 8 GB, 60 GB   |
+| master  | PC     | NameNode, ResourceManager, JobHistory, driver  | 2 vCPU, 4 GB, 60 GB   |
+| worker1 | PC     | DataNode, NodeManager                          | 4 vCPU, 8 GB, 120 GB  |
+| worker2 | PC     | DataNode, NodeManager                          | 4 vCPU, 8 GB, 120 GB  |
+| worker3 | laptop | DataNode, NodeManager                          | 2 vCPU, 4 GB, 120 GB  |
 
 - Ubuntu Server 22.04 or 24.04 on every VM, same user (`hadoop`) with sudo.
 - VMware: set the network adapter to *Bridged*, and regenerate the MAC address
@@ -138,12 +138,20 @@ RESULTS=$PWD/../results-100mbit CONFIGS="C2" ./run_experiments.sh
 ./netlimit.sh clear
 ```
 
+What we actually ran: the default matrix for 1, 2, 4 and 8 GB (468 runs,
+37.6 h), the network-limited C2 runs for Sort and BigramCount at 2 and 4 GB
+(`results-100mbit/`, 60 runs), and `SIZES=16 APPS="sort bigram"` (78 runs,
+about 18 h; the 1–4 GB datasets were deleted first to free HDFS space).
+
 ## 6. Analysis
 
 ```bash
 cd ~/compression-bench/analysis
 python3 parse.py ../results     # runs.csv, datagen.csv, summary.csv
 python3 plots.py ../results     # figures/*.png, characterization.csv, codec_bench_summary.csv
+python3 tables.py ../results ../results-100mbit         # tables.md with every number
+python3 netlimit_plot.py ../results ../results-100mbit  # figures/netlimit_c2.png
+python3 monitor_plot.py ../results/raw/<run>            # per-node CPU/RAM/disk/net of one run
 ```
 
 | Figure                          | Required curve                                   |

@@ -1,0 +1,230 @@
+2026-11-17 16:02:47,367 INFO client.DefaultNoHARMFailoverProxyProvider: Connecting to ResourceManager at master/192.168.1.201:8032
+2026-11-17 16:02:47,716 INFO mapreduce.JobResourceUploader: Disabling Erasure Coding for path: /tmp/hadoop-yarn/staging/hadoop/.staging/job_1794749680865_0588
+2026-11-17 16:02:48,062 INFO input.FileInputFormat: Total input files to process : 164
+2026-11-17 16:02:48,130 INFO mapreduce.JobSubmitter: number of splits:164
+2026-11-17 16:02:48,313 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1794749680865_0588
+2026-11-17 16:02:48,313 INFO mapreduce.JobSubmitter: Executing with tokens: []
+2026-11-17 16:02:48,477 INFO conf.Configuration: resource-types.xml not found
+2026-11-17 16:02:48,477 INFO resource.ResourceUtils: Unable to find 'resource-types.xml'.
+2026-11-17 16:02:48,524 INFO impl.YarnClientImpl: Submitted application application_1794749680865_0588
+2026-11-17 16:02:48,541 INFO mapreduce.Job: The url to track the job: http://master:8088/proxy/application_1794749680865_0588/
+2026-11-17 16:02:48,541 INFO mapreduce.Job: Running job: job_1794749680865_0588
+2026-11-17 16:02:53,640 INFO mapreduce.Job: Job job_1794749680865_0588 running in uber mode : false
+2026-11-17 16:02:53,642 INFO mapreduce.Job:  map 0% reduce 0%
+2026-11-17 16:03:06,757 INFO mapreduce.Job:  map 2% reduce 0%
+2026-11-17 16:03:07,763 INFO mapreduce.Job:  map 3% reduce 0%
+2026-11-17 16:03:08,770 INFO mapreduce.Job:  map 5% reduce 0%
+2026-11-17 16:03:16,813 INFO mapreduce.Job:  map 7% reduce 0%
+2026-11-17 16:03:18,840 INFO mapreduce.Job:  map 9% reduce 0%
+2026-11-17 16:03:19,846 INFO mapreduce.Job:  map 10% reduce 0%
+2026-11-17 16:03:20,851 INFO mapreduce.Job:  map 11% reduce 0%
+2026-11-17 16:03:25,880 INFO mapreduce.Job:  map 12% reduce 0%
+2026-11-17 16:03:26,885 INFO mapreduce.Job:  map 13% reduce 0%
+2026-11-17 16:03:29,902 INFO mapreduce.Job:  map 14% reduce 0%
+2026-11-17 16:03:31,911 INFO mapreduce.Job:  map 15% reduce 0%
+2026-11-17 16:03:32,924 INFO mapreduce.Job:  map 16% reduce 0%
+2026-11-17 16:03:35,943 INFO mapreduce.Job:  map 18% reduce 0%
+2026-11-17 16:03:40,974 INFO mapreduce.Job:  map 20% reduce 0%
+2026-11-17 16:03:43,992 INFO mapreduce.Job:  map 21% reduce 0%
+2026-11-17 16:03:46,001 INFO mapreduce.Job:  map 22% reduce 0%
+2026-11-17 16:03:47,007 INFO mapreduce.Job:  map 24% reduce 0%
+2026-11-17 16:03:52,033 INFO mapreduce.Job:  map 25% reduce 0%
+2026-11-17 16:03:56,050 INFO mapreduce.Job:  map 26% reduce 0%
+2026-11-17 16:03:57,055 INFO mapreduce.Job:  map 29% reduce 0%
+2026-11-17 16:04:02,086 INFO mapreduce.Job:  map 30% reduce 0%
+2026-11-17 16:04:06,102 INFO mapreduce.Job:  map 31% reduce 0%
+2026-11-17 16:04:07,107 INFO mapreduce.Job:  map 32% reduce 0%
+2026-11-17 16:04:08,111 INFO mapreduce.Job:  map 34% reduce 0%
+2026-11-17 16:04:09,116 INFO mapreduce.Job:  map 35% reduce 0%
+2026-11-17 16:04:14,140 INFO mapreduce.Job:  map 36% reduce 0%
+2026-11-17 16:04:16,162 INFO mapreduce.Job:  map 37% reduce 0%
+2026-11-17 16:04:18,175 INFO mapreduce.Job:  map 38% reduce 0%
+2026-11-17 16:04:20,188 INFO mapreduce.Job:  map 39% reduce 0%
+2026-11-17 16:04:21,193 INFO mapreduce.Job:  map 40% reduce 0%
+2026-11-17 16:04:26,213 INFO mapreduce.Job:  map 42% reduce 0%
+2026-11-17 16:04:27,221 INFO mapreduce.Job:  map 43% reduce 0%
+2026-11-17 16:04:32,243 INFO mapreduce.Job:  map 45% reduce 0%
+2026-11-17 16:04:33,247 INFO mapreduce.Job:  map 46% reduce 0%
+2026-11-17 16:04:37,266 INFO mapreduce.Job:  map 48% reduce 0%
+2026-11-17 16:04:39,275 INFO mapreduce.Job:  map 49% reduce 0%
+2026-11-17 16:04:44,295 INFO mapreduce.Job:  map 50% reduce 0%
+2026-11-17 16:04:45,299 INFO mapreduce.Job:  map 51% reduce 0%
+2026-11-17 16:04:46,306 INFO mapreduce.Job:  map 52% reduce 0%
+2026-11-17 16:04:48,315 INFO mapreduce.Job:  map 53% reduce 0%
+2026-11-17 16:04:50,325 INFO mapreduce.Job:  map 54% reduce 0%
+2026-11-17 16:04:55,344 INFO mapreduce.Job:  map 55% reduce 0%
+2026-11-17 16:04:56,348 INFO mapreduce.Job:  map 56% reduce 0%
+2026-11-17 16:04:57,357 INFO mapreduce.Job:  map 58% reduce 0%
+2026-11-17 16:04:58,362 INFO mapreduce.Job:  map 59% reduce 0%
+2026-11-17 16:05:03,387 INFO mapreduce.Job:  map 60% reduce 0%
+2026-11-17 16:05:07,407 INFO mapreduce.Job:  map 61% reduce 0%
+2026-11-17 16:05:08,411 INFO mapreduce.Job:  map 63% reduce 0%
+2026-11-17 16:05:09,415 INFO mapreduce.Job:  map 64% reduce 0%
+2026-11-17 16:05:13,432 INFO mapreduce.Job:  map 65% reduce 0%
+2026-11-17 16:05:16,443 INFO mapreduce.Job:  map 66% reduce 0%
+2026-11-17 16:05:18,451 INFO mapreduce.Job:  map 67% reduce 0%
+2026-11-17 16:05:20,457 INFO mapreduce.Job:  map 68% reduce 0%
+2026-11-17 16:05:21,461 INFO mapreduce.Job:  map 70% reduce 0%
+2026-11-17 16:05:26,481 INFO mapreduce.Job:  map 71% reduce 0%
+2026-11-17 16:05:28,495 INFO mapreduce.Job:  map 72% reduce 0%
+2026-11-17 16:05:29,498 INFO mapreduce.Job:  map 73% reduce 0%
+2026-11-17 16:05:32,509 INFO mapreduce.Job:  map 74% reduce 0%
+2026-11-17 16:05:33,513 INFO mapreduce.Job:  map 76% reduce 0%
+2026-11-17 16:05:38,531 INFO mapreduce.Job:  map 77% reduce 0%
+2026-11-17 16:05:40,547 INFO mapreduce.Job:  map 78% reduce 0%
+2026-11-17 16:05:41,554 INFO mapreduce.Job:  map 79% reduce 0%
+2026-11-17 16:05:44,567 INFO mapreduce.Job:  map 80% reduce 0%
+2026-11-17 16:05:45,571 INFO mapreduce.Job:  map 82% reduce 0%
+2026-11-17 16:05:50,595 INFO mapreduce.Job:  map 83% reduce 0%
+2026-11-17 16:05:51,599 INFO mapreduce.Job:  map 84% reduce 0%
+2026-11-17 16:05:54,612 INFO mapreduce.Job:  map 85% reduce 0%
+2026-11-17 16:05:56,617 INFO mapreduce.Job:  map 86% reduce 0%
+2026-11-17 16:05:57,621 INFO mapreduce.Job:  map 87% reduce 0%
+2026-11-17 16:05:58,627 INFO mapreduce.Job:  map 88% reduce 0%
+2026-11-17 16:06:02,647 INFO mapreduce.Job:  map 90% reduce 0%
+2026-11-17 16:06:07,667 INFO mapreduce.Job:  map 91% reduce 0%
+2026-11-17 16:06:08,672 INFO mapreduce.Job:  map 92% reduce 0%
+2026-11-17 16:06:09,677 INFO mapreduce.Job:  map 93% reduce 0%
+2026-11-17 16:06:10,681 INFO mapreduce.Job:  map 94% reduce 0%
+2026-11-17 16:06:12,689 INFO mapreduce.Job:  map 95% reduce 0%
+2026-11-17 16:06:15,706 INFO mapreduce.Job:  map 96% reduce 0%
+2026-11-17 16:06:18,716 INFO mapreduce.Job:  map 97% reduce 0%
+2026-11-17 16:06:20,723 INFO mapreduce.Job:  map 99% reduce 0%
+2026-11-17 16:06:21,734 INFO mapreduce.Job:  map 100% reduce 0%
+2026-11-17 16:06:38,882 INFO mapreduce.Job:  map 100% reduce 6%
+2026-11-17 16:06:39,886 INFO mapreduce.Job:  map 100% reduce 9%
+2026-11-17 16:06:40,889 INFO mapreduce.Job:  map 100% reduce 11%
+2026-11-17 16:06:42,895 INFO mapreduce.Job:  map 100% reduce 13%
+2026-11-17 16:06:50,923 INFO mapreduce.Job:  map 100% reduce 14%
+2026-11-17 16:07:08,989 INFO mapreduce.Job:  map 100% reduce 16%
+2026-11-17 16:07:09,998 INFO mapreduce.Job:  map 100% reduce 18%
+2026-11-17 16:07:13,021 INFO mapreduce.Job:  map 100% reduce 19%
+2026-11-17 16:07:15,028 INFO mapreduce.Job:  map 100% reduce 20%
+2026-11-17 16:07:17,034 INFO mapreduce.Job:  map 100% reduce 21%
+2026-11-17 16:07:19,041 INFO mapreduce.Job:  map 100% reduce 22%
+2026-11-17 16:07:34,088 INFO mapreduce.Job:  map 100% reduce 23%
+2026-11-17 16:07:39,104 INFO mapreduce.Job:  map 100% reduce 24%
+2026-11-17 16:07:40,107 INFO mapreduce.Job:  map 100% reduce 25%
+2026-11-17 16:07:45,124 INFO mapreduce.Job:  map 100% reduce 26%
+2026-11-17 16:07:47,129 INFO mapreduce.Job:  map 100% reduce 27%
+2026-11-17 16:07:51,143 INFO mapreduce.Job:  map 100% reduce 28%
+2026-11-17 16:08:09,199 INFO mapreduce.Job:  map 100% reduce 29%
+2026-11-17 16:08:16,221 INFO mapreduce.Job:  map 100% reduce 30%
+2026-11-17 16:08:22,238 INFO mapreduce.Job:  map 100% reduce 31%
+2026-11-17 16:08:26,249 INFO mapreduce.Job:  map 100% reduce 33%
+2026-11-17 16:08:32,267 INFO mapreduce.Job:  map 100% reduce 35%
+2026-11-17 16:08:38,284 INFO mapreduce.Job:  map 100% reduce 37%
+2026-11-17 16:08:50,318 INFO mapreduce.Job:  map 100% reduce 38%
+2026-11-17 16:08:59,367 INFO mapreduce.Job:  map 100% reduce 40%
+2026-11-17 16:09:05,383 INFO mapreduce.Job:  map 100% reduce 42%
+2026-11-17 16:09:09,395 INFO mapreduce.Job:  map 100% reduce 44%
+2026-11-17 16:09:11,401 INFO mapreduce.Job:  map 100% reduce 46%
+2026-11-17 16:09:14,410 INFO mapreduce.Job:  map 100% reduce 47%
+2026-11-17 16:09:15,413 INFO mapreduce.Job:  map 100% reduce 48%
+2026-11-17 16:09:16,416 INFO mapreduce.Job:  map 100% reduce 50%
+2026-11-17 16:09:17,419 INFO mapreduce.Job:  map 100% reduce 51%
+2026-11-17 16:09:20,435 INFO mapreduce.Job:  map 100% reduce 53%
+2026-11-17 16:09:22,441 INFO mapreduce.Job:  map 100% reduce 55%
+2026-11-17 16:09:26,452 INFO mapreduce.Job:  map 100% reduce 56%
+2026-11-17 16:09:28,458 INFO mapreduce.Job:  map 100% reduce 57%
+2026-11-17 16:09:29,460 INFO mapreduce.Job:  map 100% reduce 58%
+2026-11-17 16:09:32,468 INFO mapreduce.Job:  map 100% reduce 59%
+2026-11-17 16:09:34,473 INFO mapreduce.Job:  map 100% reduce 60%
+2026-11-17 16:09:35,476 INFO mapreduce.Job:  map 100% reduce 62%
+2026-11-17 16:09:37,481 INFO mapreduce.Job:  map 100% reduce 64%
+2026-11-17 16:09:41,493 INFO mapreduce.Job:  map 100% reduce 66%
+2026-11-17 16:09:43,498 INFO mapreduce.Job:  map 100% reduce 68%
+2026-11-17 16:09:44,501 INFO mapreduce.Job:  map 100% reduce 69%
+2026-11-17 16:09:47,512 INFO mapreduce.Job:  map 100% reduce 71%
+2026-11-17 16:09:49,519 INFO mapreduce.Job:  map 100% reduce 72%
+2026-11-17 16:09:50,522 INFO mapreduce.Job:  map 100% reduce 73%
+2026-11-17 16:09:56,539 INFO mapreduce.Job:  map 100% reduce 74%
+2026-11-17 16:10:02,558 INFO mapreduce.Job:  map 100% reduce 75%
+2026-11-17 16:10:12,586 INFO mapreduce.Job:  map 100% reduce 76%
+2026-11-17 16:10:24,626 INFO mapreduce.Job:  map 100% reduce 77%
+2026-11-17 16:10:36,659 INFO mapreduce.Job:  map 100% reduce 78%
+2026-11-17 16:10:46,700 INFO mapreduce.Job:  map 100% reduce 79%
+2026-11-17 16:10:50,711 INFO mapreduce.Job:  map 100% reduce 80%
+2026-11-17 16:10:55,725 INFO mapreduce.Job:  map 100% reduce 81%
+2026-11-17 16:11:01,742 INFO mapreduce.Job:  map 100% reduce 82%
+2026-11-17 16:11:04,752 INFO mapreduce.Job:  map 100% reduce 83%
+2026-11-17 16:11:10,770 INFO mapreduce.Job:  map 100% reduce 84%
+2026-11-17 16:11:16,788 INFO mapreduce.Job:  map 100% reduce 85%
+2026-11-17 16:11:20,799 INFO mapreduce.Job:  map 100% reduce 86%
+2026-11-17 16:11:26,819 INFO mapreduce.Job:  map 100% reduce 87%
+2026-11-17 16:11:34,844 INFO mapreduce.Job:  map 100% reduce 88%
+2026-11-17 16:11:44,900 INFO mapreduce.Job:  map 100% reduce 89%
+2026-11-17 16:11:52,941 INFO mapreduce.Job:  map 100% reduce 90%
+2026-11-17 16:12:01,975 INFO mapreduce.Job:  map 100% reduce 91%
+2026-11-17 16:12:04,983 INFO mapreduce.Job:  map 100% reduce 92%
+2026-11-17 16:12:14,017 INFO mapreduce.Job:  map 100% reduce 93%
+2026-11-17 16:12:23,041 INFO mapreduce.Job:  map 100% reduce 94%
+2026-11-17 16:12:29,057 INFO mapreduce.Job:  map 100% reduce 95%
+2026-11-17 16:12:39,084 INFO mapreduce.Job:  map 100% reduce 96%
+2026-11-17 16:12:55,131 INFO mapreduce.Job:  map 100% reduce 97%
+2026-11-17 16:13:11,175 INFO mapreduce.Job:  map 100% reduce 98%
+2026-11-17 16:13:19,196 INFO mapreduce.Job:  map 100% reduce 99%
+2026-11-17 16:13:41,255 INFO mapreduce.Job:  map 100% reduce 100%
+2026-11-17 16:13:46,288 INFO mapreduce.Job: Job job_1794749680865_0588 completed successfully
+2026-11-17 16:13:46,378 INFO mapreduce.Job: Counters: 55
+	File System Counters
+		FILE: Number of bytes read=7384226578
+		FILE: Number of bytes written=14911171293
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=7618472961
+		HDFS: Number of bytes written=7370437818
+		HDFS: Number of read operations=686
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=12
+		HDFS: Number of bytes read erasure-coded=0
+	Job Counters 
+		Launched map tasks=164
+		Launched reduce tasks=6
+		Data-local map tasks=163
+		Rack-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=3358238
+		Total time spent by all reduces in occupied slots (ms)=9212664
+		Total time spent by all map tasks (ms)=1679119
+		Total time spent by all reduce tasks (ms)=2303166
+		Total vcore-milliseconds taken by all map tasks=1679119
+		Total vcore-milliseconds taken by all reduce tasks=2303166
+		Total megabyte-milliseconds taken by all map tasks=1719417856
+		Total megabyte-milliseconds taken by all reduce tasks=4716883968
+	Map-Reduce Framework
+		Map input records=98744023
+		Map output records=98744023
+		Map output bytes=17263869935
+		Map output materialized bytes=7474154087
+		Input split bytes=19024
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=98744023
+		Reduce shuffle bytes=7474154087
+		Reduce input records=98744023
+		Reduce output records=98744023
+		Spilled Records=197488046
+		Shuffled Maps =984
+		Failed Shuffles=0
+		Merged Map outputs=984
+		GC time elapsed (ms)=10870
+		CPU time spent (ms)=2827920
+		Physical memory (bytes) snapshot=93073821696
+		Virtual memory (bytes) snapshot=470263042048
+		Total committed heap usage (bytes)=77406928896
+		Peak Map Physical memory (bytes)=574345216
+		Peak Map Virtual memory (bytes)=2747928576
+		Peak Reduce Physical memory (bytes)=1555636224
+		Peak Reduce Virtual memory (bytes)=3652460544
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=7618453937
+	File Output Format Counters 
+		Bytes Written=7370437818

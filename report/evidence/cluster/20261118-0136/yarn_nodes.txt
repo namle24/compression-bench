@@ -1,0 +1,26 @@
+2026-11-18 01:36:43,816 INFO client.DefaultNoHARMFailoverProxyProvider: Connecting to ResourceManager at master/192.168.1.201:8032
+2026-11-18 01:36:44,054 INFO conf.Configuration: resource-types.xml not found
+2026-11-18 01:36:44,054 INFO resource.ResourceUtils: Unable to find 'resource-types.xml'.
+Total Nodes:3
+         Node-Id	     Node-State	Node-Http-Address	Number-of-Running-Containers
+   worker3:34979	        RUNNING	     worker3:8042	                           0
+Detailed Node Information :
+	Configured Resources : <memory:2560, vCores:2>
+	Allocated Resources : <memory:0, vCores:0>
+	Resource Utilization by Node : PMem:1012 MB, VMem:1012 MB, VCores:0.0033322228
+	Resource Utilization by Containers : PMem:0 MB, VMem:0 MB, VCores:0.0
+	Node-Labels : 
+   worker2:38437	        RUNNING	     worker2:8042	                           0
+Detailed Node Information :
+	Configured Resources : <memory:6144, vCores:4>
+	Allocated Resources : <memory:0, vCores:0>
+	Resource Utilization by Node : PMem:860 MB, VMem:1338 MB, VCores:0.0
+	Resource Utilization by Containers : PMem:0 MB, VMem:0 MB, VCores:0.0
+	Node-Labels : 
+   worker1:46293	        RUNNING	     worker1:8042	                           0
+Detailed Node Information :
+	Configured Resources : <memory:6144, vCores:4>
+	Allocated Resources : <memory:0, vCores:0>
+	Resource Utilization by Node : PMem:857 MB, VMem:1418 MB, VCores:0.0
+	Resource Utilization by Containers : PMem:0 MB, VMem:0 MB, VCores:0.0
+	Node-Labels : 

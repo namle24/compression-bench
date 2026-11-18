@@ -1,7 +1,7 @@
 Linux master 5.15.0-203-generic #213-Ubuntu SMP Fri Oct 23 13:21:06 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
 2
                total        used        free      shared  buff/cache   available
-Mem:            3911        1457        2224           1         229        2232
+Mem:            3911        1603        1982           1         325        2085
 Swap:           4095           0        4095
 Architecture:                            x86_64
 CPU op-mode(s):                          32-bit, 64-bit

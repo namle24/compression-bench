@@ -1,0 +1,905 @@
+==> /opt/hadoop/logs/hadoop-hadoop-historyserver-master.log <==
+2026-11-18 00:50:55,303 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 00:51:05,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 00:51:15,303 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 00:51:25,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 00:51:35,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 00:51:45,303 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 00:51:55,303 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 00:52:05,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 00:52:15,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 00:52:25,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 00:52:35,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 00:52:45,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 00:52:55,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 00:53:05,303 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 00:53:15,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 00:53:25,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 00:53:35,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 00:53:45,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 00:53:55,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 00:54:05,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 00:54:15,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 00:54:25,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 00:54:35,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 00:54:45,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 00:54:55,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 00:55:05,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 00:55:15,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 00:55:25,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 00:55:35,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 00:55:45,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 00:55:55,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 00:56:05,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 00:56:15,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 00:56:25,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 00:56:35,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 00:56:45,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 00:56:55,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 00:57:05,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 00:57:15,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 00:57:25,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 00:57:35,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 00:57:45,303 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 00:57:55,303 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 00:58:05,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 00:58:15,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 00:58:25,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 00:58:35,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 00:58:45,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 00:58:55,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 00:59:05,303 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 00:59:15,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 00:59:25,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 00:59:35,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 00:59:45,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 00:59:55,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:00:05,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:00:15,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:00:25,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:00:35,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:00:45,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:00:55,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:01:05,303 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:01:15,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:01:25,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:01:35,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:01:45,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:01:55,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:02:05,303 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:02:15,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:02:25,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:02:35,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:02:45,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:02:55,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:03:05,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:03:15,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:03:25,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:03:35,303 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:03:45,303 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:03:55,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:04:05,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:04:05,322 INFO org.apache.hadoop.mapreduce.jobhistory.JobSummary: jobId=job_1794749680865_0628,submitTime=1794963056141,launchTime=1794963059842,firstMapTaskLaunchTime=1794963062170,firstReduceTaskLaunchTime=1794963519255,finishTime=1794963842332,resourcesPerMap=1024,resourcesPerReduce=2048,numMaps=164,numReduces=6,succededMaps=164,succeededReduces=6,failedMaps=0,failedReduces=0,killedMaps=0,killedReduces=0,user=hadoop,queue=default,status=SUCCEEDED,mapSlotSeconds=7668,reduceSlotSeconds=7339,jobName=bigram
+2026-11-18 01:04:05,322 INFO org.apache.hadoop.mapreduce.v2.hs.HistoryFileManager: Deleting JobSummary file: [hdfs://master:9000/tmp/hadoop-yarn/staging/history/done_intermediate/hadoop/job_1794749680865_0628.summary]
+2026-11-18 01:04:05,326 INFO org.apache.hadoop.mapreduce.v2.hs.HistoryFileManager: Moving hdfs://master:9000/tmp/hadoop-yarn/staging/history/done_intermediate/hadoop/job_1794749680865_0628-1794963056141-hadoop-bigram-1794963842332-164-6-SUCCEEDED-root.default-1794963059842.jhist to hdfs://master:9000/tmp/hadoop-yarn/staging/history/done/2026/11/18/000000/job_1794749680865_0628-1794963056141-hadoop-bigram-1794963842332-164-6-SUCCEEDED-root.default-1794963059842.jhist
+2026-11-18 01:04:05,327 INFO org.apache.hadoop.mapreduce.v2.hs.HistoryFileManager: Moving hdfs://master:9000/tmp/hadoop-yarn/staging/history/done_intermediate/hadoop/job_1794749680865_0628_conf.xml to hdfs://master:9000/tmp/hadoop-yarn/staging/history/done/2026/11/18/000000/job_1794749680865_0628_conf.xml
+2026-11-18 01:04:08,900 INFO org.apache.hadoop.mapreduce.v2.hs.CompletedJob: Loading job: job_1794749680865_0628 from file: hdfs://master:9000/tmp/hadoop-yarn/staging/history/done/2026/11/18/000000/job_1794749680865_0628-1794963056141-hadoop-bigram-1794963842332-164-6-SUCCEEDED-root.default-1794963059842.jhist
+2026-11-18 01:04:08,900 INFO org.apache.hadoop.mapreduce.v2.hs.CompletedJob: Loading history file: [hdfs://master:9000/tmp/hadoop-yarn/staging/history/done/2026/11/18/000000/job_1794749680865_0628-1794963056141-hadoop-bigram-1794963842332-164-6-SUCCEEDED-root.default-1794963059842.jhist]
+2026-11-18 01:04:08,917 INFO http.requests.jobhistory: 192.168.1.201 - - [18/Nov/2026:01:04:08 +0000] "GET /ws/v1/history/mapreduce/jobs/job_1794749680865_0628 HTTP/1.1" 200 538 "-" "curl/7.81.0"
+2026-11-18 01:04:08,927 INFO http.requests.jobhistory: 192.168.1.201 - - [18/Nov/2026:01:04:08 +0000] "GET /ws/v1/history/mapreduce/jobs/job_1794749680865_0628/counters HTTP/1.1" 200 6226 "-" "curl/7.81.0"
+2026-11-18 01:04:15,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:04:25,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:04:35,303 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:04:45,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:04:55,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:05:05,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:05:15,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:05:25,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:05:35,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:05:45,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:05:55,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:06:05,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:06:15,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:06:25,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:06:35,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:06:45,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:06:55,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:07:05,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:07:15,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:07:25,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:07:35,303 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:07:45,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:07:55,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:08:05,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:08:15,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:08:25,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:08:35,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:08:45,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:08:55,303 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:09:05,303 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:09:15,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:09:25,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:09:35,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:09:45,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:09:55,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:10:05,303 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:10:15,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:10:25,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:10:35,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:10:45,303 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:10:55,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:11:05,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:11:15,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:11:25,303 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:11:35,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:11:45,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:11:55,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:12:05,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:12:15,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:12:25,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:12:35,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:12:45,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:12:55,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:13:05,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:13:15,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:13:25,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:13:35,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:13:45,303 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:13:55,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:14:05,303 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:14:15,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:14:25,303 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:14:35,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:14:45,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:14:55,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:15:05,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:15:15,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:15:25,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:15:35,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:15:45,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:15:55,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:16:05,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:16:11,569 INFO org.apache.hadoop.mapreduce.jobhistory.JobSummary: jobId=job_1794749680865_0629,submitTime=1794963857286,launchTime=1794963862475,firstMapTaskLaunchTime=1794963864820,firstReduceTaskLaunchTime=1794964369241,finishTime=1794964565739,resourcesPerMap=1024,resourcesPerReduce=2048,numMaps=164,numReduces=6,succededMaps=164,succeededReduces=6,failedMaps=0,failedReduces=0,killedMaps=0,killedReduces=0,user=hadoop,queue=default,status=SUCCEEDED,mapSlotSeconds=8483,reduceSlotSeconds=4069,jobName=bigram
+2026-11-18 01:16:11,569 INFO org.apache.hadoop.mapreduce.v2.hs.HistoryFileManager: Deleting JobSummary file: [hdfs://master:9000/tmp/hadoop-yarn/staging/history/done_intermediate/hadoop/job_1794749680865_0629.summary]
+2026-11-18 01:16:11,570 INFO org.apache.hadoop.mapreduce.v2.hs.HistoryFileManager: Moving hdfs://master:9000/tmp/hadoop-yarn/staging/history/done_intermediate/hadoop/job_1794749680865_0629-1794963857286-hadoop-bigram-1794964565739-164-6-SUCCEEDED-root.default-1794963862475.jhist to hdfs://master:9000/tmp/hadoop-yarn/staging/history/done/2026/11/18/000000/job_1794749680865_0629-1794963857286-hadoop-bigram-1794964565739-164-6-SUCCEEDED-root.default-1794963862475.jhist
+2026-11-18 01:16:11,571 INFO org.apache.hadoop.mapreduce.v2.hs.HistoryFileManager: Moving hdfs://master:9000/tmp/hadoop-yarn/staging/history/done_intermediate/hadoop/job_1794749680865_0629_conf.xml to hdfs://master:9000/tmp/hadoop-yarn/staging/history/done/2026/11/18/000000/job_1794749680865_0629_conf.xml
+2026-11-18 01:16:11,571 INFO org.apache.hadoop.mapreduce.v2.hs.CompletedJob: Loading job: job_1794749680865_0629 from file: hdfs://master:9000/tmp/hadoop-yarn/staging/history/done/2026/11/18/000000/job_1794749680865_0629-1794963857286-hadoop-bigram-1794964565739-164-6-SUCCEEDED-root.default-1794963862475.jhist
+2026-11-18 01:16:11,571 INFO org.apache.hadoop.mapreduce.v2.hs.CompletedJob: Loading history file: [hdfs://master:9000/tmp/hadoop-yarn/staging/history/done/2026/11/18/000000/job_1794749680865_0629-1794963857286-hadoop-bigram-1794964565739-164-6-SUCCEEDED-root.default-1794963862475.jhist]
+2026-11-18 01:16:11,590 INFO http.requests.jobhistory: 192.168.1.201 - - [18/Nov/2026:01:16:11 +0000] "GET /ws/v1/history/mapreduce/jobs/job_1794749680865_0629 HTTP/1.1" 200 538 "-" "curl/7.81.0"
+2026-11-18 01:16:11,601 INFO http.requests.jobhistory: 192.168.1.201 - - [18/Nov/2026:01:16:11 +0000] "GET /ws/v1/history/mapreduce/jobs/job_1794749680865_0629/counters HTTP/1.1" 200 6316 "-" "curl/7.81.0"
+2026-11-18 01:16:15,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:16:25,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:16:35,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:16:45,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:16:55,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:17:05,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:17:15,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:17:25,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:17:35,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:17:45,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:17:55,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:18:05,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:18:15,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:18:25,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:18:35,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:18:45,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:18:55,303 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:19:05,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:19:15,303 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:19:25,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:19:35,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:19:45,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:19:55,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:20:05,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:20:15,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:20:25,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:20:35,303 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:20:45,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:20:55,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:21:05,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:21:15,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:21:25,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:21:35,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:21:45,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:21:55,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:22:05,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:22:15,303 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:22:25,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:22:35,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:22:45,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:22:55,317 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:23:05,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:23:15,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:23:25,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:23:35,303 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:23:45,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:23:55,303 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:24:05,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:24:15,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:24:25,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:24:35,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:24:45,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:24:55,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:25:05,303 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:25:15,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:25:25,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:25:35,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:25:45,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:25:55,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:26:05,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:26:15,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:26:25,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:26:35,303 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:26:45,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:26:45,322 INFO org.apache.hadoop.mapreduce.jobhistory.JobSummary: jobId=job_1794749680865_0630,submitTime=1794964580082,launchTime=1794964585105,firstMapTaskLaunchTime=1794964587555,firstReduceTaskLaunchTime=1794965091682,finishTime=1794965200763,resourcesPerMap=1024,resourcesPerReduce=2048,numMaps=164,numReduces=6,succededMaps=164,succeededReduces=6,failedMaps=0,failedReduces=0,killedMaps=0,killedReduces=0,user=hadoop,queue=default,status=SUCCEEDED,mapSlotSeconds=8503,reduceSlotSeconds=2358,jobName=bigram
+2026-11-18 01:26:45,322 INFO org.apache.hadoop.mapreduce.v2.hs.HistoryFileManager: Deleting JobSummary file: [hdfs://master:9000/tmp/hadoop-yarn/staging/history/done_intermediate/hadoop/job_1794749680865_0630.summary]
+2026-11-18 01:26:45,324 INFO org.apache.hadoop.mapreduce.v2.hs.HistoryFileManager: Moving hdfs://master:9000/tmp/hadoop-yarn/staging/history/done_intermediate/hadoop/job_1794749680865_0630-1794964580082-hadoop-bigram-1794965200763-164-6-SUCCEEDED-root.default-1794964585105.jhist to hdfs://master:9000/tmp/hadoop-yarn/staging/history/done/2026/11/18/000000/job_1794749680865_0630-1794964580082-hadoop-bigram-1794965200763-164-6-SUCCEEDED-root.default-1794964585105.jhist
+2026-11-18 01:26:45,326 INFO org.apache.hadoop.mapreduce.v2.hs.HistoryFileManager: Moving hdfs://master:9000/tmp/hadoop-yarn/staging/history/done_intermediate/hadoop/job_1794749680865_0630_conf.xml to hdfs://master:9000/tmp/hadoop-yarn/staging/history/done/2026/11/18/000000/job_1794749680865_0630_conf.xml
+2026-11-18 01:26:47,012 INFO org.apache.hadoop.mapreduce.v2.hs.CompletedJob: Loading job: job_1794749680865_0630 from file: hdfs://master:9000/tmp/hadoop-yarn/staging/history/done/2026/11/18/000000/job_1794749680865_0630-1794964580082-hadoop-bigram-1794965200763-164-6-SUCCEEDED-root.default-1794964585105.jhist
+2026-11-18 01:26:47,013 INFO org.apache.hadoop.mapreduce.v2.hs.CompletedJob: Loading history file: [hdfs://master:9000/tmp/hadoop-yarn/staging/history/done/2026/11/18/000000/job_1794749680865_0630-1794964580082-hadoop-bigram-1794965200763-164-6-SUCCEEDED-root.default-1794964585105.jhist]
+2026-11-18 01:26:47,026 INFO http.requests.jobhistory: 192.168.1.201 - - [18/Nov/2026:01:26:47 +0000] "GET /ws/v1/history/mapreduce/jobs/job_1794749680865_0630 HTTP/1.1" 200 537 "-" "curl/7.81.0"
+2026-11-18 01:26:47,032 INFO http.requests.jobhistory: 192.168.1.201 - - [18/Nov/2026:01:26:47 +0000] "GET /ws/v1/history/mapreduce/jobs/job_1794749680865_0630/counters HTTP/1.1" 200 6306 "-" "curl/7.81.0"
+2026-11-18 01:26:55,303 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:27:05,305 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:27:15,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:27:25,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:27:35,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:27:45,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:27:55,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:28:05,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:28:15,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:28:25,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:28:35,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:28:45,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:28:55,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:29:05,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:29:15,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:29:25,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:29:35,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:29:45,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:29:55,306 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:30:05,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:30:15,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:30:25,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:30:35,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:30:45,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:30:55,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:31:05,305 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:31:15,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:31:25,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:31:35,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:31:45,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:31:55,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:32:05,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:32:15,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:32:25,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:32:35,305 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:32:45,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:32:55,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:33:05,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:33:15,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:33:25,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:33:35,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:33:45,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:33:55,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:34:05,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:34:15,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:34:25,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:34:35,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:34:45,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:34:55,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:35:05,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:35:15,305 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:35:25,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:35:35,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:35:45,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:35:55,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:36:05,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:36:15,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:36:25,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:36:35,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+2026-11-18 01:36:45,304 INFO org.apache.hadoop.mapreduce.v2.hs.JobHistory: Starting scan to move intermediate done files
+
+==> /opt/hadoop/logs/hadoop-hadoop-namenode-master.log <==
+2026-11-18 01:04:09,959 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /tmp/logs/hadoop/bucket-logs-tfile/0628/application_1794749680865_0628/worker1_46293.tmp is closed by DFSClient_NONMAPREDUCE_-1971953702_2249
+2026-11-18 01:04:10,162 INFO org.apache.hadoop.hdfs.server.blockmanagement.BlockPlacementPolicy: Not enough replicas was chosen. Reason: {NO_REQUIRED_STORAGE_TYPE=1}
+2026-11-18 01:04:10,162 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocate blk_1073763416_22592, replicas=192.168.1.203:9866, 192.168.1.202:9866 for /tmp/logs/hadoop/bucket-logs-tfile/0628/application_1794749680865_0628/worker2_38437.tmp
+2026-11-18 01:04:10,242 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.202:9866 is added to blk_1073763416_22592 (size=4162358)
+2026-11-18 01:04:10,242 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.203:9866 is added to blk_1073763416_22592 (size=4162358)
+2026-11-18 01:04:10,243 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /tmp/logs/hadoop/bucket-logs-tfile/0628/application_1794749680865_0628/worker2_38437.tmp is closed by DFSClient_NONMAPREDUCE_2140788924_2353
+2026-11-18 01:04:16,696 INFO org.apache.hadoop.hdfs.server.blockmanagement.BlockPlacementPolicy: Not enough replicas was chosen. Reason: {NO_REQUIRED_STORAGE_TYPE=1}
+2026-11-18 01:04:16,696 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocate blk_1073763417_22593, replicas=192.168.1.202:9866, 192.168.1.204:9866 for /tmp/hadoop-yarn/staging/hadoop/.staging/job_1794749680865_0629/job.jar
+2026-11-18 01:04:16,804 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.204:9866 is added to blk_1073763417_22593 (size=17510)
+2026-11-18 01:04:16,805 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.202:9866 is added to blk_1073763417_22593 (size=17510)
+2026-11-18 01:04:16,807 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /tmp/hadoop-yarn/staging/hadoop/.staging/job_1794749680865_0629/job.jar is closed by DFSClient_NONMAPREDUCE_119384741_1
+2026-11-18 01:04:16,906 INFO org.apache.hadoop.hdfs.server.blockmanagement.BlockPlacementPolicy: Not enough replicas was chosen. Reason: {NO_REQUIRED_STORAGE_TYPE=1}
+2026-11-18 01:04:16,906 INFO org.apache.hadoop.hdfs.server.blockmanagement.BlockPlacementPolicy: Not enough replicas was chosen. Reason: {NO_REQUIRED_STORAGE_TYPE=1}
+2026-11-18 01:04:16,906 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocate blk_1073763418_22594, replicas=192.168.1.202:9866, 192.168.1.203:9866, 192.168.1.204:9866 for /tmp/hadoop-yarn/staging/hadoop/.staging/job_1794749680865_0629/job.split
+2026-11-18 01:04:16,931 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.204:9866 is added to blk_1073763418_22594 (size=19031)
+2026-11-18 01:04:16,931 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.203:9866 is added to blk_1073763418_22594 (size=19031)
+2026-11-18 01:04:16,931 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.202:9866 is added to blk_1073763418_22594 (size=19031)
+2026-11-18 01:04:16,932 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /tmp/hadoop-yarn/staging/hadoop/.staging/job_1794749680865_0629/job.split is closed by DFSClient_NONMAPREDUCE_119384741_1
+2026-11-18 01:04:16,938 INFO org.apache.hadoop.hdfs.server.blockmanagement.BlockPlacementPolicy: Not enough replicas was chosen. Reason: {NO_REQUIRED_STORAGE_TYPE=1}
+2026-11-18 01:04:16,938 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocate blk_1073763419_22595, replicas=192.168.1.202:9866, 192.168.1.203:9866 for /tmp/hadoop-yarn/staging/hadoop/.staging/job_1794749680865_0629/job.splitmetainfo
+2026-11-18 01:04:16,946 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.203:9866 is added to blk_1073763419_22595 (size=4106)
+2026-11-18 01:04:16,946 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.202:9866 is added to blk_1073763419_22595 (size=4106)
+2026-11-18 01:04:16,948 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /tmp/hadoop-yarn/staging/hadoop/.staging/job_1794749680865_0629/job.splitmetainfo is closed by DFSClient_NONMAPREDUCE_119384741_1
+2026-11-18 01:04:17,084 INFO org.apache.hadoop.hdfs.server.blockmanagement.BlockPlacementPolicy: Not enough replicas was chosen. Reason: {NO_REQUIRED_STORAGE_TYPE=1}
+2026-11-18 01:04:17,085 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocate blk_1073763420_22596, replicas=192.168.1.204:9866, 192.168.1.203:9866 for /tmp/hadoop-yarn/staging/hadoop/.staging/job_1794749680865_0629/job.xml
+2026-11-18 01:04:17,136 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.203:9866 is added to blk_1073763420_22596 (size=265424)
+2026-11-18 01:04:17,137 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.204:9866 is added to blk_1073763420_22596 (size=265424)
+2026-11-18 01:04:17,137 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /tmp/hadoop-yarn/staging/hadoop/.staging/job_1794749680865_0629/job.xml is closed by DFSClient_NONMAPREDUCE_119384741_1
+2026-11-18 01:04:18,005 INFO org.apache.hadoop.hdfs.server.blockmanagement.BlockPlacementPolicy: Not enough replicas was chosen. Reason: {NO_REQUIRED_STORAGE_TYPE=1}
+2026-11-18 01:04:20,230 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.203:9866 is added to blk_1073763417_22593 (size=17510)
+2026-11-18 01:04:22,773 INFO org.apache.hadoop.hdfs.server.blockmanagement.BlockPlacementPolicy: Not enough replicas was chosen. Reason: {NO_REQUIRED_STORAGE_TYPE=1}
+2026-11-18 01:04:22,774 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocate blk_1073763421_22597, replicas=192.168.1.204:9866, 192.168.1.203:9866 for /tmp/hadoop-yarn/staging/hadoop/.staging/job_1794749680865_0629/job_1794749680865_0629_1_conf.xml
+2026-11-18 01:04:22,844 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.203:9866 is added to blk_1073763421_22597 (size=306754)
+2026-11-18 01:04:22,844 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.204:9866 is added to blk_1073763421_22597 (size=306754)
+2026-11-18 01:04:22,850 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /tmp/hadoop-yarn/staging/hadoop/.staging/job_1794749680865_0629/job_1794749680865_0629_1_conf.xml is closed by DFSClient_NONMAPREDUCE_293009665_1
+2026-11-18 01:04:43,969 INFO org.apache.hadoop.hdfs.server.blockmanagement.BlockPlacementPolicy: Not enough replicas was chosen. Reason: {NO_REQUIRED_STORAGE_TYPE=1}
+2026-11-18 01:04:43,969 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocate blk_1073763422_22598, replicas=192.168.1.204:9866, 192.168.1.202:9866 for /tmp/hadoop-yarn/staging/hadoop/.staging/job_1794749680865_0629/job_1794749680865_0629_1.jhist
+2026-11-18 01:04:44,000 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* fsync: /tmp/hadoop-yarn/staging/hadoop/.staging/job_1794749680865_0629/job_1794749680865_0629_1.jhist for DFSClient_NONMAPREDUCE_293009665_1
+2026-11-18 01:04:58,478 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 643 Total time for transactions(ms): 6 Number of transactions batched in Syncs: 130 Number of syncs: 513 SyncTimes(ms): 146 
+2026-11-18 01:06:04,846 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 668 Total time for transactions(ms): 6 Number of transactions batched in Syncs: 130 Number of syncs: 538 SyncTimes(ms): 152 
+2026-11-18 01:07:18,059 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 688 Total time for transactions(ms): 6 Number of transactions batched in Syncs: 130 Number of syncs: 558 SyncTimes(ms): 159 
+2026-11-18 01:08:18,891 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 713 Total time for transactions(ms): 6 Number of transactions batched in Syncs: 130 Number of syncs: 583 SyncTimes(ms): 166 
+2026-11-18 01:09:20,274 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 734 Total time for transactions(ms): 6 Number of transactions batched in Syncs: 130 Number of syncs: 604 SyncTimes(ms): 174 
+2026-11-18 01:10:35,510 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 754 Total time for transactions(ms): 6 Number of transactions batched in Syncs: 130 Number of syncs: 624 SyncTimes(ms): 181 
+2026-11-18 01:11:36,040 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 779 Total time for transactions(ms): 6 Number of transactions batched in Syncs: 130 Number of syncs: 649 SyncTimes(ms): 186 
+2026-11-18 01:13:36,486 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 796 Total time for transactions(ms): 6 Number of transactions batched in Syncs: 130 Number of syncs: 665 SyncTimes(ms): 193 
+2026-11-18 01:13:36,558 INFO org.apache.hadoop.hdfs.server.blockmanagement.BlockPlacementPolicy: Not enough replicas was chosen. Reason: {NO_REQUIRED_STORAGE_TYPE=1}
+2026-11-18 01:13:36,558 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocate blk_1073763423_22599, replicas=192.168.1.203:9866, 192.168.1.204:9866 for /bench/out/_temporary/1/_temporary/attempt_1794749680865_0629_r_000001_0/part-r-00001
+2026-11-18 01:13:48,945 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.203:9866 is added to blk_1073763423_22599 (size=134217728)
+2026-11-18 01:13:48,946 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.204:9866 is added to blk_1073763423_22599 (size=134217728)
+2026-11-18 01:13:48,954 INFO org.apache.hadoop.hdfs.server.blockmanagement.BlockPlacementPolicy: Not enough replicas was chosen. Reason: {NO_REQUIRED_STORAGE_TYPE=1}
+2026-11-18 01:13:48,954 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocate blk_1073763424_22600, replicas=192.168.1.203:9866, 192.168.1.204:9866 for /bench/out/_temporary/1/_temporary/attempt_1794749680865_0629_r_000001_0/part-r-00001
+2026-11-18 01:13:51,941 INFO org.apache.hadoop.hdfs.server.blockmanagement.BlockPlacementPolicy: Not enough replicas was chosen. Reason: {NO_REQUIRED_STORAGE_TYPE=1}
+2026-11-18 01:13:51,941 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocate blk_1073763425_22601, replicas=192.168.1.202:9866, 192.168.1.203:9866 for /bench/out/_temporary/1/_temporary/attempt_1794749680865_0629_r_000000_0/part-r-00000
+2026-11-18 01:14:00,940 INFO org.apache.hadoop.hdfs.server.blockmanagement.BlockPlacementPolicy: Not enough replicas was chosen. Reason: {NO_REQUIRED_STORAGE_TYPE=1}
+2026-11-18 01:14:00,940 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocate blk_1073763426_22602, replicas=192.168.1.202:9866, 192.168.1.204:9866 for /bench/out/_temporary/1/_temporary/attempt_1794749680865_0629_r_000004_0/part-r-00004
+2026-11-18 01:14:01,069 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.204:9866 is added to blk_1073763424_22600 (size=134217728)
+2026-11-18 01:14:01,070 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.203:9866 is added to blk_1073763424_22600 (size=134217728)
+2026-11-18 01:14:01,075 INFO org.apache.hadoop.hdfs.server.blockmanagement.BlockPlacementPolicy: Not enough replicas was chosen. Reason: {NO_REQUIRED_STORAGE_TYPE=1}
+2026-11-18 01:14:01,076 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocate blk_1073763427_22603, replicas=192.168.1.203:9866, 192.168.1.202:9866 for /bench/out/_temporary/1/_temporary/attempt_1794749680865_0629_r_000001_0/part-r-00001
+2026-11-18 01:14:01,188 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.203:9866 is added to blk_1073763425_22601 (size=134217728)
+2026-11-18 01:14:01,188 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.202:9866 is added to blk_1073763425_22601 (size=134217728)
+2026-11-18 01:14:01,191 INFO org.apache.hadoop.hdfs.server.blockmanagement.BlockPlacementPolicy: Not enough replicas was chosen. Reason: {NO_REQUIRED_STORAGE_TYPE=1}
+2026-11-18 01:14:01,191 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocate blk_1073763428_22604, replicas=192.168.1.202:9866, 192.168.1.203:9866 for /bench/out/_temporary/1/_temporary/attempt_1794749680865_0629_r_000000_0/part-r-00000
+2026-11-18 01:14:04,568 INFO org.apache.hadoop.hdfs.server.blockmanagement.BlockPlacementPolicy: Not enough replicas was chosen. Reason: {NO_REQUIRED_STORAGE_TYPE=1}
+2026-11-18 01:14:04,568 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocate blk_1073763429_22605, replicas=192.168.1.203:9866, 192.168.1.202:9866 for /bench/out/_temporary/1/_temporary/attempt_1794749680865_0629_r_000003_0/part-r-00003
+2026-11-18 01:14:05,082 INFO org.apache.hadoop.hdfs.server.blockmanagement.BlockPlacementPolicy: Not enough replicas was chosen. Reason: {NO_REQUIRED_STORAGE_TYPE=1}
+2026-11-18 01:14:05,082 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocate blk_1073763430_22606, replicas=192.168.1.202:9866, 192.168.1.203:9866 for /bench/out/_temporary/1/_temporary/attempt_1794749680865_0629_r_000002_0/part-r-00002
+2026-11-18 01:14:08,025 INFO org.apache.hadoop.hdfs.server.blockmanagement.BlockPlacementPolicy: Not enough replicas was chosen. Reason: {NO_REQUIRED_STORAGE_TYPE=1}
+2026-11-18 01:14:08,026 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocate blk_1073763431_22607, replicas=192.168.1.203:9866, 192.168.1.202:9866 for /bench/out/_temporary/1/_temporary/attempt_1794749680865_0629_r_000005_0/part-r-00005
+2026-11-18 01:14:10,027 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.202:9866 is added to blk_1073763427_22603 (size=134217728)
+2026-11-18 01:14:10,027 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.203:9866 is added to blk_1073763427_22603 (size=134217728)
+2026-11-18 01:14:10,029 INFO org.apache.hadoop.hdfs.server.blockmanagement.BlockPlacementPolicy: Not enough replicas was chosen. Reason: {NO_REQUIRED_STORAGE_TYPE=1}
+2026-11-18 01:14:10,029 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocate blk_1073763432_22608, replicas=192.168.1.203:9866, 192.168.1.204:9866 for /bench/out/_temporary/1/_temporary/attempt_1794749680865_0629_r_000001_0/part-r-00001
+2026-11-18 01:14:11,342 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.203:9866 is added to blk_1073763428_22604 (size=134217728)
+2026-11-18 01:14:11,343 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.202:9866 is added to blk_1073763428_22604 (size=134217728)
+2026-11-18 01:14:11,370 INFO org.apache.hadoop.hdfs.server.blockmanagement.BlockPlacementPolicy: Not enough replicas was chosen. Reason: {NO_REQUIRED_STORAGE_TYPE=1}
+2026-11-18 01:14:11,370 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocate blk_1073763433_22609, replicas=192.168.1.202:9866, 192.168.1.204:9866 for /bench/out/_temporary/1/_temporary/attempt_1794749680865_0629_r_000000_0/part-r-00000
+2026-11-18 01:14:13,666 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.204:9866 is added to blk_1073763426_22602 (size=134217728)
+2026-11-18 01:14:13,667 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.202:9866 is added to blk_1073763426_22602 (size=134217728)
+2026-11-18 01:14:13,674 INFO org.apache.hadoop.hdfs.server.blockmanagement.BlockPlacementPolicy: Not enough replicas was chosen. Reason: {NO_REQUIRED_STORAGE_TYPE=1}
+2026-11-18 01:14:13,674 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocate blk_1073763434_22610, replicas=192.168.1.202:9866, 192.168.1.204:9866 for /bench/out/_temporary/1/_temporary/attempt_1794749680865_0629_r_000004_0/part-r-00004
+2026-11-18 01:14:14,005 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.203:9866 is added to blk_1073763430_22606 (size=134217728)
+2026-11-18 01:14:14,006 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.202:9866 is added to blk_1073763430_22606 (size=134217728)
+2026-11-18 01:14:14,007 INFO org.apache.hadoop.hdfs.server.blockmanagement.BlockPlacementPolicy: Not enough replicas was chosen. Reason: {NO_REQUIRED_STORAGE_TYPE=1}
+2026-11-18 01:14:14,008 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocate blk_1073763435_22611, replicas=192.168.1.202:9866, 192.168.1.203:9866 for /bench/out/_temporary/1/_temporary/attempt_1794749680865_0629_r_000002_0/part-r-00002
+2026-11-18 01:14:14,104 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.202:9866 is added to blk_1073763429_22605 (size=134217728)
+2026-11-18 01:14:14,104 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.203:9866 is added to blk_1073763429_22605 (size=134217728)
+2026-11-18 01:14:14,105 INFO org.apache.hadoop.hdfs.server.blockmanagement.BlockPlacementPolicy: Not enough replicas was chosen. Reason: {NO_REQUIRED_STORAGE_TYPE=1}
+2026-11-18 01:14:14,105 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocate blk_1073763436_22612, replicas=192.168.1.203:9866, 192.168.1.204:9866 for /bench/out/_temporary/1/_temporary/attempt_1794749680865_0629_r_000003_0/part-r-00003
+2026-11-18 01:14:17,169 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.203:9866 is added to blk_1073763431_22607 (size=134217728)
+2026-11-18 01:14:17,169 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.202:9866 is added to blk_1073763431_22607 (size=134217728)
+2026-11-18 01:14:17,170 INFO org.apache.hadoop.hdfs.server.blockmanagement.BlockPlacementPolicy: Not enough replicas was chosen. Reason: {NO_REQUIRED_STORAGE_TYPE=1}
+2026-11-18 01:14:17,171 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocate blk_1073763437_22613, replicas=192.168.1.203:9866, 192.168.1.204:9866 for /bench/out/_temporary/1/_temporary/attempt_1794749680865_0629_r_000005_0/part-r-00005
+2026-11-18 01:14:21,384 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.203:9866 is added to blk_1073763435_22611 (size=134217728)
+2026-11-18 01:14:21,384 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.202:9866 is added to blk_1073763435_22611 (size=134217728)
+2026-11-18 01:14:21,385 INFO org.apache.hadoop.hdfs.server.blockmanagement.BlockPlacementPolicy: Not enough replicas was chosen. Reason: {NO_REQUIRED_STORAGE_TYPE=1}
+2026-11-18 01:14:21,385 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocate blk_1073763438_22614, replicas=192.168.1.202:9866, 192.168.1.203:9866 for /bench/out/_temporary/1/_temporary/attempt_1794749680865_0629_r_000002_0/part-r-00002
+2026-11-18 01:14:27,925 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.203:9866 is added to blk_1073763438_22614 (size=134217728)
+2026-11-18 01:14:27,926 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.202:9866 is added to blk_1073763438_22614 (size=134217728)
+2026-11-18 01:14:27,926 INFO org.apache.hadoop.hdfs.server.blockmanagement.BlockPlacementPolicy: Not enough replicas was chosen. Reason: {NO_REQUIRED_STORAGE_TYPE=1}
+2026-11-18 01:14:27,926 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocate blk_1073763439_22615, replicas=192.168.1.202:9866, 192.168.1.204:9866 for /bench/out/_temporary/1/_temporary/attempt_1794749680865_0629_r_000002_0/part-r-00002
+2026-11-18 01:14:53,508 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.204:9866 is added to blk_1073763434_22610 (size=134217728)
+2026-11-18 01:14:53,509 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.202:9866 is added to blk_1073763434_22610 (size=134217728)
+2026-11-18 01:14:53,514 INFO org.apache.hadoop.hdfs.server.blockmanagement.BlockPlacementPolicy: Not enough replicas was chosen. Reason: {NO_REQUIRED_STORAGE_TYPE=1}
+2026-11-18 01:14:53,514 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocate blk_1073763440_22616, replicas=192.168.1.202:9866, 192.168.1.204:9866 for /bench/out/_temporary/1/_temporary/attempt_1794749680865_0629_r_000004_0/part-r-00004
+2026-11-18 01:14:53,514 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 860 Total time for transactions(ms): 6 Number of transactions batched in Syncs: 161 Number of syncs: 698 SyncTimes(ms): 206 
+2026-11-18 01:15:17,641 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.204:9866 is added to blk_1073763432_22608 (size=125741773)
+2026-11-18 01:15:17,641 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.203:9866 is added to blk_1073763432_22608 (size=125741773)
+2026-11-18 01:15:17,648 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /bench/out/_temporary/1/_temporary/attempt_1794749680865_0629_r_000001_0/part-r-00001 is closed by DFSClient_attempt_1794749680865_0629_r_000001_0_-1127636240_1
+2026-11-18 01:15:23,445 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.202:9866 is added to blk_1073763439_22615 (size=125672800)
+2026-11-18 01:15:23,445 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.204:9866 is added to blk_1073763439_22615 (size=125672800)
+2026-11-18 01:15:23,453 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /bench/out/_temporary/1/_temporary/attempt_1794749680865_0629_r_000002_0/part-r-00002 is closed by DFSClient_attempt_1794749680865_0629_r_000002_0_-2083522092_1
+2026-11-18 01:15:27,365 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.204:9866 is added to blk_1073763437_22613 (size=134217728)
+2026-11-18 01:15:27,365 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.203:9866 is added to blk_1073763437_22613 (size=134217728)
+2026-11-18 01:15:27,368 INFO org.apache.hadoop.hdfs.server.blockmanagement.BlockPlacementPolicy: Not enough replicas was chosen. Reason: {NO_REQUIRED_STORAGE_TYPE=1}
+2026-11-18 01:15:27,368 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocate blk_1073763441_22617, replicas=192.168.1.203:9866, 192.168.1.204:9866 for /bench/out/_temporary/1/_temporary/attempt_1794749680865_0629_r_000005_0/part-r-00005
+2026-11-18 01:15:28,014 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.204:9866 is added to blk_1073763433_22609 (size=134217728)
+2026-11-18 01:15:28,014 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.202:9866 is added to blk_1073763433_22609 (size=134217728)
+2026-11-18 01:15:28,016 INFO org.apache.hadoop.hdfs.server.blockmanagement.BlockPlacementPolicy: Not enough replicas was chosen. Reason: {NO_REQUIRED_STORAGE_TYPE=1}
+2026-11-18 01:15:28,016 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocate blk_1073763442_22618, replicas=192.168.1.202:9866, 192.168.1.203:9866 for /bench/out/_temporary/1/_temporary/attempt_1794749680865_0629_r_000000_0/part-r-00000
+2026-11-18 01:15:32,872 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.204:9866 is added to blk_1073763440_22616 (size=134217728)
+2026-11-18 01:15:32,872 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.202:9866 is added to blk_1073763440_22616 (size=134217728)
+2026-11-18 01:15:32,873 INFO org.apache.hadoop.hdfs.server.blockmanagement.BlockPlacementPolicy: Not enough replicas was chosen. Reason: {NO_REQUIRED_STORAGE_TYPE=1}
+2026-11-18 01:15:32,874 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocate blk_1073763443_22619, replicas=192.168.1.202:9866, 192.168.1.203:9866 for /bench/out/_temporary/1/_temporary/attempt_1794749680865_0629_r_000004_0/part-r-00004
+2026-11-18 01:15:35,238 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.203:9866 is added to blk_1073763442_22618 (size=125875542)
+2026-11-18 01:15:35,239 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.202:9866 is added to blk_1073763442_22618 (size=125875542)
+2026-11-18 01:15:35,243 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /bench/out/_temporary/1/_temporary/attempt_1794749680865_0629_r_000000_0/part-r-00000 is closed by DFSClient_attempt_1794749680865_0629_r_000000_0_-852335565_1
+2026-11-18 01:15:37,046 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.204:9866 is added to blk_1073763436_22612 (size=134217728)
+2026-11-18 01:15:37,047 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.203:9866 is added to blk_1073763436_22612 (size=134217728)
+2026-11-18 01:15:37,047 INFO org.apache.hadoop.hdfs.server.blockmanagement.BlockPlacementPolicy: Not enough replicas was chosen. Reason: {NO_REQUIRED_STORAGE_TYPE=1}
+2026-11-18 01:15:37,047 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocate blk_1073763444_22620, replicas=192.168.1.203:9866, 192.168.1.204:9866 for /bench/out/_temporary/1/_temporary/attempt_1794749680865_0629_r_000003_0/part-r-00003
+2026-11-18 01:15:39,615 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.203:9866 is added to blk_1073763443_22619 (size=125638135)
+2026-11-18 01:15:39,615 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.202:9866 is added to blk_1073763443_22619 (size=125638135)
+2026-11-18 01:15:39,617 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /bench/out/_temporary/1/_temporary/attempt_1794749680865_0629_r_000004_0/part-r-00004 is closed by DFSClient_attempt_1794749680865_0629_r_000004_0_-1652509654_1
+2026-11-18 01:15:48,812 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.204:9866 is added to blk_1073763441_22617 (size=134217728)
+2026-11-18 01:15:48,812 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.203:9866 is added to blk_1073763441_22617 (size=134217728)
+2026-11-18 01:15:48,815 INFO org.apache.hadoop.hdfs.server.blockmanagement.BlockPlacementPolicy: Not enough replicas was chosen. Reason: {NO_REQUIRED_STORAGE_TYPE=1}
+2026-11-18 01:15:48,815 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocate blk_1073763445_22621, replicas=192.168.1.203:9866, 192.168.1.202:9866 for /bench/out/_temporary/1/_temporary/attempt_1794749680865_0629_r_000005_0/part-r-00005
+2026-11-18 01:15:54,858 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.204:9866 is added to blk_1073763444_22620 (size=134217728)
+2026-11-18 01:15:54,858 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.203:9866 is added to blk_1073763444_22620 (size=134217728)
+2026-11-18 01:15:54,862 INFO org.apache.hadoop.hdfs.server.blockmanagement.BlockPlacementPolicy: Not enough replicas was chosen. Reason: {NO_REQUIRED_STORAGE_TYPE=1}
+2026-11-18 01:15:54,863 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocate blk_1073763446_22622, replicas=192.168.1.203:9866, 192.168.1.204:9866 for /bench/out/_temporary/1/_temporary/attempt_1794749680865_0629_r_000003_0/part-r-00003
+2026-11-18 01:15:54,863 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 886 Total time for transactions(ms): 6 Number of transactions batched in Syncs: 170 Number of syncs: 715 SyncTimes(ms): 209 
+2026-11-18 01:15:55,317 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.202:9866 is added to blk_1073763445_22621 (size=125668178)
+2026-11-18 01:15:55,318 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.203:9866 is added to blk_1073763445_22621 (size=125668178)
+2026-11-18 01:15:55,320 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /bench/out/_temporary/1/_temporary/attempt_1794749680865_0629_r_000005_0/part-r-00005 is closed by DFSClient_attempt_1794749680865_0629_r_000005_0_810695526_1
+2026-11-18 01:16:05,674 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.204:9866 is added to blk_1073763446_22622 (size=125952051)
+2026-11-18 01:16:05,675 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.203:9866 is added to blk_1073763446_22622 (size=125952051)
+2026-11-18 01:16:05,678 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /bench/out/_temporary/1/_temporary/attempt_1794749680865_0629_r_000003_0/part-r-00003 is closed by DFSClient_attempt_1794749680865_0629_r_000003_0_-930983663_1
+2026-11-18 01:16:05,725 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /tmp/hadoop-yarn/staging/hadoop/.staging/job_1794749680865_0629/COMMIT_STARTED is closed by DFSClient_NONMAPREDUCE_293009665_1
+2026-11-18 01:16:05,737 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /bench/out/_SUCCESS is closed by DFSClient_NONMAPREDUCE_293009665_1
+2026-11-18 01:16:05,739 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /tmp/hadoop-yarn/staging/hadoop/.staging/job_1794749680865_0629/COMMIT_SUCCESS is closed by DFSClient_NONMAPREDUCE_293009665_1
+2026-11-18 01:16:05,759 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.202:9866 is added to blk_1073763422_22598 (size=675403)
+2026-11-18 01:16:05,760 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.204:9866 is added to blk_1073763422_22598 (size=675403)
+2026-11-18 01:16:05,760 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /tmp/hadoop-yarn/staging/hadoop/.staging/job_1794749680865_0629/job_1794749680865_0629_1.jhist is closed by DFSClient_NONMAPREDUCE_293009665_1
+2026-11-18 01:16:05,764 INFO org.apache.hadoop.hdfs.server.blockmanagement.BlockPlacementPolicy: Not enough replicas was chosen. Reason: {NO_REQUIRED_STORAGE_TYPE=1}
+2026-11-18 01:16:05,764 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocate blk_1073763447_22623, replicas=192.168.1.204:9866, 192.168.1.202:9866 for /tmp/hadoop-yarn/staging/history/done_intermediate/hadoop/job_1794749680865_0629.summary_tmp
+2026-11-18 01:16:05,776 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.202:9866 is added to blk_1073763447_22623 (size=447)
+2026-11-18 01:16:05,777 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.204:9866 is added to blk_1073763447_22623 (size=447)
+2026-11-18 01:16:05,777 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /tmp/hadoop-yarn/staging/history/done_intermediate/hadoop/job_1794749680865_0629.summary_tmp is closed by DFSClient_NONMAPREDUCE_293009665_1
+2026-11-18 01:16:05,802 INFO org.apache.hadoop.hdfs.server.blockmanagement.BlockPlacementPolicy: Not enough replicas was chosen. Reason: {NO_REQUIRED_STORAGE_TYPE=1}
+2026-11-18 01:16:05,802 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocate blk_1073763448_22624, replicas=192.168.1.204:9866, 192.168.1.202:9866 for /tmp/hadoop-yarn/staging/history/done_intermediate/hadoop/job_1794749680865_0629-1794963857286-hadoop-bigram-1794964565739-164-6-SUCCEEDED-root.default-1794963862475.jhist_tmp
+2026-11-18 01:16:05,867 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.202:9866 is added to blk_1073763448_22624 (size=675403)
+2026-11-18 01:16:05,867 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.204:9866 is added to blk_1073763448_22624 (size=675403)
+2026-11-18 01:16:05,867 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /tmp/hadoop-yarn/staging/history/done_intermediate/hadoop/job_1794749680865_0629-1794963857286-hadoop-bigram-1794964565739-164-6-SUCCEEDED-root.default-1794963862475.jhist_tmp is closed by DFSClient_NONMAPREDUCE_293009665_1
+2026-11-18 01:16:05,882 INFO org.apache.hadoop.hdfs.server.blockmanagement.BlockPlacementPolicy: Not enough replicas was chosen. Reason: {NO_REQUIRED_STORAGE_TYPE=1}
+2026-11-18 01:16:05,882 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocate blk_1073763449_22625, replicas=192.168.1.204:9866, 192.168.1.202:9866 for /tmp/hadoop-yarn/staging/history/done_intermediate/hadoop/job_1794749680865_0629_conf.xml_tmp
+2026-11-18 01:16:05,917 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.202:9866 is added to blk_1073763449_22625 (size=306754)
+2026-11-18 01:16:05,918 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.204:9866 is added to blk_1073763449_22625 (size=306754)
+2026-11-18 01:16:05,918 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /tmp/hadoop-yarn/staging/history/done_intermediate/hadoop/job_1794749680865_0629_conf.xml_tmp is closed by DFSClient_NONMAPREDUCE_293009665_1
+2026-11-18 01:16:12,655 INFO org.apache.hadoop.hdfs.server.blockmanagement.BlockPlacementPolicy: Not enough replicas was chosen. Reason: {NO_REQUIRED_STORAGE_TYPE=1}
+2026-11-18 01:16:12,655 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocate blk_1073763450_22626, replicas=192.168.1.202:9866, 192.168.1.203:9866 for /tmp/logs/hadoop/bucket-logs-tfile/0629/application_1794749680865_0629/worker1_46293.tmp
+2026-11-18 01:16:12,740 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.203:9866 is added to blk_1073763450_22626 (size=3105449)
+2026-11-18 01:16:12,740 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.202:9866 is added to blk_1073763450_22626 (size=3105449)
+2026-11-18 01:16:12,740 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /tmp/logs/hadoop/bucket-logs-tfile/0629/application_1794749680865_0629/worker1_46293.tmp is closed by DFSClient_NONMAPREDUCE_-98526000_2317
+2026-11-18 01:16:13,012 INFO org.apache.hadoop.hdfs.server.blockmanagement.BlockPlacementPolicy: Not enough replicas was chosen. Reason: {NO_REQUIRED_STORAGE_TYPE=1}
+2026-11-18 01:16:13,013 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocate blk_1073763451_22627, replicas=192.168.1.203:9866, 192.168.1.204:9866 for /tmp/logs/hadoop/bucket-logs-tfile/0629/application_1794749680865_0629/worker2_38437.tmp
+2026-11-18 01:16:13,289 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.204:9866 is added to blk_1073763451_22627 (size=3143755)
+2026-11-18 01:16:13,290 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /tmp/logs/hadoop/bucket-logs-tfile/0629/application_1794749680865_0629/worker2_38437.tmp is closed by DFSClient_NONMAPREDUCE_104333301_2417
+2026-11-18 01:16:13,290 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.203:9866 is added to blk_1073763451_22627 (size=3143755)
+2026-11-18 01:16:13,406 INFO org.apache.hadoop.hdfs.server.blockmanagement.BlockPlacementPolicy: Not enough replicas was chosen. Reason: {NO_REQUIRED_STORAGE_TYPE=1}
+2026-11-18 01:16:13,406 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocate blk_1073763452_22628, replicas=192.168.1.204:9866, 192.168.1.203:9866 for /tmp/logs/hadoop/bucket-logs-tfile/0629/application_1794749680865_0629/worker3_34979.tmp
+2026-11-18 01:16:13,608 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.203:9866 is added to blk_1073763452_22628 (size=2259303)
+2026-11-18 01:16:13,608 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.204:9866 is added to blk_1073763452_22628 (size=2259303)
+2026-11-18 01:16:13,608 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /tmp/logs/hadoop/bucket-logs-tfile/0629/application_1794749680865_0629/worker3_34979.tmp is closed by DFSClient_NONMAPREDUCE_-190760396_1444
+2026-11-18 01:16:19,485 INFO org.apache.hadoop.hdfs.server.blockmanagement.BlockPlacementPolicy: Not enough replicas was chosen. Reason: {NO_REQUIRED_STORAGE_TYPE=1}
+2026-11-18 01:16:19,486 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocate blk_1073763453_22629, replicas=192.168.1.203:9866, 192.168.1.202:9866 for /tmp/hadoop-yarn/staging/hadoop/.staging/job_1794749680865_0630/job.jar
+2026-11-18 01:16:19,561 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.202:9866 is added to blk_1073763453_22629 (size=17510)
+2026-11-18 01:16:19,563 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.203:9866 is added to blk_1073763453_22629 (size=17510)
+2026-11-18 01:16:19,565 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /tmp/hadoop-yarn/staging/hadoop/.staging/job_1794749680865_0630/job.jar is closed by DFSClient_NONMAPREDUCE_2078873100_1
+2026-11-18 01:16:19,682 INFO org.apache.hadoop.hdfs.server.blockmanagement.BlockPlacementPolicy: Not enough replicas was chosen. Reason: {NO_REQUIRED_STORAGE_TYPE=1}
+2026-11-18 01:16:19,682 INFO org.apache.hadoop.hdfs.server.blockmanagement.BlockPlacementPolicy: Not enough replicas was chosen. Reason: {NO_REQUIRED_STORAGE_TYPE=1}
+2026-11-18 01:16:19,682 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocate blk_1073763454_22630, replicas=192.168.1.203:9866, 192.168.1.204:9866, 192.168.1.202:9866 for /tmp/hadoop-yarn/staging/hadoop/.staging/job_1794749680865_0630/job.split
+2026-11-18 01:16:19,708 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.202:9866 is added to blk_1073763454_22630 (size=19031)
+2026-11-18 01:16:19,708 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.204:9866 is added to blk_1073763454_22630 (size=19031)
+2026-11-18 01:16:19,709 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.203:9866 is added to blk_1073763454_22630 (size=19031)
+2026-11-18 01:16:19,710 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /tmp/hadoop-yarn/staging/hadoop/.staging/job_1794749680865_0630/job.split is closed by DFSClient_NONMAPREDUCE_2078873100_1
+2026-11-18 01:16:19,715 INFO org.apache.hadoop.hdfs.server.blockmanagement.BlockPlacementPolicy: Not enough replicas was chosen. Reason: {NO_REQUIRED_STORAGE_TYPE=1}
+2026-11-18 01:16:19,715 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocate blk_1073763455_22631, replicas=192.168.1.204:9866, 192.168.1.202:9866 for /tmp/hadoop-yarn/staging/hadoop/.staging/job_1794749680865_0630/job.splitmetainfo
+2026-11-18 01:16:19,728 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.202:9866 is added to blk_1073763455_22631 (size=4106)
+2026-11-18 01:16:19,729 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.204:9866 is added to blk_1073763455_22631 (size=4106)
+2026-11-18 01:16:19,730 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /tmp/hadoop-yarn/staging/hadoop/.staging/job_1794749680865_0630/job.splitmetainfo is closed by DFSClient_NONMAPREDUCE_2078873100_1
+2026-11-18 01:16:19,868 INFO org.apache.hadoop.hdfs.server.blockmanagement.BlockPlacementPolicy: Not enough replicas was chosen. Reason: {NO_REQUIRED_STORAGE_TYPE=1}
+2026-11-18 01:16:19,868 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocate blk_1073763456_22632, replicas=192.168.1.204:9866, 192.168.1.202:9866 for /tmp/hadoop-yarn/staging/hadoop/.staging/job_1794749680865_0630/job.xml
+2026-11-18 01:16:19,917 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.202:9866 is added to blk_1073763456_22632 (size=265421)
+2026-11-18 01:16:19,918 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.204:9866 is added to blk_1073763456_22632 (size=265421)
+2026-11-18 01:16:19,919 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /tmp/hadoop-yarn/staging/hadoop/.staging/job_1794749680865_0630/job.xml is closed by DFSClient_NONMAPREDUCE_2078873100_1
+2026-11-18 01:16:21,101 INFO org.apache.hadoop.hdfs.server.blockmanagement.BlockPlacementPolicy: Not enough replicas was chosen. Reason: {NO_REQUIRED_STORAGE_TYPE=1}
+2026-11-18 01:16:23,436 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.204:9866 is added to blk_1073763453_22629 (size=17510)
+2026-11-18 01:16:25,437 INFO org.apache.hadoop.hdfs.server.blockmanagement.BlockPlacementPolicy: Not enough replicas was chosen. Reason: {NO_REQUIRED_STORAGE_TYPE=1}
+2026-11-18 01:16:25,437 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocate blk_1073763457_22633, replicas=192.168.1.204:9866, 192.168.1.203:9866 for /tmp/hadoop-yarn/staging/hadoop/.staging/job_1794749680865_0630/job_1794749680865_0630_1_conf.xml
+2026-11-18 01:16:25,511 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.203:9866 is added to blk_1073763457_22633 (size=306751)
+2026-11-18 01:16:25,512 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.204:9866 is added to blk_1073763457_22633 (size=306751)
+2026-11-18 01:16:25,515 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /tmp/hadoop-yarn/staging/hadoop/.staging/job_1794749680865_0630/job_1794749680865_0630_1_conf.xml is closed by DFSClient_NONMAPREDUCE_1562726405_1
+2026-11-18 01:16:45,679 INFO org.apache.hadoop.hdfs.server.blockmanagement.BlockPlacementPolicy: Not enough replicas was chosen. Reason: {NO_REQUIRED_STORAGE_TYPE=1}
+2026-11-18 01:16:45,679 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocate blk_1073763458_22634, replicas=192.168.1.204:9866, 192.168.1.203:9866 for /tmp/hadoop-yarn/staging/hadoop/.staging/job_1794749680865_0630/job_1794749680865_0630_1.jhist
+2026-11-18 01:16:45,707 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* fsync: /tmp/hadoop-yarn/staging/hadoop/.staging/job_1794749680865_0630/job_1794749680865_0630_1.jhist for DFSClient_NONMAPREDUCE_1562726405_1
+2026-11-18 01:25:39,081 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 987 Total time for transactions(ms): 7 Number of transactions batched in Syncs: 189 Number of syncs: 797 SyncTimes(ms): 240 
+2026-11-18 01:25:39,390 INFO org.apache.hadoop.hdfs.server.blockmanagement.BlockPlacementPolicy: Not enough replicas was chosen. Reason: {NO_REQUIRED_STORAGE_TYPE=1}
+2026-11-18 01:25:39,390 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocate blk_1073763459_22635, replicas=192.168.1.203:9866, 192.168.1.202:9866 for /bench/out/_temporary/1/_temporary/attempt_1794749680865_0630_r_000001_0/part-r-00001
+2026-11-18 01:25:52,977 INFO org.apache.hadoop.hdfs.server.blockmanagement.BlockPlacementPolicy: Not enough replicas was chosen. Reason: {NO_REQUIRED_STORAGE_TYPE=1}
+2026-11-18 01:25:52,977 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocate blk_1073763460_22636, replicas=192.168.1.202:9866, 192.168.1.204:9866 for /bench/out/_temporary/1/_temporary/attempt_1794749680865_0630_r_000000_0/part-r-00000
+2026-11-18 01:25:59,590 INFO org.apache.hadoop.hdfs.server.blockmanagement.BlockPlacementPolicy: Not enough replicas was chosen. Reason: {NO_REQUIRED_STORAGE_TYPE=1}
+2026-11-18 01:25:59,590 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocate blk_1073763461_22637, replicas=192.168.1.202:9866, 192.168.1.203:9866 for /bench/out/_temporary/1/_temporary/attempt_1794749680865_0630_r_000004_0/part-r-00004
+2026-11-18 01:26:01,632 INFO org.apache.hadoop.hdfs.server.blockmanagement.BlockPlacementPolicy: Not enough replicas was chosen. Reason: {NO_REQUIRED_STORAGE_TYPE=1}
+2026-11-18 01:26:01,632 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocate blk_1073763462_22638, replicas=192.168.1.202:9866, 192.168.1.203:9866 for /bench/out/_temporary/1/_temporary/attempt_1794749680865_0630_r_000002_0/part-r-00002
+2026-11-18 01:26:06,548 INFO org.apache.hadoop.hdfs.server.blockmanagement.BlockPlacementPolicy: Not enough replicas was chosen. Reason: {NO_REQUIRED_STORAGE_TYPE=1}
+2026-11-18 01:26:06,548 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocate blk_1073763463_22639, replicas=192.168.1.203:9866, 192.168.1.204:9866 for /bench/out/_temporary/1/_temporary/attempt_1794749680865_0630_r_000003_0/part-r-00003
+2026-11-18 01:26:07,928 INFO org.apache.hadoop.hdfs.server.blockmanagement.BlockPlacementPolicy: Not enough replicas was chosen. Reason: {NO_REQUIRED_STORAGE_TYPE=1}
+2026-11-18 01:26:07,928 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocate blk_1073763464_22640, replicas=192.168.1.203:9866, 192.168.1.204:9866 for /bench/out/_temporary/1/_temporary/attempt_1794749680865_0630_r_000005_0/part-r-00005
+2026-11-18 01:26:11,745 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.203:9866 is added to blk_1073763459_22635 (size=103028752)
+2026-11-18 01:26:11,746 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.202:9866 is added to blk_1073763459_22635 (size=103028752)
+2026-11-18 01:26:11,751 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /bench/out/_temporary/1/_temporary/attempt_1794749680865_0630_r_000001_0/part-r-00001 is closed by DFSClient_attempt_1794749680865_0630_r_000001_0_-73119430_1
+2026-11-18 01:26:25,862 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.204:9866 is added to blk_1073763460_22636 (size=103046147)
+2026-11-18 01:26:25,862 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.202:9866 is added to blk_1073763460_22636 (size=103046147)
+2026-11-18 01:26:25,864 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /bench/out/_temporary/1/_temporary/attempt_1794749680865_0630_r_000000_0/part-r-00000 is closed by DFSClient_attempt_1794749680865_0630_r_000000_0_-2085819243_1
+2026-11-18 01:26:33,421 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.203:9866 is added to blk_1073763461_22637 (size=102995871)
+2026-11-18 01:26:33,426 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.202:9866 is added to blk_1073763461_22637 (size=102995871)
+2026-11-18 01:26:33,428 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /bench/out/_temporary/1/_temporary/attempt_1794749680865_0630_r_000004_0/part-r-00004 is closed by DFSClient_attempt_1794749680865_0630_r_000004_0_824923789_1
+2026-11-18 01:26:35,158 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.203:9866 is added to blk_1073763462_22638 (size=102998686)
+2026-11-18 01:26:35,159 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.202:9866 is added to blk_1073763462_22638 (size=102998686)
+2026-11-18 01:26:35,161 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /bench/out/_temporary/1/_temporary/attempt_1794749680865_0630_r_000002_0/part-r-00002 is closed by DFSClient_attempt_1794749680865_0630_r_000002_0_1207011221_1
+2026-11-18 01:26:38,367 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.204:9866 is added to blk_1073763463_22639 (size=103068562)
+2026-11-18 01:26:38,367 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.203:9866 is added to blk_1073763463_22639 (size=103068562)
+2026-11-18 01:26:38,370 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /bench/out/_temporary/1/_temporary/attempt_1794749680865_0630_r_000003_0/part-r-00003 is closed by DFSClient_attempt_1794749680865_0630_r_000003_0_-382344593_1
+2026-11-18 01:26:40,700 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.204:9866 is added to blk_1073763464_22640 (size=103016922)
+2026-11-18 01:26:40,701 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.203:9866 is added to blk_1073763464_22640 (size=103016922)
+2026-11-18 01:26:40,704 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /bench/out/_temporary/1/_temporary/attempt_1794749680865_0630_r_000005_0/part-r-00005 is closed by DFSClient_attempt_1794749680865_0630_r_000005_0_-395159558_1
+2026-11-18 01:26:40,704 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 1027 Total time for transactions(ms): 7 Number of transactions batched in Syncs: 203 Number of syncs: 824 SyncTimes(ms): 245 
+2026-11-18 01:26:40,751 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /tmp/hadoop-yarn/staging/hadoop/.staging/job_1794749680865_0630/COMMIT_STARTED is closed by DFSClient_NONMAPREDUCE_1562726405_1
+2026-11-18 01:26:40,760 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /bench/out/_SUCCESS is closed by DFSClient_NONMAPREDUCE_1562726405_1
+2026-11-18 01:26:40,764 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /tmp/hadoop-yarn/staging/hadoop/.staging/job_1794749680865_0630/COMMIT_SUCCESS is closed by DFSClient_NONMAPREDUCE_1562726405_1
+2026-11-18 01:26:40,780 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.203:9866 is added to blk_1073763458_22634 (size=675380)
+2026-11-18 01:26:40,781 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.204:9866 is added to blk_1073763458_22634 (size=675380)
+2026-11-18 01:26:40,781 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /tmp/hadoop-yarn/staging/hadoop/.staging/job_1794749680865_0630/job_1794749680865_0630_1.jhist is closed by DFSClient_NONMAPREDUCE_1562726405_1
+2026-11-18 01:26:40,786 INFO org.apache.hadoop.hdfs.server.blockmanagement.BlockPlacementPolicy: Not enough replicas was chosen. Reason: {NO_REQUIRED_STORAGE_TYPE=1}
+2026-11-18 01:26:40,786 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocate blk_1073763465_22641, replicas=192.168.1.204:9866, 192.168.1.202:9866 for /tmp/hadoop-yarn/staging/history/done_intermediate/hadoop/job_1794749680865_0630.summary_tmp
+2026-11-18 01:26:40,794 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.202:9866 is added to blk_1073763465_22641 (size=447)
+2026-11-18 01:26:40,795 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.204:9866 is added to blk_1073763465_22641 (size=447)
+2026-11-18 01:26:40,796 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /tmp/hadoop-yarn/staging/history/done_intermediate/hadoop/job_1794749680865_0630.summary_tmp is closed by DFSClient_NONMAPREDUCE_1562726405_1
+2026-11-18 01:26:40,823 INFO org.apache.hadoop.hdfs.server.blockmanagement.BlockPlacementPolicy: Not enough replicas was chosen. Reason: {NO_REQUIRED_STORAGE_TYPE=1}
+2026-11-18 01:26:40,823 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocate blk_1073763466_22642, replicas=192.168.1.204:9866, 192.168.1.203:9866 for /tmp/hadoop-yarn/staging/history/done_intermediate/hadoop/job_1794749680865_0630-1794964580082-hadoop-bigram-1794965200763-164-6-SUCCEEDED-root.default-1794964585105.jhist_tmp
+2026-11-18 01:26:40,893 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.203:9866 is added to blk_1073763466_22642 (size=675380)
+2026-11-18 01:26:40,894 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.204:9866 is added to blk_1073763466_22642 (size=675380)
+2026-11-18 01:26:40,894 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /tmp/hadoop-yarn/staging/history/done_intermediate/hadoop/job_1794749680865_0630-1794964580082-hadoop-bigram-1794965200763-164-6-SUCCEEDED-root.default-1794964585105.jhist_tmp is closed by DFSClient_NONMAPREDUCE_1562726405_1
+2026-11-18 01:26:40,902 INFO org.apache.hadoop.hdfs.server.blockmanagement.BlockPlacementPolicy: Not enough replicas was chosen. Reason: {NO_REQUIRED_STORAGE_TYPE=1}
+2026-11-18 01:26:40,902 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocate blk_1073763467_22643, replicas=192.168.1.204:9866, 192.168.1.203:9866 for /tmp/hadoop-yarn/staging/history/done_intermediate/hadoop/job_1794749680865_0630_conf.xml_tmp
+2026-11-18 01:26:40,934 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.203:9866 is added to blk_1073763467_22643 (size=306751)
+2026-11-18 01:26:40,935 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.204:9866 is added to blk_1073763467_22643 (size=306751)
+2026-11-18 01:26:40,935 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /tmp/hadoop-yarn/staging/history/done_intermediate/hadoop/job_1794749680865_0630_conf.xml_tmp is closed by DFSClient_NONMAPREDUCE_1562726405_1
+2026-11-18 01:26:47,671 INFO org.apache.hadoop.hdfs.server.blockmanagement.BlockPlacementPolicy: Not enough replicas was chosen. Reason: {NO_REQUIRED_STORAGE_TYPE=1}
+2026-11-18 01:26:47,671 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocate blk_1073763468_22644, replicas=192.168.1.202:9866, 192.168.1.204:9866 for /tmp/logs/hadoop/bucket-logs-tfile/0630/application_1794749680865_0630/worker1_46293.tmp
+2026-11-18 01:26:47,945 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.204:9866 is added to blk_1073763468_22644 (size=3081211)
+2026-11-18 01:26:47,945 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.202:9866 is added to blk_1073763468_22644 (size=3081211)
+2026-11-18 01:26:47,945 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /tmp/logs/hadoop/bucket-logs-tfile/0630/application_1794749680865_0630/worker1_46293.tmp is closed by DFSClient_NONMAPREDUCE_1924709869_2381
+2026-11-18 01:26:48,017 INFO org.apache.hadoop.hdfs.server.blockmanagement.BlockPlacementPolicy: Not enough replicas was chosen. Reason: {NO_REQUIRED_STORAGE_TYPE=1}
+2026-11-18 01:26:48,017 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocate blk_1073763469_22645, replicas=192.168.1.203:9866, 192.168.1.204:9866 for /tmp/logs/hadoop/bucket-logs-tfile/0630/application_1794749680865_0630/worker2_38437.tmp
+2026-11-18 01:26:48,295 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.204:9866 is added to blk_1073763469_22645 (size=3160201)
+2026-11-18 01:26:48,295 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.203:9866 is added to blk_1073763469_22645 (size=3160201)
+2026-11-18 01:26:48,296 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /tmp/logs/hadoop/bucket-logs-tfile/0630/application_1794749680865_0630/worker2_38437.tmp is closed by DFSClient_NONMAPREDUCE_102344388_2483
+2026-11-18 01:26:48,401 INFO org.apache.hadoop.hdfs.server.blockmanagement.BlockPlacementPolicy: Not enough replicas was chosen. Reason: {NO_REQUIRED_STORAGE_TYPE=1}
+2026-11-18 01:26:48,401 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocate blk_1073763470_22646, replicas=192.168.1.204:9866, 192.168.1.203:9866 for /tmp/logs/hadoop/bucket-logs-tfile/0630/application_1794749680865_0630/worker3_34979.tmp
+2026-11-18 01:26:48,611 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.203:9866 is added to blk_1073763470_22646 (size=2294047)
+2026-11-18 01:26:48,611 INFO BlockStateChange: BLOCK* addStoredBlock: 192.168.1.204:9866 is added to blk_1073763470_22646 (size=2294047)
+2026-11-18 01:26:48,612 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /tmp/logs/hadoop/bucket-logs-tfile/0630/application_1794749680865_0630/worker3_34979.tmp is closed by DFSClient_NONMAPREDUCE_1105520590_1485
+2026-11-18 01:35:58,085 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 192.168.1.201
+2026-11-18 01:35:58,085 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Rolling edit logs
+2026-11-18 01:35:58,085 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Ending log segment 139306, 140384
+2026-11-18 01:35:58,085 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 1080 Total time for transactions(ms): 8 Number of transactions batched in Syncs: 210 Number of syncs: 870 SyncTimes(ms): 255 
+2026-11-18 01:35:58,086 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 1080 Total time for transactions(ms): 8 Number of transactions batched in Syncs: 210 Number of syncs: 871 SyncTimes(ms): 256 
+2026-11-18 01:35:58,087 INFO org.apache.hadoop.hdfs.server.namenode.FileJournalManager: Finalizing edits file /data/hadoop/nn/current/edits_inprogress_0000000000000139306 -> /data/hadoop/nn/current/edits_0000000000000139306-0000000000000140385
+2026-11-18 01:35:58,087 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Starting log segment at 140386
+2026-11-18 01:35:58,101 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Sending fileName: /data/hadoop/nn/current/edits_0000000000000139306-0000000000000140385, fileSize: 117872. Sent total: 117872 bytes. Size of last segment intended to send: -1 bytes.
+2026-11-18 01:35:58,101 INFO http.requests.namenode: 192.168.1.201 - - [18/Nov/2026:01:35:58 +0000] "GET /imagetransfer?getedit=1&startTxId=139306&endTxId=140385&storageInfo=-67:1079726166:1794728025265:CID-186cd135-26a2-427d-b17b-447e0fdf6012 HTTP/1.1" 200 117872 "-" "Java/11.0.33"
+2026-11-18 01:35:58,134 INFO org.apache.hadoop.hdfs.server.common.Util: Combined time for file download and fsync to all disks took 0.00s. The file download took 0.00s at 261000.00 KB/s. Synchronous (fsync) write to disk of /data/hadoop/nn/current/fsimage.ckpt_0000000000000140385 took 0.00s.
+2026-11-18 01:35:58,134 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Downloaded file fsimage.ckpt_0000000000000140385 size 534536 bytes.
+2026-11-18 01:35:58,135 INFO org.apache.hadoop.hdfs.server.namenode.NNStorageRetentionManager: Going to retain 2 images with txid >= 139305
+2026-11-18 01:35:58,135 INFO org.apache.hadoop.hdfs.server.namenode.NNStorageRetentionManager: Purging old image FSImageFile(file=/data/hadoop/nn/current/fsimage_0000000000000138208, cpktTxId=0000000000000138208)
+2026-11-18 01:35:58,136 INFO http.requests.namenode: 192.168.1.201 - - [18/Nov/2026:01:35:58 +0000] "PUT /imagetransfer?imageFile=IMAGE&txid=140385&storageInfo=-67%3A1079726166%3A1794728025265%3ACID-186cd135-26a2-427d-b17b-447e0fdf6012&File-Length=534536 HTTP/1.1" 200 0 "-" "Java/11.0.33"
+
+==> /opt/hadoop/logs/hadoop-hadoop-secondarynamenode-master.log <==
+2026-11-17 06:35:52,204 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Image has not changed. Will not download image.
+2026-11-17 06:35:52,213 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Opening connection to http://master:9870/imagetransfer?getedit=1&startTxId=101245&endTxId=104177&storageInfo=-67:1079726166:1794728025265:CID-186cd135-26a2-427d-b17b-447e0fdf6012
+2026-11-17 06:35:52,221 INFO org.apache.hadoop.hdfs.server.common.Util: Combined time for file download and fsync to all disks took 0.00s. The file download took 0.00s at 116000.00 KB/s. Synchronous (fsync) write to disk of /data/hadoop/tmp/dfs/namesecondary/current/edits_tmp_0000000000000101245-0000000000000104177_0000000000157532581 took 0.00s.
+2026-11-17 06:35:52,221 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Downloaded file edits_tmp_0000000000000101245-0000000000000104177_0000000000157532581 size 0 bytes.
+2026-11-17 06:35:52,221 INFO org.apache.hadoop.hdfs.server.namenode.Checkpointer: Checkpointer about to load edits from 1 stream(s).
+2026-11-17 06:35:52,221 INFO org.apache.hadoop.hdfs.server.namenode.FSImage: Reading EditLogFileInputStream{log=/data/hadoop/tmp/dfs/namesecondary/current/edits_0000000000000101245-0000000000000104177, firstTxId=101245, lastTxId=104177, isInProgress=true, maxOpSize=52428800, state=UNINIT, logVersion=0} expecting start txid #101245
+2026-11-17 06:35:52,221 INFO org.apache.hadoop.hdfs.server.namenode.FSImage: Start loading edits file /data/hadoop/tmp/dfs/namesecondary/current/edits_0000000000000101245-0000000000000104177 maxTxnsToRead = 9223372036854775807
+2026-11-17 06:35:52,256 INFO org.apache.hadoop.hdfs.server.namenode.FSImage: Loaded 1 edits file(s) (the last named /data/hadoop/tmp/dfs/namesecondary/current/edits_0000000000000101245-0000000000000104177) of total size 357305.0, total edits 2933.0, total load time 35.0 ms
+2026-11-17 06:35:52,278 INFO org.apache.hadoop.hdfs.server.namenode.FSImageFormatProtobuf: Saving image file /data/hadoop/tmp/dfs/namesecondary/current/fsimage.ckpt_0000000000000104177 using no compression
+2026-11-17 06:35:52,284 INFO org.apache.hadoop.hdfs.server.namenode.FSImageFormatProtobuf: Image file /data/hadoop/tmp/dfs/namesecondary/current/fsimage.ckpt_0000000000000104177 of size 440998 bytes saved in 0 seconds .
+2026-11-17 06:35:52,286 INFO org.apache.hadoop.hdfs.server.namenode.NNStorageRetentionManager: Going to retain 2 images with txid >= 101244
+2026-11-17 06:35:52,286 INFO org.apache.hadoop.hdfs.server.namenode.NNStorageRetentionManager: Purging old image FSImageFile(file=/data/hadoop/tmp/dfs/namesecondary/current/fsimage_0000000000000098281, cpktTxId=0000000000000098281)
+2026-11-17 06:35:52,295 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Sending fileName: /data/hadoop/tmp/dfs/namesecondary/current/fsimage_0000000000000104177, fileSize: 440998. Sent total: 440998 bytes. Size of last segment intended to send: -1 bytes.
+2026-11-17 06:35:52,298 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Uploaded image with txid 104177 to namenode at http://master:9870 in 0.006 seconds
+2026-11-17 06:35:52,298 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 440998
+2026-11-17 07:35:52,571 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Image has not changed. Will not download image.
+2026-11-17 07:35:52,572 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Opening connection to http://master:9870/imagetransfer?getedit=1&startTxId=104178&endTxId=108829&storageInfo=-67:1079726166:1794728025265:CID-186cd135-26a2-427d-b17b-447e0fdf6012
+2026-11-17 07:35:52,580 INFO org.apache.hadoop.hdfs.server.common.Util: Combined time for file download and fsync to all disks took 0.00s. The file download took 0.00s at 608000.00 KB/s. Synchronous (fsync) write to disk of /data/hadoop/tmp/dfs/namesecondary/current/edits_tmp_0000000000000104178-0000000000000108829_0000000000161132940 took 0.00s.
+2026-11-17 07:35:52,580 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Downloaded file edits_tmp_0000000000000104178-0000000000000108829_0000000000161132940 size 0 bytes.
+2026-11-17 07:35:52,580 INFO org.apache.hadoop.hdfs.server.namenode.Checkpointer: Checkpointer about to load edits from 1 stream(s).
+2026-11-17 07:35:52,580 INFO org.apache.hadoop.hdfs.server.namenode.FSImage: Reading EditLogFileInputStream{log=/data/hadoop/tmp/dfs/namesecondary/current/edits_0000000000000104178-0000000000000108829, firstTxId=104178, lastTxId=108829, isInProgress=true, maxOpSize=52428800, state=UNINIT, logVersion=0} expecting start txid #104178
+2026-11-17 07:35:52,580 INFO org.apache.hadoop.hdfs.server.namenode.FSImage: Start loading edits file /data/hadoop/tmp/dfs/namesecondary/current/edits_0000000000000104178-0000000000000108829 maxTxnsToRead = 9223372036854775807
+2026-11-17 07:35:52,606 INFO org.apache.hadoop.hdfs.server.namenode.FSImage: Loaded 1 edits file(s) (the last named /data/hadoop/tmp/dfs/namesecondary/current/edits_0000000000000104178-0000000000000108829) of total size 623079.0, total edits 4652.0, total load time 26.0 ms
+2026-11-17 07:35:52,628 INFO org.apache.hadoop.hdfs.server.namenode.FSImageFormatProtobuf: Saving image file /data/hadoop/tmp/dfs/namesecondary/current/fsimage.ckpt_0000000000000108829 using no compression
+2026-11-17 07:35:52,636 INFO org.apache.hadoop.hdfs.server.namenode.FSImageFormatProtobuf: Image file /data/hadoop/tmp/dfs/namesecondary/current/fsimage.ckpt_0000000000000108829 of size 462664 bytes saved in 0 seconds .
+2026-11-17 07:35:52,637 INFO org.apache.hadoop.hdfs.server.namenode.NNStorageRetentionManager: Going to retain 2 images with txid >= 104177
+2026-11-17 07:35:52,637 INFO org.apache.hadoop.hdfs.server.namenode.NNStorageRetentionManager: Purging old image FSImageFile(file=/data/hadoop/tmp/dfs/namesecondary/current/fsimage_0000000000000101244, cpktTxId=0000000000000101244)
+2026-11-17 07:35:52,643 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Sending fileName: /data/hadoop/tmp/dfs/namesecondary/current/fsimage_0000000000000108829, fileSize: 462664. Sent total: 462664 bytes. Size of last segment intended to send: -1 bytes.
+2026-11-17 07:35:52,660 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Uploaded image with txid 108829 to namenode at http://master:9870 in 0.02 seconds
+2026-11-17 07:35:52,660 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 462664
+2026-11-17 08:35:52,921 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Image has not changed. Will not download image.
+2026-11-17 08:35:52,922 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Opening connection to http://master:9870/imagetransfer?getedit=1&startTxId=108830&endTxId=113290&storageInfo=-67:1079726166:1794728025265:CID-186cd135-26a2-427d-b17b-447e0fdf6012
+2026-11-17 08:35:52,930 INFO org.apache.hadoop.hdfs.server.common.Util: Combined time for file download and fsync to all disks took 0.00s. The file download took 0.00s at 533000.00 KB/s. Synchronous (fsync) write to disk of /data/hadoop/tmp/dfs/namesecondary/current/edits_tmp_0000000000000108830-0000000000000113290_0000000000164733290 took 0.00s.
+2026-11-17 08:35:52,930 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Downloaded file edits_tmp_0000000000000108830-0000000000000113290_0000000000164733290 size 0 bytes.
+2026-11-17 08:35:52,931 INFO org.apache.hadoop.hdfs.server.namenode.Checkpointer: Checkpointer about to load edits from 1 stream(s).
+2026-11-17 08:35:52,931 INFO org.apache.hadoop.hdfs.server.namenode.FSImage: Reading EditLogFileInputStream{log=/data/hadoop/tmp/dfs/namesecondary/current/edits_0000000000000108830-0000000000000113290, firstTxId=108830, lastTxId=113290, isInProgress=true, maxOpSize=52428800, state=UNINIT, logVersion=0} expecting start txid #108830
+2026-11-17 08:35:52,931 INFO org.apache.hadoop.hdfs.server.namenode.FSImage: Start loading edits file /data/hadoop/tmp/dfs/namesecondary/current/edits_0000000000000108830-0000000000000113290 maxTxnsToRead = 9223372036854775807
+2026-11-17 08:35:52,961 INFO org.apache.hadoop.hdfs.server.namenode.FSImage: Loaded 1 edits file(s) (the last named /data/hadoop/tmp/dfs/namesecondary/current/edits_0000000000000108830-0000000000000113290) of total size 546321.0, total edits 4461.0, total load time 30.0 ms
+2026-11-17 08:35:52,981 INFO org.apache.hadoop.hdfs.server.namenode.FSImageFormatProtobuf: Saving image file /data/hadoop/tmp/dfs/namesecondary/current/fsimage.ckpt_0000000000000113290 using no compression
+2026-11-17 08:35:52,989 INFO org.apache.hadoop.hdfs.server.namenode.FSImageFormatProtobuf: Image file /data/hadoop/tmp/dfs/namesecondary/current/fsimage.ckpt_0000000000000113290 of size 488705 bytes saved in 0 seconds .
+2026-11-17 08:35:52,990 INFO org.apache.hadoop.hdfs.server.namenode.NNStorageRetentionManager: Going to retain 2 images with txid >= 108829
+2026-11-17 08:35:52,990 INFO org.apache.hadoop.hdfs.server.namenode.NNStorageRetentionManager: Purging old image FSImageFile(file=/data/hadoop/tmp/dfs/namesecondary/current/fsimage_0000000000000104177, cpktTxId=0000000000000104177)
+2026-11-17 08:35:53,000 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Sending fileName: /data/hadoop/tmp/dfs/namesecondary/current/fsimage_0000000000000113290, fileSize: 488705. Sent total: 488705 bytes. Size of last segment intended to send: -1 bytes.
+2026-11-17 08:35:53,006 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Uploaded image with txid 113290 to namenode at http://master:9870 in 0.013 seconds
+2026-11-17 08:35:53,007 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 488705
+2026-11-17 09:35:53,270 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Image has not changed. Will not download image.
+2026-11-17 09:35:53,270 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Opening connection to http://master:9870/imagetransfer?getedit=1&startTxId=113291&endTxId=115276&storageInfo=-67:1079726166:1794728025265:CID-186cd135-26a2-427d-b17b-447e0fdf6012
+2026-11-17 09:35:53,274 INFO org.apache.hadoop.hdfs.server.common.Util: Combined time for file download and fsync to all disks took 0.00s. The file download took 0.00s at 172000.00 KB/s. Synchronous (fsync) write to disk of /data/hadoop/tmp/dfs/namesecondary/current/edits_tmp_0000000000000113291-0000000000000115276_0000000000168333638 took 0.00s.
+2026-11-17 09:35:53,274 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Downloaded file edits_tmp_0000000000000113291-0000000000000115276_0000000000168333638 size 0 bytes.
+2026-11-17 09:35:53,274 INFO org.apache.hadoop.hdfs.server.namenode.Checkpointer: Checkpointer about to load edits from 1 stream(s).
+2026-11-17 09:35:53,274 INFO org.apache.hadoop.hdfs.server.namenode.FSImage: Reading EditLogFileInputStream{log=/data/hadoop/tmp/dfs/namesecondary/current/edits_0000000000000113291-0000000000000115276, firstTxId=113291, lastTxId=115276, isInProgress=true, maxOpSize=52428800, state=UNINIT, logVersion=0} expecting start txid #113291
+2026-11-17 09:35:53,274 INFO org.apache.hadoop.hdfs.server.namenode.FSImage: Start loading edits file /data/hadoop/tmp/dfs/namesecondary/current/edits_0000000000000113291-0000000000000115276 maxTxnsToRead = 9223372036854775807
+2026-11-17 09:35:53,278 INFO org.apache.hadoop.hdfs.server.namenode.FSImage: Loaded 1 edits file(s) (the last named /data/hadoop/tmp/dfs/namesecondary/current/edits_0000000000000113291-0000000000000115276) of total size 177044.0, total edits 1986.0, total load time 4.0 ms
+2026-11-17 09:35:53,290 INFO org.apache.hadoop.hdfs.server.namenode.FSImageFormatProtobuf: Saving image file /data/hadoop/tmp/dfs/namesecondary/current/fsimage.ckpt_0000000000000115276 using no compression
+2026-11-17 09:35:53,297 INFO org.apache.hadoop.hdfs.server.namenode.FSImageFormatProtobuf: Image file /data/hadoop/tmp/dfs/namesecondary/current/fsimage.ckpt_0000000000000115276 of size 490358 bytes saved in 0 seconds .
+2026-11-17 09:35:53,298 INFO org.apache.hadoop.hdfs.server.namenode.NNStorageRetentionManager: Going to retain 2 images with txid >= 113290
+2026-11-17 09:35:53,298 INFO org.apache.hadoop.hdfs.server.namenode.NNStorageRetentionManager: Purging old image FSImageFile(file=/data/hadoop/tmp/dfs/namesecondary/current/fsimage_0000000000000108829, cpktTxId=0000000000000108829)
+2026-11-17 09:35:53,301 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Sending fileName: /data/hadoop/tmp/dfs/namesecondary/current/fsimage_0000000000000115276, fileSize: 490358. Sent total: 490358 bytes. Size of last segment intended to send: -1 bytes.
+2026-11-17 09:35:53,306 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Uploaded image with txid 115276 to namenode at http://master:9870 in 0.006 seconds
+2026-11-17 09:35:53,306 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 490358
+2026-11-17 10:35:53,548 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Image has not changed. Will not download image.
+2026-11-17 10:35:53,549 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Opening connection to http://master:9870/imagetransfer?getedit=1&startTxId=115277&endTxId=117394&storageInfo=-67:1079726166:1794728025265:CID-186cd135-26a2-427d-b17b-447e0fdf6012
+2026-11-17 10:35:53,556 INFO org.apache.hadoop.hdfs.server.common.Util: Combined time for file download and fsync to all disks took 0.00s. The file download took 0.00s at 94000.00 KB/s. Synchronous (fsync) write to disk of /data/hadoop/tmp/dfs/namesecondary/current/edits_tmp_0000000000000115277-0000000000000117394_0000000000171933917 took 0.00s.
+2026-11-17 10:35:53,556 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Downloaded file edits_tmp_0000000000000115277-0000000000000117394_0000000000171933917 size 0 bytes.
+2026-11-17 10:35:53,556 INFO org.apache.hadoop.hdfs.server.namenode.Checkpointer: Checkpointer about to load edits from 1 stream(s).
+2026-11-17 10:35:53,556 INFO org.apache.hadoop.hdfs.server.namenode.FSImage: Reading EditLogFileInputStream{log=/data/hadoop/tmp/dfs/namesecondary/current/edits_0000000000000115277-0000000000000117394, firstTxId=115277, lastTxId=117394, isInProgress=true, maxOpSize=52428800, state=UNINIT, logVersion=0} expecting start txid #115277
+2026-11-17 10:35:53,556 INFO org.apache.hadoop.hdfs.server.namenode.FSImage: Start loading edits file /data/hadoop/tmp/dfs/namesecondary/current/edits_0000000000000115277-0000000000000117394 maxTxnsToRead = 9223372036854775807
+2026-11-17 10:35:53,567 INFO org.apache.hadoop.hdfs.server.namenode.FSImage: Loaded 1 edits file(s) (the last named /data/hadoop/tmp/dfs/namesecondary/current/edits_0000000000000115277-0000000000000117394) of total size 192731.0, total edits 2118.0, total load time 11.0 ms
+2026-11-17 10:35:53,584 INFO org.apache.hadoop.hdfs.server.namenode.FSImageFormatProtobuf: Saving image file /data/hadoop/tmp/dfs/namesecondary/current/fsimage.ckpt_0000000000000117394 using no compression
+2026-11-17 10:35:53,601 INFO org.apache.hadoop.hdfs.server.namenode.FSImageFormatProtobuf: Image file /data/hadoop/tmp/dfs/namesecondary/current/fsimage.ckpt_0000000000000117394 of size 491282 bytes saved in 0 seconds .
+2026-11-17 10:35:53,602 INFO org.apache.hadoop.hdfs.server.namenode.NNStorageRetentionManager: Going to retain 2 images with txid >= 115276
+2026-11-17 10:35:53,602 INFO org.apache.hadoop.hdfs.server.namenode.NNStorageRetentionManager: Purging old image FSImageFile(file=/data/hadoop/tmp/dfs/namesecondary/current/fsimage_0000000000000113290, cpktTxId=0000000000000113290)
+2026-11-17 10:35:53,609 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Sending fileName: /data/hadoop/tmp/dfs/namesecondary/current/fsimage_0000000000000117394, fileSize: 491282. Sent total: 491282 bytes. Size of last segment intended to send: -1 bytes.
+2026-11-17 10:35:53,612 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Uploaded image with txid 117394 to namenode at http://master:9870 in 0.008 seconds
+2026-11-17 10:35:53,612 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 491282
+2026-11-17 11:35:53,846 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Image has not changed. Will not download image.
+2026-11-17 11:35:53,848 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Opening connection to http://master:9870/imagetransfer?getedit=1&startTxId=117395&endTxId=119060&storageInfo=-67:1079726166:1794728025265:CID-186cd135-26a2-427d-b17b-447e0fdf6012
+2026-11-17 11:35:53,855 INFO org.apache.hadoop.hdfs.server.common.Util: Combined time for file download and fsync to all disks took 0.00s. The file download took 0.00s at 158000.00 KB/s. Synchronous (fsync) write to disk of /data/hadoop/tmp/dfs/namesecondary/current/edits_tmp_0000000000000117395-0000000000000119060_0000000000175534216 took 0.00s.
+2026-11-17 11:35:53,855 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Downloaded file edits_tmp_0000000000000117395-0000000000000119060_0000000000175534216 size 0 bytes.
+2026-11-17 11:35:53,855 INFO org.apache.hadoop.hdfs.server.namenode.Checkpointer: Checkpointer about to load edits from 1 stream(s).
+2026-11-17 11:35:53,855 INFO org.apache.hadoop.hdfs.server.namenode.FSImage: Reading EditLogFileInputStream{log=/data/hadoop/tmp/dfs/namesecondary/current/edits_0000000000000117395-0000000000000119060, firstTxId=117395, lastTxId=119060, isInProgress=true, maxOpSize=52428800, state=UNINIT, logVersion=0} expecting start txid #117395
+2026-11-17 11:35:53,855 INFO org.apache.hadoop.hdfs.server.namenode.FSImage: Start loading edits file /data/hadoop/tmp/dfs/namesecondary/current/edits_0000000000000117395-0000000000000119060 maxTxnsToRead = 9223372036854775807
+2026-11-17 11:35:53,861 INFO org.apache.hadoop.hdfs.server.namenode.FSImage: Loaded 1 edits file(s) (the last named /data/hadoop/tmp/dfs/namesecondary/current/edits_0000000000000117395-0000000000000119060) of total size 161850.0, total edits 1666.0, total load time 6.0 ms
+2026-11-17 11:35:53,881 INFO org.apache.hadoop.hdfs.server.namenode.FSImageFormatProtobuf: Saving image file /data/hadoop/tmp/dfs/namesecondary/current/fsimage.ckpt_0000000000000119060 using no compression
+2026-11-17 11:35:53,895 INFO org.apache.hadoop.hdfs.server.namenode.FSImageFormatProtobuf: Image file /data/hadoop/tmp/dfs/namesecondary/current/fsimage.ckpt_0000000000000119060 of size 494137 bytes saved in 0 seconds .
+2026-11-17 11:35:53,897 INFO org.apache.hadoop.hdfs.server.namenode.NNStorageRetentionManager: Going to retain 2 images with txid >= 117394
+2026-11-17 11:35:53,897 INFO org.apache.hadoop.hdfs.server.namenode.NNStorageRetentionManager: Purging old image FSImageFile(file=/data/hadoop/tmp/dfs/namesecondary/current/fsimage_0000000000000115276, cpktTxId=0000000000000115276)
+2026-11-17 11:35:53,908 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Sending fileName: /data/hadoop/tmp/dfs/namesecondary/current/fsimage_0000000000000119060, fileSize: 494137. Sent total: 494137 bytes. Size of last segment intended to send: -1 bytes.
+2026-11-17 11:35:53,923 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Uploaded image with txid 119060 to namenode at http://master:9870 in 0.022 seconds
+2026-11-17 11:35:53,923 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 494137
+2026-11-17 12:35:54,154 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Image has not changed. Will not download image.
+2026-11-17 12:35:54,156 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Opening connection to http://master:9870/imagetransfer?getedit=1&startTxId=119061&endTxId=120214&storageInfo=-67:1079726166:1794728025265:CID-186cd135-26a2-427d-b17b-447e0fdf6012
+2026-11-17 12:35:54,160 INFO org.apache.hadoop.hdfs.server.common.Util: Combined time for file download and fsync to all disks took 0.00s. The file download took 0.00s at 112000.00 KB/s. Synchronous (fsync) write to disk of /data/hadoop/tmp/dfs/namesecondary/current/edits_tmp_0000000000000119061-0000000000000120214_0000000000179134524 took 0.00s.
+2026-11-17 12:35:54,160 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Downloaded file edits_tmp_0000000000000119061-0000000000000120214_0000000000179134524 size 0 bytes.
+2026-11-17 12:35:54,160 INFO org.apache.hadoop.hdfs.server.namenode.Checkpointer: Checkpointer about to load edits from 1 stream(s).
+2026-11-17 12:35:54,160 INFO org.apache.hadoop.hdfs.server.namenode.FSImage: Reading EditLogFileInputStream{log=/data/hadoop/tmp/dfs/namesecondary/current/edits_0000000000000119061-0000000000000120214, firstTxId=119061, lastTxId=120214, isInProgress=true, maxOpSize=52428800, state=UNINIT, logVersion=0} expecting start txid #119061
+2026-11-17 12:35:54,160 INFO org.apache.hadoop.hdfs.server.namenode.FSImage: Start loading edits file /data/hadoop/tmp/dfs/namesecondary/current/edits_0000000000000119061-0000000000000120214 maxTxnsToRead = 9223372036854775807
+2026-11-17 12:35:54,164 INFO org.apache.hadoop.hdfs.server.namenode.FSImage: Loaded 1 edits file(s) (the last named /data/hadoop/tmp/dfs/namesecondary/current/edits_0000000000000119061-0000000000000120214) of total size 115424.0, total edits 1154.0, total load time 4.0 ms
+2026-11-17 12:35:54,176 INFO org.apache.hadoop.hdfs.server.namenode.FSImageFormatProtobuf: Saving image file /data/hadoop/tmp/dfs/namesecondary/current/fsimage.ckpt_0000000000000120214 using no compression
+2026-11-17 12:35:54,185 INFO org.apache.hadoop.hdfs.server.namenode.FSImageFormatProtobuf: Image file /data/hadoop/tmp/dfs/namesecondary/current/fsimage.ckpt_0000000000000120214 of size 496785 bytes saved in 0 seconds .
+2026-11-17 12:35:54,186 INFO org.apache.hadoop.hdfs.server.namenode.NNStorageRetentionManager: Going to retain 2 images with txid >= 119060
+2026-11-17 12:35:54,186 INFO org.apache.hadoop.hdfs.server.namenode.NNStorageRetentionManager: Purging old image FSImageFile(file=/data/hadoop/tmp/dfs/namesecondary/current/fsimage_0000000000000117394, cpktTxId=0000000000000117394)
+2026-11-17 12:35:54,194 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Sending fileName: /data/hadoop/tmp/dfs/namesecondary/current/fsimage_0000000000000120214, fileSize: 496785. Sent total: 496785 bytes. Size of last segment intended to send: -1 bytes.
+2026-11-17 12:35:54,199 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Uploaded image with txid 120214 to namenode at http://master:9870 in 0.007 seconds
+2026-11-17 12:35:54,199 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 496785
+2026-11-17 13:35:54,414 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Image has not changed. Will not download image.
+2026-11-17 13:35:54,415 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Opening connection to http://master:9870/imagetransfer?getedit=1&startTxId=120215&endTxId=121337&storageInfo=-67:1079726166:1794728025265:CID-186cd135-26a2-427d-b17b-447e0fdf6012
+2026-11-17 13:35:54,422 INFO org.apache.hadoop.hdfs.server.common.Util: Combined time for file download and fsync to all disks took 0.00s. The file download took 0.00s at 119000.00 KB/s. Synchronous (fsync) write to disk of /data/hadoop/tmp/dfs/namesecondary/current/edits_tmp_0000000000000120215-0000000000000121337_0000000000182734783 took 0.00s.
+2026-11-17 13:35:54,422 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Downloaded file edits_tmp_0000000000000120215-0000000000000121337_0000000000182734783 size 0 bytes.
+2026-11-17 13:35:54,422 INFO org.apache.hadoop.hdfs.server.namenode.Checkpointer: Checkpointer about to load edits from 1 stream(s).
+2026-11-17 13:35:54,422 INFO org.apache.hadoop.hdfs.server.namenode.FSImage: Reading EditLogFileInputStream{log=/data/hadoop/tmp/dfs/namesecondary/current/edits_0000000000000120215-0000000000000121337, firstTxId=120215, lastTxId=121337, isInProgress=true, maxOpSize=52428800, state=UNINIT, logVersion=0} expecting start txid #120215
+2026-11-17 13:35:54,422 INFO org.apache.hadoop.hdfs.server.namenode.FSImage: Start loading edits file /data/hadoop/tmp/dfs/namesecondary/current/edits_0000000000000120215-0000000000000121337 maxTxnsToRead = 9223372036854775807
+2026-11-17 13:35:54,426 INFO org.apache.hadoop.hdfs.server.namenode.FSImage: Loaded 1 edits file(s) (the last named /data/hadoop/tmp/dfs/namesecondary/current/edits_0000000000000120215-0000000000000121337) of total size 122581.0, total edits 1123.0, total load time 4.0 ms
+2026-11-17 13:35:54,441 INFO org.apache.hadoop.hdfs.server.namenode.FSImageFormatProtobuf: Saving image file /data/hadoop/tmp/dfs/namesecondary/current/fsimage.ckpt_0000000000000121337 using no compression
+2026-11-17 13:35:54,447 INFO org.apache.hadoop.hdfs.server.namenode.FSImageFormatProtobuf: Image file /data/hadoop/tmp/dfs/namesecondary/current/fsimage.ckpt_0000000000000121337 of size 500074 bytes saved in 0 seconds .
+2026-11-17 13:35:54,448 INFO org.apache.hadoop.hdfs.server.namenode.NNStorageRetentionManager: Going to retain 2 images with txid >= 120214
+2026-11-17 13:35:54,448 INFO org.apache.hadoop.hdfs.server.namenode.NNStorageRetentionManager: Purging old image FSImageFile(file=/data/hadoop/tmp/dfs/namesecondary/current/fsimage_0000000000000119060, cpktTxId=0000000000000119060)
+2026-11-17 13:35:54,452 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Sending fileName: /data/hadoop/tmp/dfs/namesecondary/current/fsimage_0000000000000121337, fileSize: 500074. Sent total: 500074 bytes. Size of last segment intended to send: -1 bytes.
+2026-11-17 13:35:54,459 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Uploaded image with txid 121337 to namenode at http://master:9870 in 0.008 seconds
+2026-11-17 13:35:54,460 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 500074
+2026-11-17 14:35:54,719 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Image has not changed. Will not download image.
+2026-11-17 14:35:54,720 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Opening connection to http://master:9870/imagetransfer?getedit=1&startTxId=121338&endTxId=123150&storageInfo=-67:1079726166:1794728025265:CID-186cd135-26a2-427d-b17b-447e0fdf6012
+2026-11-17 14:35:54,724 INFO org.apache.hadoop.hdfs.server.common.Util: Combined time for file download and fsync to all disks took 0.00s. The file download took 0.00s at 161000.00 KB/s. Synchronous (fsync) write to disk of /data/hadoop/tmp/dfs/namesecondary/current/edits_tmp_0000000000000121338-0000000000000123150_0000000000186335087 took 0.00s.
+2026-11-17 14:35:54,724 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Downloaded file edits_tmp_0000000000000121338-0000000000000123150_0000000000186335087 size 0 bytes.
+2026-11-17 14:35:54,725 INFO org.apache.hadoop.hdfs.server.namenode.Checkpointer: Checkpointer about to load edits from 1 stream(s).
+2026-11-17 14:35:54,725 INFO org.apache.hadoop.hdfs.server.namenode.FSImage: Reading EditLogFileInputStream{log=/data/hadoop/tmp/dfs/namesecondary/current/edits_0000000000000121338-0000000000000123150, firstTxId=121338, lastTxId=123150, isInProgress=true, maxOpSize=52428800, state=UNINIT, logVersion=0} expecting start txid #121338
+2026-11-17 14:35:54,725 INFO org.apache.hadoop.hdfs.server.namenode.FSImage: Start loading edits file /data/hadoop/tmp/dfs/namesecondary/current/edits_0000000000000121338-0000000000000123150 maxTxnsToRead = 9223372036854775807
+2026-11-17 14:35:54,746 INFO org.apache.hadoop.hdfs.server.namenode.FSImage: Loaded 1 edits file(s) (the last named /data/hadoop/tmp/dfs/namesecondary/current/edits_0000000000000121338-0000000000000123150) of total size 165309.0, total edits 1813.0, total load time 21.0 ms
+2026-11-17 14:35:54,773 INFO org.apache.hadoop.hdfs.server.namenode.FSImageFormatProtobuf: Saving image file /data/hadoop/tmp/dfs/namesecondary/current/fsimage.ckpt_0000000000000123150 using no compression
+2026-11-17 14:35:54,787 INFO org.apache.hadoop.hdfs.server.namenode.FSImageFormatProtobuf: Image file /data/hadoop/tmp/dfs/namesecondary/current/fsimage.ckpt_0000000000000123150 of size 505069 bytes saved in 0 seconds .
+2026-11-17 14:35:54,789 INFO org.apache.hadoop.hdfs.server.namenode.NNStorageRetentionManager: Going to retain 2 images with txid >= 121337
+2026-11-17 14:35:54,789 INFO org.apache.hadoop.hdfs.server.namenode.NNStorageRetentionManager: Purging old image FSImageFile(file=/data/hadoop/tmp/dfs/namesecondary/current/fsimage_0000000000000120214, cpktTxId=0000000000000120214)
+2026-11-17 14:35:54,796 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Sending fileName: /data/hadoop/tmp/dfs/namesecondary/current/fsimage_0000000000000123150, fileSize: 505069. Sent total: 505069 bytes. Size of last segment intended to send: -1 bytes.
+2026-11-17 14:35:54,800 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Uploaded image with txid 123150 to namenode at http://master:9870 in 0.007 seconds
+2026-11-17 14:35:54,800 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 505069
+2026-11-17 15:35:55,045 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Image has not changed. Will not download image.
+2026-11-17 15:35:55,046 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Opening connection to http://master:9870/imagetransfer?getedit=1&startTxId=123151&endTxId=125241&storageInfo=-67:1079726166:1794728025265:CID-186cd135-26a2-427d-b17b-447e0fdf6012
+2026-11-17 15:35:55,054 INFO org.apache.hadoop.hdfs.server.common.Util: Combined time for file download and fsync to all disks took 0.00s. The file download took 0.00s at 177000.00 KB/s. Synchronous (fsync) write to disk of /data/hadoop/tmp/dfs/namesecondary/current/edits_tmp_0000000000000123151-0000000000000125241_0000000000189935414 took 0.00s.
+2026-11-17 15:35:55,054 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Downloaded file edits_tmp_0000000000000123151-0000000000000125241_0000000000189935414 size 0 bytes.
+2026-11-17 15:35:55,054 INFO org.apache.hadoop.hdfs.server.namenode.Checkpointer: Checkpointer about to load edits from 1 stream(s).
+2026-11-17 15:35:55,054 INFO org.apache.hadoop.hdfs.server.namenode.FSImage: Reading EditLogFileInputStream{log=/data/hadoop/tmp/dfs/namesecondary/current/edits_0000000000000123151-0000000000000125241, firstTxId=123151, lastTxId=125241, isInProgress=true, maxOpSize=52428800, state=UNINIT, logVersion=0} expecting start txid #123151
+2026-11-17 15:35:55,054 INFO org.apache.hadoop.hdfs.server.namenode.FSImage: Start loading edits file /data/hadoop/tmp/dfs/namesecondary/current/edits_0000000000000123151-0000000000000125241 maxTxnsToRead = 9223372036854775807
+2026-11-17 15:35:55,067 INFO org.apache.hadoop.hdfs.server.namenode.FSImage: Loaded 1 edits file(s) (the last named /data/hadoop/tmp/dfs/namesecondary/current/edits_0000000000000123151-0000000000000125241) of total size 181466.0, total edits 2091.0, total load time 13.0 ms
+2026-11-17 15:35:55,087 INFO org.apache.hadoop.hdfs.server.namenode.FSImageFormatProtobuf: Saving image file /data/hadoop/tmp/dfs/namesecondary/current/fsimage.ckpt_0000000000000125241 using no compression
+2026-11-17 15:35:55,104 INFO org.apache.hadoop.hdfs.server.namenode.FSImageFormatProtobuf: Image file /data/hadoop/tmp/dfs/namesecondary/current/fsimage.ckpt_0000000000000125241 of size 505329 bytes saved in 0 seconds .
+2026-11-17 15:35:55,105 INFO org.apache.hadoop.hdfs.server.namenode.NNStorageRetentionManager: Going to retain 2 images with txid >= 123150
+2026-11-17 15:35:55,105 INFO org.apache.hadoop.hdfs.server.namenode.NNStorageRetentionManager: Purging old image FSImageFile(file=/data/hadoop/tmp/dfs/namesecondary/current/fsimage_0000000000000121337, cpktTxId=0000000000000121337)
+2026-11-17 15:35:55,113 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Sending fileName: /data/hadoop/tmp/dfs/namesecondary/current/fsimage_0000000000000125241, fileSize: 505329. Sent total: 505329 bytes. Size of last segment intended to send: -1 bytes.
+2026-11-17 15:35:55,121 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Uploaded image with txid 125241 to namenode at http://master:9870 in 0.011 seconds
+2026-11-17 15:35:55,121 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 505329
+2026-11-17 16:35:55,356 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Image has not changed. Will not download image.
+2026-11-17 16:35:55,357 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Opening connection to http://master:9870/imagetransfer?getedit=1&startTxId=125242&endTxId=127218&storageInfo=-67:1079726166:1794728025265:CID-186cd135-26a2-427d-b17b-447e0fdf6012
+2026-11-17 16:35:55,362 INFO org.apache.hadoop.hdfs.server.common.Util: Combined time for file download and fsync to all disks took 0.00s. The file download took 0.00s at 170000.00 KB/s. Synchronous (fsync) write to disk of /data/hadoop/tmp/dfs/namesecondary/current/edits_tmp_0000000000000125242-0000000000000127218_0000000000193535725 took 0.00s.
+2026-11-17 16:35:55,362 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Downloaded file edits_tmp_0000000000000125242-0000000000000127218_0000000000193535725 size 0 bytes.
+2026-11-17 16:35:55,363 INFO org.apache.hadoop.hdfs.server.namenode.Checkpointer: Checkpointer about to load edits from 1 stream(s).
+2026-11-17 16:35:55,363 INFO org.apache.hadoop.hdfs.server.namenode.FSImage: Reading EditLogFileInputStream{log=/data/hadoop/tmp/dfs/namesecondary/current/edits_0000000000000125242-0000000000000127218, firstTxId=125242, lastTxId=127218, isInProgress=true, maxOpSize=52428800, state=UNINIT, logVersion=0} expecting start txid #125242
+2026-11-17 16:35:55,363 INFO org.apache.hadoop.hdfs.server.namenode.FSImage: Start loading edits file /data/hadoop/tmp/dfs/namesecondary/current/edits_0000000000000125242-0000000000000127218 maxTxnsToRead = 9223372036854775807
+2026-11-17 16:35:55,371 INFO org.apache.hadoop.hdfs.server.namenode.FSImage: Loaded 1 edits file(s) (the last named /data/hadoop/tmp/dfs/namesecondary/current/edits_0000000000000125242-0000000000000127218) of total size 174812.0, total edits 1977.0, total load time 9.0 ms
+2026-11-17 16:35:55,386 INFO org.apache.hadoop.hdfs.server.namenode.FSImageFormatProtobuf: Saving image file /data/hadoop/tmp/dfs/namesecondary/current/fsimage.ckpt_0000000000000127218 using no compression
+2026-11-17 16:35:55,399 INFO org.apache.hadoop.hdfs.server.namenode.FSImageFormatProtobuf: Image file /data/hadoop/tmp/dfs/namesecondary/current/fsimage.ckpt_0000000000000127218 of size 511246 bytes saved in 0 seconds .
+2026-11-17 16:35:55,400 INFO org.apache.hadoop.hdfs.server.namenode.NNStorageRetentionManager: Going to retain 2 images with txid >= 125241
+2026-11-17 16:35:55,400 INFO org.apache.hadoop.hdfs.server.namenode.NNStorageRetentionManager: Purging old image FSImageFile(file=/data/hadoop/tmp/dfs/namesecondary/current/fsimage_0000000000000123150, cpktTxId=0000000000000123150)
+2026-11-17 16:35:55,408 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Sending fileName: /data/hadoop/tmp/dfs/namesecondary/current/fsimage_0000000000000127218, fileSize: 511246. Sent total: 511246 bytes. Size of last segment intended to send: -1 bytes.
+2026-11-17 16:35:55,413 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Uploaded image with txid 127218 to namenode at http://master:9870 in 0.01 seconds
+2026-11-17 16:35:55,414 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 511246
+2026-11-17 17:35:55,627 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Image has not changed. Will not download image.
+2026-11-17 17:35:55,628 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Opening connection to http://master:9870/imagetransfer?getedit=1&startTxId=127219&endTxId=128576&storageInfo=-67:1079726166:1794728025265:CID-186cd135-26a2-427d-b17b-447e0fdf6012
+2026-11-17 17:35:55,633 INFO org.apache.hadoop.hdfs.server.common.Util: Combined time for file download and fsync to all disks took 0.00s. The file download took 0.00s at 137000.00 KB/s. Synchronous (fsync) write to disk of /data/hadoop/tmp/dfs/namesecondary/current/edits_tmp_0000000000000127219-0000000000000128576_0000000000197135996 took 0.00s.
+2026-11-17 17:35:55,633 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Downloaded file edits_tmp_0000000000000127219-0000000000000128576_0000000000197135996 size 0 bytes.
+2026-11-17 17:35:55,633 INFO org.apache.hadoop.hdfs.server.namenode.Checkpointer: Checkpointer about to load edits from 1 stream(s).
+2026-11-17 17:35:55,633 INFO org.apache.hadoop.hdfs.server.namenode.FSImage: Reading EditLogFileInputStream{log=/data/hadoop/tmp/dfs/namesecondary/current/edits_0000000000000127219-0000000000000128576, firstTxId=127219, lastTxId=128576, isInProgress=true, maxOpSize=52428800, state=UNINIT, logVersion=0} expecting start txid #127219
+2026-11-17 17:35:55,633 INFO org.apache.hadoop.hdfs.server.namenode.FSImage: Start loading edits file /data/hadoop/tmp/dfs/namesecondary/current/edits_0000000000000127219-0000000000000128576 maxTxnsToRead = 9223372036854775807
+2026-11-17 17:35:55,644 INFO org.apache.hadoop.hdfs.server.namenode.FSImage: Loaded 1 edits file(s) (the last named /data/hadoop/tmp/dfs/namesecondary/current/edits_0000000000000127219-0000000000000128576) of total size 140299.0, total edits 1358.0, total load time 10.0 ms
+2026-11-17 17:35:55,669 INFO org.apache.hadoop.hdfs.server.namenode.FSImageFormatProtobuf: Saving image file /data/hadoop/tmp/dfs/namesecondary/current/fsimage.ckpt_0000000000000128576 using no compression
+2026-11-17 17:35:55,682 INFO org.apache.hadoop.hdfs.server.namenode.FSImageFormatProtobuf: Image file /data/hadoop/tmp/dfs/namesecondary/current/fsimage.ckpt_0000000000000128576 of size 511224 bytes saved in 0 seconds .
+2026-11-17 17:35:55,683 INFO org.apache.hadoop.hdfs.server.namenode.NNStorageRetentionManager: Going to retain 2 images with txid >= 127218
+2026-11-17 17:35:55,683 INFO org.apache.hadoop.hdfs.server.namenode.NNStorageRetentionManager: Purging old image FSImageFile(file=/data/hadoop/tmp/dfs/namesecondary/current/fsimage_0000000000000125241, cpktTxId=0000000000000125241)
+2026-11-17 17:35:55,694 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Sending fileName: /data/hadoop/tmp/dfs/namesecondary/current/fsimage_0000000000000128576, fileSize: 511224. Sent total: 511224 bytes. Size of last segment intended to send: -1 bytes.
+2026-11-17 17:35:55,699 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Uploaded image with txid 128576 to namenode at http://master:9870 in 0.012 seconds
+2026-11-17 17:35:55,699 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 511224
+2026-11-17 18:35:55,952 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Image has not changed. Will not download image.
+2026-11-17 18:35:55,953 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Opening connection to http://master:9870/imagetransfer?getedit=1&startTxId=128577&endTxId=129650&storageInfo=-67:1079726166:1794728025265:CID-186cd135-26a2-427d-b17b-447e0fdf6012
+2026-11-17 18:35:55,960 INFO org.apache.hadoop.hdfs.server.common.Util: Combined time for file download and fsync to all disks took 0.00s. The file download took 0.00s at 107000.00 KB/s. Synchronous (fsync) write to disk of /data/hadoop/tmp/dfs/namesecondary/current/edits_tmp_0000000000000128577-0000000000000129650_0000000000200736321 took 0.00s.
+2026-11-17 18:35:55,960 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Downloaded file edits_tmp_0000000000000128577-0000000000000129650_0000000000200736321 size 0 bytes.
+2026-11-17 18:35:55,960 INFO org.apache.hadoop.hdfs.server.namenode.Checkpointer: Checkpointer about to load edits from 1 stream(s).
+2026-11-17 18:35:55,960 INFO org.apache.hadoop.hdfs.server.namenode.FSImage: Reading EditLogFileInputStream{log=/data/hadoop/tmp/dfs/namesecondary/current/edits_0000000000000128577-0000000000000129650, firstTxId=128577, lastTxId=129650, isInProgress=true, maxOpSize=52428800, state=UNINIT, logVersion=0} expecting start txid #128577
+2026-11-17 18:35:55,960 INFO org.apache.hadoop.hdfs.server.namenode.FSImage: Start loading edits file /data/hadoop/tmp/dfs/namesecondary/current/edits_0000000000000128577-0000000000000129650 maxTxnsToRead = 9223372036854775807
+2026-11-17 18:35:55,970 INFO org.apache.hadoop.hdfs.server.namenode.FSImage: Loaded 1 edits file(s) (the last named /data/hadoop/tmp/dfs/namesecondary/current/edits_0000000000000128577-0000000000000129650) of total size 109978.0, total edits 1074.0, total load time 10.0 ms
+2026-11-17 18:35:55,992 INFO org.apache.hadoop.hdfs.server.namenode.FSImageFormatProtobuf: Saving image file /data/hadoop/tmp/dfs/namesecondary/current/fsimage.ckpt_0000000000000129650 using no compression
+2026-11-17 18:35:56,011 INFO org.apache.hadoop.hdfs.server.namenode.FSImageFormatProtobuf: Image file /data/hadoop/tmp/dfs/namesecondary/current/fsimage.ckpt_0000000000000129650 of size 513875 bytes saved in 0 seconds .
+2026-11-17 18:35:56,013 INFO org.apache.hadoop.hdfs.server.namenode.NNStorageRetentionManager: Going to retain 2 images with txid >= 128576
+2026-11-17 18:35:56,013 INFO org.apache.hadoop.hdfs.server.namenode.NNStorageRetentionManager: Purging old image FSImageFile(file=/data/hadoop/tmp/dfs/namesecondary/current/fsimage_0000000000000127218, cpktTxId=0000000000000127218)
+2026-11-17 18:35:56,021 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Sending fileName: /data/hadoop/tmp/dfs/namesecondary/current/fsimage_0000000000000129650, fileSize: 513875. Sent total: 513875 bytes. Size of last segment intended to send: -1 bytes.
+2026-11-17 18:35:56,028 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Uploaded image with txid 129650 to namenode at http://master:9870 in 0.009 seconds
+2026-11-17 18:35:56,028 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 513875
+2026-11-17 19:35:56,236 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Image has not changed. Will not download image.
+2026-11-17 19:35:56,238 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Opening connection to http://master:9870/imagetransfer?getedit=1&startTxId=129651&endTxId=130773&storageInfo=-67:1079726166:1794728025265:CID-186cd135-26a2-427d-b17b-447e0fdf6012
+2026-11-17 19:35:56,244 INFO org.apache.hadoop.hdfs.server.common.Util: Combined time for file download and fsync to all disks took 0.00s. The file download took 0.00s at 119000.00 KB/s. Synchronous (fsync) write to disk of /data/hadoop/tmp/dfs/namesecondary/current/edits_tmp_0000000000000129651-0000000000000130773_0000000000204336606 took 0.00s.
+2026-11-17 19:35:56,245 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Downloaded file edits_tmp_0000000000000129651-0000000000000130773_0000000000204336606 size 0 bytes.
+2026-11-17 19:35:56,245 INFO org.apache.hadoop.hdfs.server.namenode.Checkpointer: Checkpointer about to load edits from 1 stream(s).
+2026-11-17 19:35:56,245 INFO org.apache.hadoop.hdfs.server.namenode.FSImage: Reading EditLogFileInputStream{log=/data/hadoop/tmp/dfs/namesecondary/current/edits_0000000000000129651-0000000000000130773, firstTxId=129651, lastTxId=130773, isInProgress=true, maxOpSize=52428800, state=UNINIT, logVersion=0} expecting start txid #129651
+2026-11-17 19:35:56,245 INFO org.apache.hadoop.hdfs.server.namenode.FSImage: Start loading edits file /data/hadoop/tmp/dfs/namesecondary/current/edits_0000000000000129651-0000000000000130773 maxTxnsToRead = 9223372036854775807
+2026-11-17 19:35:56,254 INFO org.apache.hadoop.hdfs.server.namenode.FSImage: Loaded 1 edits file(s) (the last named /data/hadoop/tmp/dfs/namesecondary/current/edits_0000000000000129651-0000000000000130773) of total size 122640.0, total edits 1123.0, total load time 9.0 ms
+2026-11-17 19:35:56,274 INFO org.apache.hadoop.hdfs.server.namenode.FSImageFormatProtobuf: Saving image file /data/hadoop/tmp/dfs/namesecondary/current/fsimage.ckpt_0000000000000130773 using no compression
+2026-11-17 19:35:56,291 INFO org.apache.hadoop.hdfs.server.namenode.FSImageFormatProtobuf: Image file /data/hadoop/tmp/dfs/namesecondary/current/fsimage.ckpt_0000000000000130773 of size 517164 bytes saved in 0 seconds .
+2026-11-17 19:35:56,293 INFO org.apache.hadoop.hdfs.server.namenode.NNStorageRetentionManager: Going to retain 2 images with txid >= 129650
+2026-11-17 19:35:56,293 INFO org.apache.hadoop.hdfs.server.namenode.NNStorageRetentionManager: Purging old image FSImageFile(file=/data/hadoop/tmp/dfs/namesecondary/current/fsimage_0000000000000128576, cpktTxId=0000000000000128576)
+2026-11-17 19:35:56,301 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Sending fileName: /data/hadoop/tmp/dfs/namesecondary/current/fsimage_0000000000000130773, fileSize: 517164. Sent total: 517164 bytes. Size of last segment intended to send: -1 bytes.
+2026-11-17 19:35:56,308 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Uploaded image with txid 130773 to namenode at http://master:9870 in 0.009 seconds
+2026-11-17 19:35:56,308 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 517164
+2026-11-17 20:35:56,536 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Image has not changed. Will not download image.
+2026-11-17 20:35:56,537 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Opening connection to http://master:9870/imagetransfer?getedit=1&startTxId=130774&endTxId=132599&storageInfo=-67:1079726166:1794728025265:CID-186cd135-26a2-427d-b17b-447e0fdf6012
+2026-11-17 20:35:56,542 INFO org.apache.hadoop.hdfs.server.common.Util: Combined time for file download and fsync to all disks took 0.00s. The file download took 0.00s at 161000.00 KB/s. Synchronous (fsync) write to disk of /data/hadoop/tmp/dfs/namesecondary/current/edits_tmp_0000000000000130774-0000000000000132599_0000000000207936905 took 0.00s.
+2026-11-17 20:35:56,542 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Downloaded file edits_tmp_0000000000000130774-0000000000000132599_0000000000207936905 size 0 bytes.
+2026-11-17 20:35:56,542 INFO org.apache.hadoop.hdfs.server.namenode.Checkpointer: Checkpointer about to load edits from 1 stream(s).
+2026-11-17 20:35:56,542 INFO org.apache.hadoop.hdfs.server.namenode.FSImage: Reading EditLogFileInputStream{log=/data/hadoop/tmp/dfs/namesecondary/current/edits_0000000000000130774-0000000000000132599, firstTxId=130774, lastTxId=132599, isInProgress=true, maxOpSize=52428800, state=UNINIT, logVersion=0} expecting start txid #130774
+2026-11-17 20:35:56,542 INFO org.apache.hadoop.hdfs.server.namenode.FSImage: Start loading edits file /data/hadoop/tmp/dfs/namesecondary/current/edits_0000000000000130774-0000000000000132599 maxTxnsToRead = 9223372036854775807
+2026-11-17 20:35:56,551 INFO org.apache.hadoop.hdfs.server.namenode.FSImage: Loaded 1 edits file(s) (the last named /data/hadoop/tmp/dfs/namesecondary/current/edits_0000000000000130774-0000000000000132599) of total size 165143.0, total edits 1826.0, total load time 9.0 ms
+2026-11-17 20:35:56,571 INFO org.apache.hadoop.hdfs.server.namenode.FSImageFormatProtobuf: Saving image file /data/hadoop/tmp/dfs/namesecondary/current/fsimage.ckpt_0000000000000132599 using no compression
+2026-11-17 20:35:56,584 INFO org.apache.hadoop.hdfs.server.namenode.FSImageFormatProtobuf: Image file /data/hadoop/tmp/dfs/namesecondary/current/fsimage.ckpt_0000000000000132599 of size 520211 bytes saved in 0 seconds .
+2026-11-17 20:35:56,585 INFO org.apache.hadoop.hdfs.server.namenode.NNStorageRetentionManager: Going to retain 2 images with txid >= 130773
+2026-11-17 20:35:56,586 INFO org.apache.hadoop.hdfs.server.namenode.NNStorageRetentionManager: Purging old image FSImageFile(file=/data/hadoop/tmp/dfs/namesecondary/current/fsimage_0000000000000129650, cpktTxId=0000000000000129650)
+2026-11-17 20:35:56,594 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Sending fileName: /data/hadoop/tmp/dfs/namesecondary/current/fsimage_0000000000000132599, fileSize: 520211. Sent total: 520211 bytes. Size of last segment intended to send: -1 bytes.
+2026-11-17 20:35:56,597 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Uploaded image with txid 132599 to namenode at http://master:9870 in 0.009 seconds
+2026-11-17 20:35:56,597 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 520211
+2026-11-17 21:35:56,889 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Image has not changed. Will not download image.
+2026-11-17 21:35:56,890 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Opening connection to http://master:9870/imagetransfer?getedit=1&startTxId=132600&endTxId=134677&storageInfo=-67:1079726166:1794728025265:CID-186cd135-26a2-427d-b17b-447e0fdf6012
+2026-11-17 21:35:56,893 INFO org.apache.hadoop.hdfs.server.common.Util: Combined time for file download and fsync to all disks took 0.00s. The file download took 0.00s at 177000.00 KB/s. Synchronous (fsync) write to disk of /data/hadoop/tmp/dfs/namesecondary/current/edits_tmp_0000000000000132600-0000000000000134677_0000000000211537258 took 0.00s.
+2026-11-17 21:35:56,894 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Downloaded file edits_tmp_0000000000000132600-0000000000000134677_0000000000211537258 size 0 bytes.
+2026-11-17 21:35:56,894 INFO org.apache.hadoop.hdfs.server.namenode.Checkpointer: Checkpointer about to load edits from 1 stream(s).
+2026-11-17 21:35:56,894 INFO org.apache.hadoop.hdfs.server.namenode.FSImage: Reading EditLogFileInputStream{log=/data/hadoop/tmp/dfs/namesecondary/current/edits_0000000000000132600-0000000000000134677, firstTxId=132600, lastTxId=134677, isInProgress=true, maxOpSize=52428800, state=UNINIT, logVersion=0} expecting start txid #132600
+2026-11-17 21:35:56,894 INFO org.apache.hadoop.hdfs.server.namenode.FSImage: Start loading edits file /data/hadoop/tmp/dfs/namesecondary/current/edits_0000000000000132600-0000000000000134677 maxTxnsToRead = 9223372036854775807
+2026-11-17 21:35:56,904 INFO org.apache.hadoop.hdfs.server.namenode.FSImage: Loaded 1 edits file(s) (the last named /data/hadoop/tmp/dfs/namesecondary/current/edits_0000000000000132600-0000000000000134677) of total size 181574.0, total edits 2078.0, total load time 10.0 ms
+2026-11-17 21:35:56,925 INFO org.apache.hadoop.hdfs.server.namenode.FSImageFormatProtobuf: Saving image file /data/hadoop/tmp/dfs/namesecondary/current/fsimage.ckpt_0000000000000134677 using no compression
+2026-11-17 21:35:56,939 INFO org.apache.hadoop.hdfs.server.namenode.FSImageFormatProtobuf: Image file /data/hadoop/tmp/dfs/namesecondary/current/fsimage.ckpt_0000000000000134677 of size 522418 bytes saved in 0 seconds .
+2026-11-17 21:35:56,941 INFO org.apache.hadoop.hdfs.server.namenode.NNStorageRetentionManager: Going to retain 2 images with txid >= 132599
+2026-11-17 21:35:56,941 INFO org.apache.hadoop.hdfs.server.namenode.NNStorageRetentionManager: Purging old image FSImageFile(file=/data/hadoop/tmp/dfs/namesecondary/current/fsimage_0000000000000130773, cpktTxId=0000000000000130773)
+2026-11-17 21:35:56,944 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Sending fileName: /data/hadoop/tmp/dfs/namesecondary/current/fsimage_0000000000000134677, fileSize: 522418. Sent total: 522418 bytes. Size of last segment intended to send: -1 bytes.
+2026-11-17 21:35:56,950 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Uploaded image with txid 134677 to namenode at http://master:9870 in 0.007 seconds
+2026-11-17 21:35:56,950 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 522418
+2026-11-17 22:35:57,156 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Image has not changed. Will not download image.
+2026-11-17 22:35:57,157 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Opening connection to http://master:9870/imagetransfer?getedit=1&startTxId=134678&endTxId=136952&storageInfo=-67:1079726166:1794728025265:CID-186cd135-26a2-427d-b17b-447e0fdf6012
+2026-11-17 22:35:57,162 INFO org.apache.hadoop.hdfs.server.common.Util: Combined time for file download and fsync to all disks took 0.00s. The file download took 0.00s at 200000.00 KB/s. Synchronous (fsync) write to disk of /data/hadoop/tmp/dfs/namesecondary/current/edits_tmp_0000000000000134678-0000000000000136952_0000000000215137525 took 0.00s.
+2026-11-17 22:35:57,162 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Downloaded file edits_tmp_0000000000000134678-0000000000000136952_0000000000215137525 size 0 bytes.
+2026-11-17 22:35:57,162 INFO org.apache.hadoop.hdfs.server.namenode.Checkpointer: Checkpointer about to load edits from 1 stream(s).
+2026-11-17 22:35:57,162 INFO org.apache.hadoop.hdfs.server.namenode.FSImage: Reading EditLogFileInputStream{log=/data/hadoop/tmp/dfs/namesecondary/current/edits_0000000000000134678-0000000000000136952, firstTxId=134678, lastTxId=136952, isInProgress=true, maxOpSize=52428800, state=UNINIT, logVersion=0} expecting start txid #134678
+2026-11-17 22:35:57,162 INFO org.apache.hadoop.hdfs.server.namenode.FSImage: Start loading edits file /data/hadoop/tmp/dfs/namesecondary/current/edits_0000000000000134678-0000000000000136952 maxTxnsToRead = 9223372036854775807
+2026-11-17 22:35:57,177 INFO org.apache.hadoop.hdfs.server.namenode.FSImage: Loaded 1 edits file(s) (the last named /data/hadoop/tmp/dfs/namesecondary/current/edits_0000000000000134678-0000000000000136952) of total size 205077.0, total edits 2275.0, total load time 15.0 ms
+2026-11-17 22:35:57,197 INFO org.apache.hadoop.hdfs.server.namenode.FSImageFormatProtobuf: Saving image file /data/hadoop/tmp/dfs/namesecondary/current/fsimage.ckpt_0000000000000136952 using no compression
+2026-11-17 22:35:57,213 INFO org.apache.hadoop.hdfs.server.namenode.FSImageFormatProtobuf: Image file /data/hadoop/tmp/dfs/namesecondary/current/fsimage.ckpt_0000000000000136952 of size 525699 bytes saved in 0 seconds .
+2026-11-17 22:35:57,214 INFO org.apache.hadoop.hdfs.server.namenode.NNStorageRetentionManager: Going to retain 2 images with txid >= 134677
+2026-11-17 22:35:57,214 INFO org.apache.hadoop.hdfs.server.namenode.NNStorageRetentionManager: Purging old image FSImageFile(file=/data/hadoop/tmp/dfs/namesecondary/current/fsimage_0000000000000132599, cpktTxId=0000000000000132599)
+2026-11-17 22:35:57,220 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Sending fileName: /data/hadoop/tmp/dfs/namesecondary/current/fsimage_0000000000000136952, fileSize: 525699. Sent total: 525699 bytes. Size of last segment intended to send: -1 bytes.
+2026-11-17 22:35:57,227 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Uploaded image with txid 136952 to namenode at http://master:9870 in 0.008 seconds
+2026-11-17 22:35:57,227 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 525699
+2026-11-17 23:35:57,439 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Image has not changed. Will not download image.
+2026-11-17 23:35:57,440 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Opening connection to http://master:9870/imagetransfer?getedit=1&startTxId=136953&endTxId=138208&storageInfo=-67:1079726166:1794728025265:CID-186cd135-26a2-427d-b17b-447e0fdf6012
+2026-11-17 23:35:57,445 INFO org.apache.hadoop.hdfs.server.common.Util: Combined time for file download and fsync to all disks took 0.00s. The file download took 0.00s at 129000.00 KB/s. Synchronous (fsync) write to disk of /data/hadoop/tmp/dfs/namesecondary/current/edits_tmp_0000000000000136953-0000000000000138208_0000000000218737808 took 0.00s.
+2026-11-17 23:35:57,445 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Downloaded file edits_tmp_0000000000000136953-0000000000000138208_0000000000218737808 size 0 bytes.
+2026-11-17 23:35:57,445 INFO org.apache.hadoop.hdfs.server.namenode.Checkpointer: Checkpointer about to load edits from 1 stream(s).
+2026-11-17 23:35:57,445 INFO org.apache.hadoop.hdfs.server.namenode.FSImage: Reading EditLogFileInputStream{log=/data/hadoop/tmp/dfs/namesecondary/current/edits_0000000000000136953-0000000000000138208, firstTxId=136953, lastTxId=138208, isInProgress=true, maxOpSize=52428800, state=UNINIT, logVersion=0} expecting start txid #136953
+2026-11-17 23:35:57,445 INFO org.apache.hadoop.hdfs.server.namenode.FSImage: Start loading edits file /data/hadoop/tmp/dfs/namesecondary/current/edits_0000000000000136953-0000000000000138208 maxTxnsToRead = 9223372036854775807
+2026-11-17 23:35:57,456 INFO org.apache.hadoop.hdfs.server.namenode.FSImage: Loaded 1 edits file(s) (the last named /data/hadoop/tmp/dfs/namesecondary/current/edits_0000000000000136953-0000000000000138208) of total size 132610.0, total edits 1256.0, total load time 11.0 ms
+2026-11-17 23:35:57,484 INFO org.apache.hadoop.hdfs.server.namenode.FSImageFormatProtobuf: Saving image file /data/hadoop/tmp/dfs/namesecondary/current/fsimage.ckpt_0000000000000138208 using no compression
+2026-11-17 23:35:57,496 INFO org.apache.hadoop.hdfs.server.namenode.FSImageFormatProtobuf: Image file /data/hadoop/tmp/dfs/namesecondary/current/fsimage.ckpt_0000000000000138208 of size 528988 bytes saved in 0 seconds .
+2026-11-17 23:35:57,498 INFO org.apache.hadoop.hdfs.server.namenode.NNStorageRetentionManager: Going to retain 2 images with txid >= 136952
+2026-11-17 23:35:57,498 INFO org.apache.hadoop.hdfs.server.namenode.NNStorageRetentionManager: Purging old image FSImageFile(file=/data/hadoop/tmp/dfs/namesecondary/current/fsimage_0000000000000134677, cpktTxId=0000000000000134677)
+2026-11-17 23:35:57,506 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Sending fileName: /data/hadoop/tmp/dfs/namesecondary/current/fsimage_0000000000000138208, fileSize: 528988. Sent total: 528988 bytes. Size of last segment intended to send: -1 bytes.
+2026-11-17 23:35:57,514 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Uploaded image with txid 138208 to namenode at http://master:9870 in 0.009 seconds
+2026-11-17 23:35:57,514 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 528988
+2026-11-18 00:35:57,714 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Image has not changed. Will not download image.
+2026-11-18 00:35:57,715 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Opening connection to http://master:9870/imagetransfer?getedit=1&startTxId=138209&endTxId=139305&storageInfo=-67:1079726166:1794728025265:CID-186cd135-26a2-427d-b17b-447e0fdf6012
+2026-11-18 00:35:57,718 INFO org.apache.hadoop.hdfs.server.common.Util: Combined time for file download and fsync to all disks took 0.00s. The file download took 0.00s at 108000.00 KB/s. Synchronous (fsync) write to disk of /data/hadoop/tmp/dfs/namesecondary/current/edits_tmp_0000000000000138209-0000000000000139305_0000000000222338083 took 0.00s.
+2026-11-18 00:35:57,718 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Downloaded file edits_tmp_0000000000000138209-0000000000000139305_0000000000222338083 size 0 bytes.
+2026-11-18 00:35:57,718 INFO org.apache.hadoop.hdfs.server.namenode.Checkpointer: Checkpointer about to load edits from 1 stream(s).
+2026-11-18 00:35:57,718 INFO org.apache.hadoop.hdfs.server.namenode.FSImage: Reading EditLogFileInputStream{log=/data/hadoop/tmp/dfs/namesecondary/current/edits_0000000000000138209-0000000000000139305, firstTxId=138209, lastTxId=139305, isInProgress=true, maxOpSize=52428800, state=UNINIT, logVersion=0} expecting start txid #138209
+2026-11-18 00:35:57,718 INFO org.apache.hadoop.hdfs.server.namenode.FSImage: Start loading edits file /data/hadoop/tmp/dfs/namesecondary/current/edits_0000000000000138209-0000000000000139305 maxTxnsToRead = 9223372036854775807
+2026-11-18 00:35:57,729 INFO org.apache.hadoop.hdfs.server.namenode.FSImage: Loaded 1 edits file(s) (the last named /data/hadoop/tmp/dfs/namesecondary/current/edits_0000000000000138209-0000000000000139305) of total size 111581.0, total edits 1097.0, total load time 11.0 ms
+2026-11-18 00:35:57,749 INFO org.apache.hadoop.hdfs.server.namenode.FSImageFormatProtobuf: Saving image file /data/hadoop/tmp/dfs/namesecondary/current/fsimage.ckpt_0000000000000139305 using no compression
+2026-11-18 00:35:57,759 INFO org.apache.hadoop.hdfs.server.namenode.FSImageFormatProtobuf: Image file /data/hadoop/tmp/dfs/namesecondary/current/fsimage.ckpt_0000000000000139305 of size 531748 bytes saved in 0 seconds .
+2026-11-18 00:35:57,760 INFO org.apache.hadoop.hdfs.server.namenode.NNStorageRetentionManager: Going to retain 2 images with txid >= 138208
+2026-11-18 00:35:57,760 INFO org.apache.hadoop.hdfs.server.namenode.NNStorageRetentionManager: Purging old image FSImageFile(file=/data/hadoop/tmp/dfs/namesecondary/current/fsimage_0000000000000136952, cpktTxId=0000000000000136952)
+2026-11-18 00:35:57,766 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Sending fileName: /data/hadoop/tmp/dfs/namesecondary/current/fsimage_0000000000000139305, fileSize: 531748. Sent total: 531748 bytes. Size of last segment intended to send: -1 bytes.
+2026-11-18 00:35:57,772 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Uploaded image with txid 139305 to namenode at http://master:9870 in 0.007 seconds
+2026-11-18 00:35:57,772 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 531748
+2026-11-18 01:35:58,097 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Image has not changed. Will not download image.
+2026-11-18 01:35:58,098 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Opening connection to http://master:9870/imagetransfer?getedit=1&startTxId=139306&endTxId=140385&storageInfo=-67:1079726166:1794728025265:CID-186cd135-26a2-427d-b17b-447e0fdf6012
+2026-11-18 01:35:58,102 INFO org.apache.hadoop.hdfs.server.common.Util: Combined time for file download and fsync to all disks took 0.00s. The file download took 0.00s at 115000.00 KB/s. Synchronous (fsync) write to disk of /data/hadoop/tmp/dfs/namesecondary/current/edits_tmp_0000000000000139306-0000000000000140385_0000000000225938466 took 0.00s.
+2026-11-18 01:35:58,102 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Downloaded file edits_tmp_0000000000000139306-0000000000000140385_0000000000225938466 size 0 bytes.
+2026-11-18 01:35:58,102 INFO org.apache.hadoop.hdfs.server.namenode.Checkpointer: Checkpointer about to load edits from 1 stream(s).
+2026-11-18 01:35:58,102 INFO org.apache.hadoop.hdfs.server.namenode.FSImage: Reading EditLogFileInputStream{log=/data/hadoop/tmp/dfs/namesecondary/current/edits_0000000000000139306-0000000000000140385, firstTxId=139306, lastTxId=140385, isInProgress=true, maxOpSize=52428800, state=UNINIT, logVersion=0} expecting start txid #139306
+2026-11-18 01:35:58,102 INFO org.apache.hadoop.hdfs.server.namenode.FSImage: Start loading edits file /data/hadoop/tmp/dfs/namesecondary/current/edits_0000000000000139306-0000000000000140385 maxTxnsToRead = 9223372036854775807
+2026-11-18 01:35:58,108 INFO org.apache.hadoop.hdfs.server.namenode.FSImage: Loaded 1 edits file(s) (the last named /data/hadoop/tmp/dfs/namesecondary/current/edits_0000000000000139306-0000000000000140385) of total size 117872.0, total edits 1080.0, total load time 6.0 ms
+2026-11-18 01:35:58,118 INFO org.apache.hadoop.hdfs.server.namenode.FSImageFormatProtobuf: Saving image file /data/hadoop/tmp/dfs/namesecondary/current/fsimage.ckpt_0000000000000140385 using no compression
+2026-11-18 01:35:58,127 INFO org.apache.hadoop.hdfs.server.namenode.FSImageFormatProtobuf: Image file /data/hadoop/tmp/dfs/namesecondary/current/fsimage.ckpt_0000000000000140385 of size 534536 bytes saved in 0 seconds .
+2026-11-18 01:35:58,128 INFO org.apache.hadoop.hdfs.server.namenode.NNStorageRetentionManager: Going to retain 2 images with txid >= 139305
+2026-11-18 01:35:58,128 INFO org.apache.hadoop.hdfs.server.namenode.NNStorageRetentionManager: Purging old image FSImageFile(file=/data/hadoop/tmp/dfs/namesecondary/current/fsimage_0000000000000138208, cpktTxId=0000000000000138208)
+2026-11-18 01:35:58,131 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Sending fileName: /data/hadoop/tmp/dfs/namesecondary/current/fsimage_0000000000000140385, fileSize: 534536. Sent total: 534536 bytes. Size of last segment intended to send: -1 bytes.
+2026-11-18 01:35:58,137 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Uploaded image with txid 140385 to namenode at http://master:9870 in 0.006 seconds
+2026-11-18 01:35:58,137 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 534536
